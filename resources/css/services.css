@@ -1,0 +1,49 @@
+
+.section-services {
+    background-color: var(--color-brown);
+}
+
+.services {
+    padding: 20px 0px;
+}
+
+.services .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.services  .wrapper .stack{
+    border-top: 1px solid #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.stack .icon{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: var(--color-brown);
+}
+
+.stack .text{
+    padding: 20px;
+    color: #fff ;
+}
+.stack .text a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.stack .text p{
+    font-size: 14px;
+    font-weight: 200;
+}

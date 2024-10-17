@@ -1,0 +1,50 @@
+.section-institutional{
+ 
+}
+.institutional .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.institutional .wrapper .image {
+    padding:10px;
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.institutional .wrapper .image img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    object-fit: cover;
+}
+.institutional .wrapper .text{
+    width: 50%;
+    padding:5px 30px;
+    text-align: justify;
+}
+.institutional .wrapper .text p{
+    font-weight: 200;
+}
+.list-institutional{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 20px 0;
+}
+.list-institutional .option{
+    text-align: center;
+}
+.list-institutional .link{
+    color: var(--color-brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: var(--color-opac);
+}

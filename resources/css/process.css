@@ -1,0 +1,87 @@
+.section-process {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.section-process::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background: #212529;
+    opacity: 0.7;
+    pointer-events: none;
+    filter: blur(3.5px);
+    -webkit-transition: ease opacity 300ms 100ms;
+    transition: ease opacity 300ms 100ms;
+}
+
+.process {
+    position: relative;
+    z-index: 3;
+}
+
+#procesSlider .carousel-inner .carousel-item .cardi{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    z-index: 5;
+    background-color: transparent;
+}
+
+#procesSlider .carousel-inner .carousel-item .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--color-opac);
+}
+
+#procesSlider .item span {
+    background-color: var(--color-brown);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+}
+#procesSlider .item h3 {
+    line-height: 1;
+}
+#procesSlider .item a {
+    background-color: var(--color-brown);
+    color: #fff;
+    font-weight: 400;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+#procesSlider .carousel-control-next,
+.carousel-control-prev {
+    width: 2% !important;
+    z-index: 8000 !important;
+}
+#procesSlider .carousel-control-prev-icon{
+    border: 1px solid black !important;
+    background-color: black !important;
+}
+#procesSlider .carousel-control-next-icon{
+    border: 1px solid black !important;
+    background-color: black !important;
+}
+
+#procesSlider .carousel-indicators{
+    bottom: -60px !important;
+}

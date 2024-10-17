@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Pallete of colors */
+:root {
+    --color-brown: #891C2E;
+    --color-gray: #959793;
+    --color-black: #0E1C26;
+    --color-opac: #EEEEEE;
+
+}
+.bg-brown{
+    background-color: var(--color-brown) !important;
+}
+.bg-gray{
+    background-color: var(--color-gray) !important;
+}
+.bg-opac{
+    background-color: var(--color-opac);
+}
+.bg-black{
+    background-color: var(--color-black) !important;
+}
+.text-brown{
+    color: var(--color-brown) !important;
+}
+.text-gray{
+    color: var(--color-gray) !important;
+}
+.text-black{
+    color: var(--color-black) !important;
+}
+/* Clases */
+section{
+    padding: 50px 0;
+}
+
+.section-title{
+    font-weight: 700;
+}
+.section-subtitle{
+    font-weight: 400;
+    color: var(--color-gray);
+}
