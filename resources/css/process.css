@@ -24,6 +24,7 @@
 .process {
     position: relative;
     z-index: 3;
+    padding: 20px 0px;
 }
 
 #procesSlider .carousel-inner .carousel-item .cardi{

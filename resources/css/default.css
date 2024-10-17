@@ -28,6 +28,9 @@
 .text-black{
     color: var(--color-black) !important;
 }
+.text-opac{
+    color: var(--color-opac);
+}
 /* Clases */
 section{
     padding: 50px 0;
