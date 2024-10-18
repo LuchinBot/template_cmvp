@@ -1,0 +1,51 @@
+.events {
+    padding: 20px 0px;
+}
+#events .wrapper{
+    display: flex;
+}
+#events .wrapper .box{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+#events .wrapper .box img{
+    width: 60%;
+}
+#events .wrapper .box .context{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--color-black);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#events .wrapper .box .context h1{
+   font-size: 35px;
+   font-weight: 800;
+}
+#events .wrapper .box .context h1::after{
+    content: ' disponibles';
+    font-weight: 200;
+ }
+ #events .wrapper .box .context p{
+    font-size: 13px;
+    font-weight: 200;
+ }
+#events .wrapper .box .context a{
+    float: left;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: var(--color-brown);
+    color: #fff;
+    transition: 0.3s;
+}
+#events .wrapper .box .context:hover > a{
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: var(--color-black);
+    background-color: var(--color-opac);
+}

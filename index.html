@@ -7,18 +7,23 @@
 		<link rel="stylesheet" href="resources/css/default.css" />
 		<link rel="stylesheet" href="resources/css/app.css" />
 		<link rel="stylesheet" href="resources/css/header.css" />
+		<link rel="stylesheet" href="resources/css/slider.css" />
 		<link rel="stylesheet" href="resources/css/services.css" />
 		<link rel="stylesheet" href="resources/css/institutional.css" />
 		<link rel="stylesheet" href="resources/css/process.css" />
+		<link rel="stylesheet" href="resources/css/events.css" />
+		<link rel="stylesheet" href="resources/css/news.css" />
 		<link rel="stylesheet" href="resources/plugins/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="resources/plugins/fontawesome/css/fontawesome.min.css" />
 		<link rel="stylesheet" href="resources/plugins/fontawesome/css/brands.min.css" />
 		<link rel="stylesheet" href="resources/plugins/fontawesome/css/solid.min.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css" />
+		<!--Owl Carousel-->
+		<link rel="stylesheet" href="resources/plugins/owlcarousel/dist/assets/owl.carousel.min.css" />
+		<link rel="stylesheet" href="resources/plugins/owlcarousel/dist/assets/owl.theme.default.min.css" />
 		<script src="app.js"></script>
 	</head>
+
 	<body>
 		<div class="main" id="home">
 			<div class="bs-slider">
@@ -64,7 +69,7 @@
 							<div class="carousel-caption">
 								<h1>Hello, world1!</h1>
 								<p>Some representative plceholder content for the first slide.</p>
-								<a href="#" class="d-flex font-weight-bold bg-brown text-white border rounded px-4 py-2">MÁS INFORMACIÓN</a>
+								<a href="#institucional"><i class="fa fa-info-circle mt-1 mr-2"></i> Información Institucional</a>
 							</div>
 						</div>
 						<div class="carousel-item">
@@ -72,6 +77,7 @@
 							<div class="carousel-caption">
 								<h1>Hello, world2!</h1>
 								<p>Some representative placeholder content for the first slide.</p>
+								<a href="#institucional"><i class="fa fa-info-circle mt-1 mr-2"></i> Información Institucional</a>
 							</div>
 						</div>
 						<div class="carousel-item">
@@ -79,6 +85,7 @@
 							<div class="carousel-caption">
 								<h1>Hello, world3!</h1>
 								<p>Some representative placeholder content for the first slide.</p>
+								<a href="#institucional"><i class="fa fa-info-circle mt-1 mr-2"></i> Información Institucional</a>
 							</div>
 						</div>
 					</div>
@@ -190,155 +197,205 @@
 						<h6 class="section-subtitle">SOBRE NOSOTROS</h6>
 					</div>
 					<div class="wrapper">
+						<div class="text">
+							<h4 class="">Consejo Departamental</h4>
+							<h3>San Martín - Tarapoto</h3>
+							<p>
+								El propósito permanente del CIP es representar, promover, normar, controlar y defender el desarrollo de la Ingeniería Peruana y el ejercicio profesional de los Ingenieros. Consecuentemente con dicho propósito, el CIP reconoce y norma sus actividades con principios tales como:
+								Autonomía institucional, autogobierno y participación de los ingenieros en todos los niveles e instancias de decisión institucional, capacitación permanente de los ingenieros y la superación profesional, primacía de la persona humana y sus derechos, dignidad tolerancia e igualdad
+								entre sus integrantes; la responsabilidad social y la solidaridad como valores esenciales.
+							</p>
+						</div>
 						<div class="image">
 							<img src="resources/img/example.jpg" alt="" />
-						</div>
-						<div class="text">
-							<h3 class="">Consejo Departamental de San Martín - Tarapoto</h2>
-							<p>
-								El propósito permanente del CIP es representar, promover, normar, controlar y defender el desarrollo de la Ingeniería Peruana y el ejercicio profesional de los Ingenieros. Consecuentemente con dicho propósito, el CIP reconoce y norma sus actividades con principios tales como: Autonomía institucional, autogobierno y participación de los ingenieros en todos los niveles e instancias de decisión institucional, capacitación permanente de los ingenieros y la superación profesional,
-								primacía de la persona humana y sus derechos, dignidad tolerancia e igualdad entre sus integrantes; la responsabilidad social y la solidaridad como valores esenciales.
-							</p>
 							<div class="list-institutional">
-								<div class="col-md-2 font-weight-bold text-black m-0 p-0">
-									Conoce más:
-								</div>
-								<a href="" class="col-md-4 link">
-									<i class="fa fa-history mr-2"></i>Nuestra historia
-								</a>
-								<a href="" class="col-md-4 link">
-									<i class="fa fa-user-group mr-2"></i>Representantes
-								</a>
+								<a href="" class="col-md-5 link"> <i class="fa fa-history"></i>Nuestra historia </a>
+								<a href="" class="col-md-5 link"> <i class="fa fa-users"></i>Representantes </a>
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</section>
-			<section class="section-process overlay container-fluid" id="process" style="background-image:url('resources/img/example.jpg')">
+			<section class="section-process overlay container-fluid" id="process" style="background-image: url('resources/img/example.jpg')">
 				<div class="process container">
 					<div class="text-center mb-5">
 						<h1 class="section-title text-white">Trámites</h1>
 						<h6 class="section-subtitle">INFORMACIÓN DE REQUISITOS SOBRE LOS TRÁMITES</h6>
-						<p class="text-gray">A continuación podrá encontrar información de requisitos y otros datos para que usted pueda llevar a cabo la realización de algún trámite. Si aún tiene dudas al respecto puede ponerse en contacto con nuestro personal por medio de nuestro canal digital donde lo atenderemos de inmediato.</p>
-					</div>				
-					<div id="procesSlider" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-						  <li data-target="#procesSlider" data-slide-to="0" class="active"></li>
-						  <li data-target="#procesSlider" data-slide-to="1"></li>
-						</ol>
-						<div class="carousel-inner">
-						  <div class="carousel-item active">
-							<div class="cardi">
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
+					</div>
+					<div class="col">
+						<div class="popup-gallery-ajax">
+							<div class="owl-carousel owl-theme mb-0">
+								<div class="featured-box featured-box-primary featured-box-effect-3">
+									<div class="box-content">
+										<span>
+											<i class="fa fa-user"></i>
+										</span>
+										<h4 class="pt-4 text-brown font-weight-light">
+											Nueva <br />
+											<strong style="font-weight: 900">Colegiatura</strong>
+										</h4>
+										<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de Colegiatura.</p>
+										<a href="#"><i class="fa fa-eye"></i></a>
+									</div>
 								</div>
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
+								<div class="featured-box featured-box-primary featured-box-effect-3">
+									<div class="box-content">
+										<span>
+											<i class="fa fa-user"></i>
+										</span>
+										<h4 class="pt-4 text-brown font-weight-light">
+											Nueva <br />
+											<strong style="font-weight: 900">Colegiatura</strong>
+										</h4>
+										<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de Colegiatura.</p>
+										<a href="#"><i class="fa fa-eye"></i></a>
+									</div>
 								</div>
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
+								<div class="featured-box featured-box-primary featured-box-effect-3">
+									<div class="box-content">
+										<span>
+											<i class="fa fa-user"></i>
+										</span>
+										<h4 class="pt-4 text-brown font-weight-light">
+											Nueva <br />
+											<strong style="font-weight: 900">Colegiatura</strong>
+										</h4>
+										<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de Colegiatura.</p>
+										<a href="#"><i class="fa fa-eye"></i></a>
+									</div>
 								</div>
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
+								<div class="featured-box featured-box-primary featured-box-effect-3">
+									<div class="box-content">
+										<span>
+											<i class="fa fa-user"></i>
+										</span>
+										<h4 class="pt-4 text-brown font-weight-light">
+											Nueva <br />
+											<strong style="font-weight: 900">Colegiatura</strong>
+										</h4>
+										<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de Colegiatura.</p>
+										<a href="#"><i class="fa fa-eye"></i></a>
+									</div>
 								</div>
+								<div class="featured-box featured-box-primary featured-box-effect-3">
+									<div class="box-content">
+										<span>
+											<i class="fa fa-user"></i>
+										</span>
+										<h4 class="pt-4 text-brown font-weight-light">
+											Nueva <br />
+											<strong style="font-weight: 900">Colegiatura</strong>
+										</h4>
+										<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de Colegiatura.</p>
+										<a href="#"><i class="fa fa-eye"></i></a>
+									</div>
+								</div>
+								<!-- Repite para cada elemento -->
 							</div>
-						  </div>
-						  <div class="carousel-item">
-							<div class="cardi">
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva1 <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
-								</div>
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
-								</div>
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
-								</div>
-								<div class="item">
-									<span>
-										<i class="fa fa-user"></i>
-									</span>
-									<h3 class="pt-4 text-brown">Nueva <br> <strong>Colegiatura</strong></h3>
-									<p class="text-gray">Proceso y requerimeintos para trámite  de Colegiatura.</p>
-									<a href="#">Ver trámite</a>
-								</div>
-							</div>
-						  </div>
 						</div>
-						<button class="carousel-control-prev" type="button" data-target="#procesSlider" data-slide="prev">
-						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						  <span class="sr-only">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-target="#procesSlider" data-slide="next">
-						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						  <span class="sr-only">Next</span>
-						</button>
-					  </div>
+					</div>
 				</div>
 			</section>
-			<section class="section-institutional container-fluid" id="institutional">
-				<div class="institutional container">
-					<div class="text-center mb-5">
-						<h1 class="section-title text-black">Cursos y Eventos</h1>
-						<h6 class="section-subtitle">CURSOS, DISPLOMADOS Y SEMINARIOS</h6>
+			<section class="section-events container-fluid" id="events">
+				<div class="events container">
+					<div class="wrapper">
+						<div class="col-md-6">
+							<div class="box">
+								<img src="resources/img/women.png" alt="" />
+								<div class="context">
+									<h1>Cursos</h1>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi alias voluptatem vitae mollitia ullam optio exercitationem, quis facere ipsa quos doloremque. Sint rerum, reiciendis aliquam animi culpa tenetur necessitatibus.</p>
+									<a href="">
+										<i class="fa fa-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="box">
+								<img src="resources/img/man.png" alt="" />
+								<div class="context">
+									<h1>Eventos</h1>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi alias voluptatem vitae mollitia ullam optio exercitationem, quis facere ipsa quos doloremque. Sint rerum, reiciendis aliquam animi culpa tenetur necessitatibus.</p>
+									<a href="">
+										<i class="fa fa-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="d-flex justify-content-center">
-						<a href="#" class="p-5 m-2 bg-brown">
-							<span class="text-white">
-								AULA VIRTUAL
-							</span>
-						</a>
-						<a href="#" class="p-5 m-2 bg-brown">
-							<span class="text-white">
-								NUESTROS EVENTOS
-							</span>
-						</a>
-					</div>				
+				</div>
+			</section>
+			<section class="section-news overlay container-fluid" id="news" style="background-image: url('resources/img/example.jpg')">
+				<div class="news container">
+					<div class="text-center mb-5">
+						<h1 class="section-title text-white">CMVPDSM Informa</h1>
+						<h6 class="section-subtitle">Noticias, comunicados y pronunciamientos</h6>
+					</div>
+					<div class="wrapper">
+						<div class="col-md-4">
+							<div class="box">
+								<div class="image">
+									<img src="resources/img/example.jpg" alt="">
+								</div>
+								<div class="context">
+									<h3><a href="">Noticia del día de hoy</a></h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi, eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda minus reprehenderit sint fugiat error numquam nemo.</p>
+									<span>
+										<a href="">
+											<i class="fa fa-plus mr-2"></i>
+											<small></small>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="box">
+								<div class="image">
+									<img src="resources/img/example.jpg" alt="">
+								</div>
+								<div class="context">
+									<h3><a href="">Comunicado del día de hoy</a></h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi, eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda minus reprehenderit sint fugiat error numquam nemo.</p>
+									<span>
+										<a href="">
+											<i class="fa fa-plus mr-2"></i>
+											<small></small>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="box">
+								<div class="image">
+									<img src="resources/img/example.jpg" alt="">
+								</div>
+								<div class="context">
+									<h3><a href="">pronunciamiento del día de hoy</a></h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi, eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda minus reprehenderit sint fugiat error numquam nemo.</p>
+									<span>
+										<a href="">
+											<i class="fa fa-plus mr-2"></i>
+											<small></small>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section class="container-fluid contact" id="contact">
 				<div class="container my3">
 					<div class="row">
 						<div class="col-lg-4">
-							<img src="resources/img/logo_white.png" alt="">
+							<img src="resources/img/logo_white.png" alt="" />
 							<p>El propósito permanente del CIP es representar, promover, normar, controlar y defender el desarrollo de la Ingeniería Peruana y el ejercicio profesional de los Ingenieros. Consecuentemente con dicho propósito, el CIP reconoce y norma sus actividades con principios</p>
-							<p><strong> <i class="fas fa-map-marked-alt"></i> Jr.Ángel Delgado Morey #577 - Tarapoto</strong></p>
+							<p>
+								<strong> <i class="fas fa-map-marked-alt"></i> Jr.Ángel Delgado Morey #577 - Tarapoto</strong>
+							</p>
 						</div>
 						<div class="col-lg-4">
 							<p><i class="fa fa-phone mr-3"></i> CONTÁCTENOS</p>
@@ -395,14 +452,14 @@
 							<ul class="ul-contact">
 								<li>
 									<i class="fa fa-clock"></i>
-										9:00am a 12:00pm
+									9:00am a 12:00pm
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
-			
+
 			<div class="container-fluid footer">
 				<div class="container py-2">
 					<div class="row py-4">
@@ -416,5 +473,34 @@
 		</div>
 		<script src="resources/plugins/jquery/jquery.js"></script>
 		<script src="resources/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!-- Owl Carousel JS -->
+		<script src="resources/plugins/owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				$('.owl-carousel').owlCarousel({
+					items: 4, // Número de elementos visibles
+					margin: 35, // Espacio entre los elementos
+					loop: false, // No repetir los elementos
+					nav: true, // Mostrar navegación
+					navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+					dots: true, // Mostrar indicadores de página
+					responsive: {
+						0: {
+							items: 1
+						},
+						768: {
+							items: 2
+						},
+						992: {
+							items: 3
+						},
+						1200: {
+							items: 4
+						}
+					}
+				})
+			})
+		</script>
 	</body>
 </html>

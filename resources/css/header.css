@@ -2,6 +2,7 @@
     font-size: 17px;
 }
 .header{
+    border-bottom: 0px solid var(--color-gray);
     background-color: var(--color-brown);
     position: absolute;
     top: 0;
@@ -9,6 +10,7 @@
     right: 0;
     width: 100%;
     z-index: 3000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .header .navbar{
     box-sizing: border-box;
@@ -37,13 +39,15 @@
     color: #fff;
     font-weight: 600;
     padding: 0;
+    font-size: 15px;
 }
 .navbar-nav .nav-item .nav-link i{
+    font-size: 14px;
     animation: ShowItem 0.3s ease-in-out forwards;
 }
 /* Submenu */
 .submenu{
-    display: none;
+  display: none;
     list-style: none;
     left: 0;
     top: 55px;

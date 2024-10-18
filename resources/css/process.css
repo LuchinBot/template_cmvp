@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
+    padding-bottom: 70px;
 }
 
 .section-process::before {
@@ -27,27 +28,57 @@
     padding: 20px 0px;
 }
 
-#procesSlider .carousel-inner .carousel-item .cardi{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    grid-auto-rows: minmax(100px, auto);
-    z-index: 5;
-    background-color: transparent;
+/* Estilos personalizados */
+.popup-gallery-ajax {
+    animation: fadeInUpShorter 0.3s ease-in-out;
+    animation-delay: 200ms;
 }
 
-#procesSlider .carousel-inner .carousel-item .item {
+.featured-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: #f9f9f9;
+}
+
+.box-content:hover > span{
+    border: 10px solid var(--color-opac);
+}
+.box-content:hover > a{
+    background-color: var(--color-brown);
+    color: var(--color-opac);
+    border-radius: 50px;
+}
+
+.featured-box .box-content {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: var(--color-opac);
+}
+.featured-box .icon-featured {
+    font-size: 48px;
+    color: #3498db;
 }
 
-#procesSlider .item span {
+/* Animación personalizada */
+@keyframes fadeInUpShorter {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 40px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.box-content span {
+    transition: 0.3s;
     background-color: var(--color-brown);
     width: 100px;
     height: 100px;
@@ -58,31 +89,23 @@
     border-radius: 50%;
     font-size: 30px;
 }
-#procesSlider .item h3 {
+.box-content h4 {
+    font-size: 18px;
     line-height: 1;
 }
-#procesSlider .item a {
-    background-color: var(--color-brown);
-    color: #fff;
-    font-weight: 400;
-    padding: 2px 10px;
-    border-radius: 5px;
+.box-content p {
+    font-size: 12px;
+    line-height: 1.4;
 }
 
-#procesSlider .carousel-control-next,
-.carousel-control-prev {
-    width: 2% !important;
-    z-index: 8000 !important;
-}
-#procesSlider .carousel-control-prev-icon{
-    border: 1px solid black !important;
-    background-color: black !important;
-}
-#procesSlider .carousel-control-next-icon{
-    border: 1px solid black !important;
-    background-color: black !important;
-}
-
-#procesSlider .carousel-indicators{
-    bottom: -60px !important;
+.box-content a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #cbcbcbb0;
+    color: var(--color-brown);
+    font-weight: 900;
+    padding: 2px 15px;
+    border-radius: 3px;
+    transition: 0.5s;
 }

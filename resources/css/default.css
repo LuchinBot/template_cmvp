@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* Pallete of colors */
 :root {
-    --color-brown: #891C2E;
+    /*--color-brown: #891C2E;*/
+    --color-brown: #73000A;
+    --color-brown-opac: #891c2ef2;
     --color-gray: #959793;
     --color-black: #0E1C26;
     --color-opac: #EEEEEE;
@@ -37,9 +39,33 @@ section{
 }
 
 .section-title{
-    font-weight: 700;
+    font-weight: 800;
+    position: relative !important;
+}
+.section-title::after{
+    content: '';
+    position: absolute !important;
+    top: 22px;
+    margin-left: 15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: var(--color-opac);
 }
 .section-subtitle{
+    text-transform: uppercase;
     font-weight: 400;
+    margin-top: -5px;
+    margin-bottom: 30px;
     color: var(--color-gray);
+}
+.section-title::before{
+    content: '';
+    position: absolute !important;
+    top: 22px;
+    margin-left: -20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: var(--color-opac);
 }

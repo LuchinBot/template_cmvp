@@ -1,0 +1,64 @@
+.news {
+    padding: 20px 0px;
+}
+#news .wrapper{
+    display: flex;
+}
+#news .wrapper .box{
+    overflow: hidden;
+    border-radius: 8px;
+    text-align: left;
+    background-color: var(--color-opac);
+}
+#news .wrapper .box .image{
+    overflow: hidden;
+    height: 250px;
+}
+#news .wrapper .box .image img{
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    transition: 0.2s all;
+}
+#news .wrapper .box .image img:hover{
+    transform: scale(1.2);
+}
+#news .wrapper .box .context{
+   padding: 20px;
+}
+#news .wrapper .box .context h3{
+    font-size: 15px;
+    font-weight: 700;
+ }
+ #news .wrapper .box .context h3 a{
+    color: var(--color-black);
+ }
+ #news .wrapper .box .context p{
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 200;
+ }
+ #news .wrapper .box .context span a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-opac);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    position: relative;
+    background-color: var(--color-brown);
+ }
+ #news .wrapper .box .context span a:hover{
+    color: var(--color-opac);
+    background-color: var(--color-black);
+ }
+ #news .wrapper .box .context span a i{
+    transition: 0.3s all;
+  }
+ #news .wrapper .box .context span a:hover > i{
+   transform: rotate(45deg);
+ }
