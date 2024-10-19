@@ -1,6 +1,6 @@
 
 .section-services {
-    background-color: var(--color-brown);
+    background-color: var(--color-opac);
 }
 
 .services {
@@ -15,9 +15,18 @@
 }
 .services  .wrapper .stack{
     border-top: 1px solid #fff;
+    background-color: var(--color-white);
+    border-radius: 8px;
     position: relative;
     display: flex;
     flex-direction: column;
+}
+.services .wrapper .stack i{
+    transition: all 0.2s;
+}
+.services  .wrapper .stack:hover i{
+    transform: rotate(10deg);
+    transform: scale(1.1);
 }
 .stack .icon{
     position: absolute;
@@ -35,13 +44,17 @@
 
 .stack .text{
     padding: 20px;
-    color: #fff ;
+    color: var(--color-gray) ;
 }
 .stack .text a{
-    color: #fff;
+    color: var(--color-black);
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+.stack .text a:hover{
+    color: var(--color-brown-opac);
 }
 .stack .text p{
     font-size: 14px;
