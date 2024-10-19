@@ -8,25 +8,8 @@ body {
 }
 
 
-.contact {
-    background-color: var(--color-brown);
-    color: #fff
-}
-
-.contact .row .col-lg-4 img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px
-}
-.ul-contact{
-    list-style: none;
-}
-.ul-contact li{
-    margin-bottom: 10px;
-}
-.ul-contact a{
-    color: #F7F7F7;
-}
 .footer{
+    font-weight: 300 !important;
+    color: var(--color-gray);
     background-color: var(--color-black);
 }
