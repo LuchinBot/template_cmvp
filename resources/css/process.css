@@ -115,3 +115,35 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* Trámite seleccinado */
+.section-process-select{
+    background-color: var(--color-opac);
+}
+.section-process-select .wrapper{
+width: 100%;
+}
+.section-process-select .title{
+    border-top-right-radius: 20px;
+    font-size: 17px;
+    padding: 5px 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: max-content;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
+.section-process-select .context{
+    margin-bottom: 20px;
+    background-color: var(--color-white);
+    word-wrap: break-word !important;
+    font-size: 17px;
+    padding: 20px 20px;
+    font-weight: 400;
+    width: 100%;
+    color: var(--color-black);
+}
+.section-process-select .context p{
+ margin: 0 !important;
+ padding: 0 !important;
+}
