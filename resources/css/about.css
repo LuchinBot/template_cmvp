@@ -1,35 +1,189 @@
-.section-about{
-    background-position: no-repeat;
+.section-about {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(0, 0, 0);
     position: relative;
     margin-top: 70px;
     padding: 30px 0px !important;
 }
-.section-about::after{
+
+.section-about::after {
     content: "";
     position: absolute !important;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: var(--color-black-opac)
 }
-.section-about .wrapper{
+
+.section-about .wrapper {
     position: relative;
     z-index: 4;
 }
-.section-about .wrapper h1{
+
+.section-about .wrapper h1 {
     font-size: 30px;
     color: var(--color-white);
     font-weight: 700;
 }
-.section-about .wrapper span{
+
+.section-about .wrapper span {
     font-size: 14px;
     color: var(--color-white);
     font-weight: 400;
 }
-.section-about .wrapper span a{
+
+.section-about .wrapper span a {
     color: var(--color-white);
     font-weight: 700;
+}
+
+.history {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history::after {
+    content: "";
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.persons .first .group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.persons .first .box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.persons .first .box .img-person {
+    border: 10px solid var(--color-brown);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    transition: all 0.5s;
+}
+.persons .first .box .img-person:hover{
+    background-size: 100%;
+    border: 10px solid var(--color-brown-opac);
+}
+.persons .first .box .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--color-white);
+    border: 0px solid var(--color-brown-opac);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.persons .first .box .text h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 2px;
+    color: var(--color-brown);
+}
+.persons .first .box .text p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    color: var(--color-gray);
+}
+.persons .first .box .text span{
+    position: absolute;
+    top: -30px;
+    display: flex;
+    width: max-content ;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    background-color: var(--color-brown-opac);
+    color: var(--color-white);
+}
+
+/* Second */
+
+.persons .second .group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.persons .second .box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.persons .second .box .img-person {
+    border: 10px solid var(--color-opac);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    transition: all 0.5s;
+}
+.persons .second .box .img-person:hover{
+    border: 10px solid var(--color-brown-opac);
+}
+.persons .second .box .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 10px;
+    width: auto;
+    border: 0px solid var(--color-brown-opac);
+}
+.persons .second .box .text span{
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+.persons .second .box .text h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: var(--color-brown);
+}
+.persons .second .box .text p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    color: var(--color-gray);
 }

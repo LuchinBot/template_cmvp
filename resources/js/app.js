@@ -22,8 +22,28 @@ $(document).ready(function () {
         }
     });
 
-    $('.menu-item').hover(function () {
-        $('.submenu').hide()
-        $(this).find('.submenu').show(); // Mostrar el submenú del menú seleccionado
+    let hideTimeout;
+
+    $('.menu-item').hover(
+        function () {
+            clearTimeout(hideTimeout); // Limpiar el temporizador para evitar que el menú se oculte
+            $('.submenu').hide(); // Ocultar todos los submenús
+            $(this).find('.submenu').show(); // Mostrar el submenú del elemento seleccionado
+        },
+        function () {
+            const submenu = $(this).find('.submenu');
+            hideTimeout = setTimeout(function () {
+                submenu.hide(); // Ocultar el submenú después de un pequeño retraso
+            }, 300); // Ajusta el tiempo según sea necesario
+        }
+    );
+    
+    $('.img-course').click(function(){
+        image = $(this).attr('data-url');
+        $('#show-image').toggle();
+        $('#show-image img').attr('src', image);
     });
+    $('#show-image .close').click(function(){
+        $('#show-image').hide();
+    })
 })
