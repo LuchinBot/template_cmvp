@@ -4,13 +4,9 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<img src="resources/img/logo_white.png" alt="" />
-							<p>El propósito permanente del CIP es representar, promover, normar, controlar y defender el
-								desarrollo de la Ingeniería Peruana y el ejercicio profesional de los Ingenieros.
-								Consecuentemente con dicho propósito, el CIP reconoce y norma sus actividades con
-								principios</p>
+							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de Lima con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
 							<p style="font-weight: 500;">
-								<strong> <i class="fas fa-map-marked-alt"></i> Jr.Ángel Delgado Morey #577 -
-									Tarapoto</strong>
+								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda de Shilcayo, Provincia y Departamento de San Martín.</strong>
 							</p>
 						</div>
 					</div>
@@ -19,24 +15,18 @@
 							<h3><i class="fa fa-info-circle mr-2"></i> CONTÁCTENOS</h3>
 							<ul class="ul-contact">
 								<li class="title">
-									Llámanos
+									Información de Empresa
 								</li>
 								<li>
 									<a href="">
-										<i class="fa fa-phone"></i>
-										Administrador(a): 942690155
+										<i class="fa-solid fa-circle-exclamation"></i>
+										RUC: 20450284883
 									</a>
 								</li>
 								<li>
 									<a href="">
-										<i class="fa fa-phone"></i>
-										Administrador(a): 942690155
-									</a>
-								</li>
-								<li>
-									<a href="">
-										<i class="fa fa-phone"></i>
-										Administrador(a): 942690155
+										<i class="fa-solid fa-share-from-square"></i>
+										Razón Social: Colegio Médico Veterinario Departamental San Martín
 									</a>
 								</li>
 								<li class="title">
@@ -45,41 +35,40 @@
 								<li>
 									<a href="">
 										<i class="fa fa-at"></i>
-										administrador.cdtarapoto@cip.org.pe
+										cmvpsanmartin@gmail.com
 									</a>
 								</li>
-								<li>
-									<a href="">
-										<i class="fa fa-at"></i>
-										administrador.cdtarapoto@cip.org.pe
-									</a>
-								</li>
-							</ul>
+								</ul>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="box">
 							<h3><i class="fa fa-calendar mr-3"></i> HORARIO DE ATENCIÓN</h3>
 							<ul class="ul-contact">
-								<li class="title">
-									Lunes a Viernes
+							<li class="title">
+									Días Laborables
 								</li>
 								<li>
 									<i class="fa fa-clock"></i>
-									8:30am a 1:00pm
+									Lunes: 9:00am - 12:30pm
 								</li>
 								<li>
 									<i class="fa fa-clock"></i>
-									8:30am a 1:00pm
-								</li>
-								<li class="title">
-									Sábados
+									Martes: 9:00am - 12:30pm
 								</li>
 								<li>
 									<i class="fa fa-clock"></i>
-									9:00am a 12:00pm
+									Miercoles: 9:00am - 12:30pm
 								</li>
-							</ul>
+								<li>
+									<i class="fa fa-clock"></i>
+									Jueves: 9:00am - 12:30pm
+								</li>
+								<li>
+									<i class="fa fa-clock"></i>
+									Viernes: 9:00am - 12:30pm
+								</li>
+								</ul>
 						</div>
 					</div>
 				</div>

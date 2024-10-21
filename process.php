@@ -17,7 +17,7 @@
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
-							<i class="fa fa-user"></i>
+							<i class="fa-solid fa-id-badge"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
 							Nueva <br />
@@ -33,14 +33,13 @@
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
-							<i class="fa fa-user"></i>
+							<i class="fa-solid fa-certificate"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							Nueva <br />
-							<strong style="font-weight: 900">Colegiatura</strong>
+							Certificado <br />
+							<strong style="font-weight: 900">de Habilidad</strong>
 						</h4>
-						<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
-							Colegiatura.</p>
+						<p class="text-black font-weight-light">Acredita la aptitud para ejercer la profesión.</p>
 						<a href=""><i class="fa fa-eye"></i></a>
 					</div>
 				</div>
@@ -49,14 +48,13 @@
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
-							<i class="fa fa-user"></i>
+							<i class="fa-solid fa-id-card"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							Nueva <br />
-							<strong style="font-weight: 900">Colegiatura</strong>
+							Duplicado <br />
+							<strong style="font-weight: 900">de Carnet</strong>
 						</h4>
-						<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
-							Colegiatura.</p>
+						<p class="text-black font-weight-light">Reemisión del carnet oficial por pérdida o deterioro.</p>
 						<a href=""><i class="fa fa-eye"></i></a>
 					</div>
 				</div>
@@ -65,14 +63,12 @@
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
-							<i class="fa fa-user"></i>
+							<i class="fa-solid fa-money-bill-transfer"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							Nueva <br />
-							<strong style="font-weight: 900">Colegiatura</strong>
+							<strong style="font-weight: 900">Traslado</strong>
 						</h4>
-						<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
-							Colegiatura.</p>
+						<p class="text-black font-weight-light">Cambio de inscripción entre sedes departamentales.</p>
 						<a href=""><i class="fa fa-eye"></i></a>
 					</div>
 				</div>
@@ -81,14 +77,13 @@
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
-							<i class="fa fa-user"></i>
+							<i class="fa-solid fa-copy"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							Nueva <br />
-							<strong style="font-weight: 900">Colegiatura</strong>
+							Duplicado <br />
+							<strong style="font-weight: 900">de Diploma</strong>
 						</h4>
-						<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
-							Colegiatura.</p>
+						<p class="text-black font-weight-light">Reemisión del diploma original por extravío o daño.</p>
 						<a href=""><i class="fa fa-eye"></i></a>
 					</div>
 				</div>
@@ -97,14 +92,12 @@
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
-							<i class="fa fa-user"></i>
+							<i class="fa-solid fa-scale-balanced"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							Nueva <br />
-							<strong style="font-weight: 900">Colegiatura</strong>
+							<strong style="font-weight: 900">Denuncias</strong>
 						</h4>
-						<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
-							Colegiatura.</p>
+						<p class="text-black font-weight-light">Canal formal para reportar faltas éticas.</p>
 						<a href=""><i class="fa fa-eye"></i></a>
 					</div>
 				</div>
