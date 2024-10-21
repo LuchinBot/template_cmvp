@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="resources/img/slider1.jpg" class="d-block w-100" alt="" />
+				<img src="resources/img/news.jpg" class="d-block w-100" alt="" />
 				<div class="carousel-caption">
 					<h1>DESFILE CÍVICO POR DEL DÍA DEL MVP – 2024</h1>
 					<p>Ceremonia del Desfile Cívico en conmemoración del Día del Médico Veterinario del Perú - 2024</p>
@@ -126,7 +126,8 @@
 								<i class="fa-solid fa-money-bill-transfer"></i>
 							</span>
 							<h4 class="pt-4 text-brown font-weight-light">
-								<strong style="font-weight: 900">Traslado</strong>
+								Traslado <br />
+								<strong style="font-weight: 900">de Colegiado</strong>
 							</h4>
 							<p class="text-black font-weight-light">Cambio de inscripción entre sedes departamentales.</p>
 							<a href=""><i class="fa fa-eye"></i></a>
@@ -151,7 +152,8 @@
 								<i class="fa-solid fa-scale-balanced"></i>
 							</span>
 							<h4 class="pt-4 text-brown font-weight-light">
-								<strong style="font-weight: 900">Denuncias</strong>
+							Denuncias <br />
+								<strong style="font-weight: 900">Éticas</strong>
 							</h4>
 							<p class="text-black font-weight-light">Canal formal para reportar faltas éticas.</p>
 							<a href=""><i class="fa fa-eye"></i></a>
