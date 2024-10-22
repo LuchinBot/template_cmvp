@@ -42,7 +42,7 @@
 				</div>
 				<div class="text">
 					<a href="">Certificados del CMVDSM</a>
-					<p>El sistema de Búsqueda de Certificados permite verificar la validez de los certificados emitidos por el Colegio, como los de “Salud de Menores”, etc.</p>
+					<p>El sistema de Búsqueda de Certificados permite verificar la validez de los certificados emitidos por el Colegio, como los de Salud de Menores, Salus de Mayores, Eutanacia, etc.</p>
 				</div>
 			</div>
 			<div class="stack">
