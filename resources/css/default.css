@@ -91,3 +91,12 @@ section {
 p {
     font-size: 13px !important;
 }
+.title-left{
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-opac);
+    margin-bottom: 10px;
+}
+.title-left h3{
+    font-weight: 800;
+    font-size: 18px;
+}

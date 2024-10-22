@@ -2,7 +2,7 @@
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">
-			<h1>Comunicado <small style="font-weight: 300;">#100</small></h1>
+			<h1>Pronunciamiento <small style="font-weight: 300;">#100</small></h1>
 			<span>
 				Volver <i class="fa fa-angle-right mx-1"></i>
 				<a href="<?= $url; ?>">Inicio</a>
@@ -19,7 +19,7 @@
 						<img src="resources/img/example.jpg" alt="">
 					</div>
 					<div class="context">
-						<h3>Comunicado del día de la semana hola hola hola hola hola vvvhola holahola</h3>
+						<h3>Pronunciamiento del día de hoy</h3>
 						<div class="border-top py-2">
 							<p class="mb-4"><strong>Fecha de publicación</strong>: 15 Jun 2024</p>
 							<div>
@@ -36,7 +36,7 @@
 			<div class="col-md-3 p-0">
 				<div class="section-left">
 					<div class="title-left">
-						<h3>Comunicados</h3>
+						<h3>Pronunciamientos</h3>
 					</div>
 					<div class="box">
 						<div class="context">

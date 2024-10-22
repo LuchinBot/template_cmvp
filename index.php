@@ -207,7 +207,10 @@
 						<img src="resources/img/example.jpg" alt="">
 					</div>
 					<div class="context">
-						<h3><a href="comun">Comunicado del día de hoy</a></h3>
+						<div class="float-date">
+							<span>15 Jun 2024</span>
+						</div>
+						<h3><a href="comun">Comunicado del día de la semana hola hola hola hola hola vvvhola holahola </a></h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
 							eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
 							minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -228,6 +231,9 @@
 						<img src="resources/img/example.jpg" alt="">
 					</div>
 					<div class="context">
+						<div class="float-date">
+							<span>15 Jun 2024</span>
+						</div>
 						<h3><a href="pronun">Pronunciamiento del día de hoy</a></h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
 							eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda

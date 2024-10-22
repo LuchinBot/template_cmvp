@@ -13,7 +13,7 @@
 <section class="section-services pt-3 container-fluid" id="services">
 	<div class="container">
 		<div class="section-info">
-			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>En esta sección.....</p>
+			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>En esta sección podrás realizar diversos trámites administrativos, desde la inscripción para nueva colegiatura, solicitud de certificados de habilidad, emisión de duplicados de carnet, hasta el traslado entre sedes departamentales.</p>
 		</div>
 	</div>
 	<div class="services container">

@@ -53,7 +53,7 @@ $url = "http://template_cmvp.test/";
 						<a class="nav-link" href="<?= $url; ?>">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="<?= $url; ?>process">Trámite</a>
+						<a class="nav-link" href="<?= $url; ?>process">Trámites</a>
 					</li>
 					<li class="nav-item menu-item">
 						<a class="nav-link" href="<?= $url; ?>services">Servicios</a>
