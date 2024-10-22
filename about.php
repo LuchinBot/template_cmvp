@@ -25,10 +25,30 @@
 			</div>
 		</div>
 	</div>
-	<div class="history p-2" style="background-image: url('resources/img/example.jpg');">
+	<div class="mision-vision container">
+		<div class="wrapper">
+			<div class="col-md-6">
+				<div class="box">
+					<div class="context">
+						<h1><i class="fa fa-bullseye mr-2"></i>Misión</h1>
+						<p>Somos una institución que representa, integra y fortalece el ejercicio ético y profesional de los médicos veterinarios, promoviendo la salud y el bienestar animal en nuestra comunidad.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="box">
+					<div class="context">
+						<h1><i class="fa fa-eye mr-2"></i>Visión</h1>
+						<p>Ser reconocida como una institución líder y referente en la promoción de la excelencia profesional y ética en el campo de la medicina veterinaria, en el departamento de San Martín, a través de un modelo de gestión moderno, participativo, y con un talento humano altamente calificado.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="history p-2 my-3" style="background-image: url('resources/img/slider1.jpg');">
 		<div class="container">
 			<div class="banner-title">
-				<h1>HISTORIA</h1>
+				<h1>Nuestra historia</h1>
 			</div>
 			<div class="context">
 				<p>
