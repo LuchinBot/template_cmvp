@@ -2,7 +2,7 @@
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">
-			<h1>Sobre <small style="font-weight: 200;">Nosotros</small></h1>
+			<h1>Sobre <small style="font-weight: 300;">Nosotros</small></h1>
 			<span>
 				Volver <i class="fa fa-angle-right mx-1"></i>
 				<a href="<?= $url; ?>">Inicio</a>
@@ -10,15 +10,17 @@
 		</div>
 	</div>
 </section>
-<section class="section-institutional container-fluid" id="institutional">
+<section class="section-institutional container-fluid pb-0" id="institutional">
 	<div class="institutional container">
 		<div class="wrapper">
 			<div class="text">
 				<h4 class="">Consejo Departamental</h4>
 				<h3>San Martín - Tarapoto</h3>
-				<p>
-					El Consejo Departamental del Colegio Médico Veterinario de San Martín tiene como propósito principal promover el desarrollo profesional de los médicos veterinarios de la región, velando por el bienestar animal y el cumplimiento de las normas éticas y deontológicas de la profesión. Además, realiza actividades como la organización de congresos, seminarios y talleres para la actualización profesional, la promoción de la investigación veterinaria, y la representación de los veterinarios ante las autoridades y la sociedad.
-				</p>
+				<div class="description">
+					<p>
+						El Consejo Departamental del Colegio Médico Veterinario de San Martín tiene como propósito principal promover el desarrollo profesional de los médicos veterinarios de la región, velando por el bienestar animal y el cumplimiento de las normas éticas y deontológicas de la profesión. Además, realiza actividades como la organización de congresos, seminarios y talleres para la actualización profesional, la promoción de la investigación veterinaria, y la representación de los veterinarios ante las autoridades y la sociedad.
+					</p>
+				</div>
 			</div>
 			<div class="image">
 				<img src="resources/img/institutional.jpg" alt="" />
@@ -55,9 +57,7 @@
 					De acuerdo al Reglamento de la Ley 16200 que crea el Colegio Médico Veterinario del Perú, el 12 de noviembre de 1982 fue creado el Colegio Médico Veterinario Departamental de San Martin, con un total de 56 Médicos Veterinarios agremiados en la Región e inscritos en el CMVP. Siendo elegido como Primer Decano del Consejo Departamental del CMVDSM, el Médico Veterinario: Román Rivero Ruiz.
 					Con Acta de Constitución, de Asamblea General Departamental del C.M.V.D.S.M., de fecha 21 de noviembre de 2007, se constituye la Asociación denominada: Colegio Médico Veterinario Departamental de San Martín. La misma que se rige por las Normas Legales e Institucionales del Colegio Médico Veterinario del Perú; y agremia a Médicos Veterinarios en toda la Región de San Martín; con la finalidad de ejercer representación oficial de la profesión ante los organismos regionales, nacionales e internacionales.
 					El 12 de diciembre de 2007, se realizó la Inscripción de la Asociación del Colegio Médico Veterinario Departamental de San Martín, en los Registros Públicos en la partida N° 11037234, como Persona Jurídica creada por Ley.
-					Recordando que un Colegio Profesional es una Institución creada por Ley, que permite el Ejercicio Legal de los Profesionales que lo integran; el Consejo Departamental del Colegio Médico Veterinario Departamental de San Martín, agradece a todos por el respeto y la responsabilidad hacia nuestra Institución y nuestra profesión.
-					.
-				</p>
+					Recordando que un Colegio Profesional es una Institución creada por Ley, que permite el Ejercicio Legal de los Profesionales que lo integran; el Consejo Departamental del Colegio Médico Veterinario Departamental de San Martín, agradece a todos por el respeto y la responsabilidad hacia nuestra Institución y nuestra profesión.</p>
 			</div>
 		</div>
 	</div>
@@ -120,9 +120,11 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="persons container-fluid bg-black">
 		<div class="container second">
-			<div class="text-center my-5">
-				<h1 class="section-title text-brown">Past Decanos</h1>
+			<div class="text-center py-5">
+				<h1 class="section-title text-white">Past Decanos</h1>
 				<h6 class="section-subtitle">Antiguos Decanos</h6>
 			</div>
 			<div class="group">
@@ -247,7 +249,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>s
 	</div>
 </section>
 <?php include 'footer.php'; ?>

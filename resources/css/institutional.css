@@ -1,9 +1,10 @@
-.section-institutional{
+.section-institutional {
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: 0 !important;
     background-color: var(--color-opac);
 }
+
 .institutional {
     padding: 20px 0px;
 }
@@ -22,7 +23,7 @@
 
 .institutional .wrapper .text h4 {
     position: relative;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 25px;
     text-transform: uppercase;
     margin: 0;
@@ -50,9 +51,16 @@
 }
 
 .institutional .wrapper .text p {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.8;
+}
+
+.institutional .wrapper .text .description {
+    padding: 20px;
+    background: var(--color-white);
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .institutional .wrapper .image {

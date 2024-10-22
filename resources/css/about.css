@@ -175,7 +175,7 @@
 }
 
 .persons .second .box .img-person {
-    border: 10px solid var(--color-opac);
+    border: 5px solid var(--color-opac);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -187,7 +187,7 @@
     transition: all 0.5s;
 }
 .persons .second .box .img-person:hover{
-    border: 10px solid var(--color-brown-opac);
+    border: 2px solid var(--color-opac);
 }
 .persons .second .box .text {
     position: relative;
@@ -202,13 +202,14 @@
 .persons .second .box .text span{
     font-weight: 800;
     margin-bottom: 3px;
+    color: var(--color-opac);
 }
 .persons .second .box .text h3{
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 2px;
-    color: var(--color-brown);
+    color: var(--color-white);
 }
 .persons .second .box .text p{
     text-transform: uppercase;
@@ -223,6 +224,7 @@
 .mision-vision .wrapper{
     display: flex;
     padding: 50px 10px;
+    align-items: center;
 }
 .mision-vision .wrapper .box{
     padding: 20px;
@@ -240,4 +242,8 @@
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 20px;
+}
+
+.mision-vision .wrapper .box .context p{
+    text-align: justify;
 }

@@ -2,7 +2,7 @@
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">
-			<h1>Trámites <small style="font-weight: 200;">a tu disposición</small></h1>
+			<h1>Trámites <small style="font-weight: 300;">a tu disposición</small></h1>
 			<span>
 				Volver <i class="fa fa-angle-right mx-1"></i>
 				<a href="<?= $url; ?>">Inicio</a>
@@ -13,7 +13,7 @@
 <section class="section-services container-fluid" id="services">
 	<div class="services container">
 		<div class="all-process">
-			<div class="col-md-3">
+			<div class="col-md-3 mb-2">
 				<div class="featured-box featured-box-primary featured-box-effect-3">
 					<div class="box-content">
 						<span>
@@ -66,7 +66,8 @@
 							<i class="fa-solid fa-money-bill-transfer"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							<strong style="font-weight: 900">Traslado</strong>
+							Traslado <br />
+							<strong style="font-weight: 900">de Colegiado</strong>
 						</h4>
 						<p class="text-black font-weight-light">Cambio de inscripción entre sedes departamentales.</p>
 						<a href=""><i class="fa fa-eye"></i></a>

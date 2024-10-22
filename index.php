@@ -148,7 +148,7 @@
 				<!-- Repite para cada elemento -->
 			</div>
 			<div class="more-divider">
-				<a href="<?= $url ?>services" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
+				<a href="<?= $url ?>process" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
 			</div>
 		</div>
 	</div>
