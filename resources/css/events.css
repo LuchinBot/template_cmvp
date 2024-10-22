@@ -27,7 +27,7 @@
 }
 #events .wrapper .box .context h1::after{
     content: ' disponibles';
-    font-weight: 200;
+    font-weight: 300;
  }
  #events .wrapper .box .context p{
     font-size: 14px;

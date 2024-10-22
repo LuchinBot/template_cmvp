@@ -37,7 +37,7 @@
 }
 .section-contact .row .col-lg-4:nth-child(1) .box p {
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
     text-align: justify;
 }
 .section-contact .row .col-lg-4:nth-child(1) .box img {
@@ -97,7 +97,7 @@
     font-size: 14px;
     margin: 0;
     margin-bottom: 10px;
-    font-weight: 200;
+    font-weight: 300;
 }
 .ul-contact li i{
     margin-right: 10px;
@@ -106,7 +106,7 @@
 .ul-contact a{
     text-decoration: none !important;
     color: var(--color-opac);
-    font-weight: 200;
+    font-weight: 300;
 }
 .ul-contact a:hover{
     color: var(--color-opac);

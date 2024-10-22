@@ -2,7 +2,7 @@
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">
-			<h1>Trámite <small style="font-weight: 200;">Nueva Colegiatura</small></h1>
+			<h1>Trámite <small style="font-weight: 300;">Nueva Colegiatura</small></h1>
 			<span>
 				Volver <i class="fa fa-angle-right mx-1"></i>
 				<a href="<?= $url; ?>">Trámites</a>
