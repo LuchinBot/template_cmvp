@@ -15,15 +15,15 @@
     height: 100vh;
     width: 100%;
     object-fit: cover;
-    animation: transition 2.3s ease-in-out forwards;
+    animation: transition 3s ease-in-out forwards;
 }
 @keyframes transition {
     0% {
         transform: scale(1);
-        opacity: 0.7;
+        opacity: 0.5;
     }
     100% {
-        transform: scale(1.2);
+        transform: scale(1.02);
         opacity: 1;
     }
 }
@@ -68,7 +68,7 @@
 }
 
 #sliderAutomatic .carousel-item .carousel-caption p {
-    font-size: 20px;
+    font-size: 20px !important;
     font-weight: 300;
     /*Animacion al aparecer*/
     opacity: 0;

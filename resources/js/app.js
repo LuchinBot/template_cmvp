@@ -46,6 +46,9 @@ $(document).ready(function () {
     $('#show-image .close').click(function () {
         $('#show-image').hide();
     })
+    $('#show-comunicate .close').click(function () {
+        $('#show-comunicate').hide();
+    })
     $('.scroll-to-top').hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {

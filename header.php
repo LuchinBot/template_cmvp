@@ -19,6 +19,7 @@ $url = "http://template_cmvp.test/";
 	<link rel="stylesheet" href="resources/css/events.css" />
 	<link rel="stylesheet" href="resources/css/news.css" />
 	<link rel="stylesheet" href="resources/css/contact.css" />
+	<link rel="stylesheet" href="resources/css/birthday.css" />
 	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/about.css" />
 	<link rel="stylesheet" href="resources/css/courses.css" />

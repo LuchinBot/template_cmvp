@@ -19,23 +19,26 @@
 						</li>
 						<li>
 							<a href="">
-								<i class="fa-solid fa-circle-exclamation"></i>
+								<i class="fa fa-hashtag"></i>
 								RUC: 20450284883
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<i class="fa-solid fa-share-from-square"></i>
-								Razón Social: Colegio Médico Veterinario Departamental San Martín
 							</a>
 						</li>
 						<li class="title">
 							Escríbenos
 						</li>
 						<li>
+						<a href="">
+								<i class="fa-solid fa-share-from-square"></i>
+								Contáctenos
+							</a>
+						</li>
+						<li class="title">
+							Horario de Atención
+						</li>
+						<li>
 							<a href="">
-								<i class="fa fa-at"></i>
-								cmvpsanmartin@gmail.com
+								<i class="fa fa-clock"></i>
+								Lunes a Viernes de 9:00am - 12:30pm
 							</a>
 						</li>
 					</ul>
@@ -43,32 +46,8 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="box">
-					<h3><i class="fa fa-calendar mr-3"></i> HORARIO DE ATENCIÓN</h3>
-					<ul class="ul-contact">
-						<li class="title">
-							Días Laborables
-						</li>
-						<li>
-							<i class="fa fa-clock"></i>
-							Lunes: 9:00am - 12:30pm
-						</li>
-						<li>
-							<i class="fa fa-clock"></i>
-							Martes: 9:00am - 12:30pm
-						</li>
-						<li>
-							<i class="fa fa-clock"></i>
-							Miercoles: 9:00am - 12:30pm
-						</li>
-						<li>
-							<i class="fa fa-clock"></i>
-							Jueves: 9:00am - 12:30pm
-						</li>
-						<li>
-							<i class="fa fa-clock"></i>
-							Viernes: 9:00am - 12:30pm
-						</li>
-					</ul>
+					<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
+					
 				</div>
 			</div>
 		</div>

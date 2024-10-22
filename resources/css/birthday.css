@@ -1,0 +1,85 @@
+.section-birthday {
+    background-color: var(--color-black);
+    padding: 30px 0px;
+}
+.birthday .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.birthday .box h3{
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.birthday .box h1{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.caja-link{
+    font-family: 'open sans', sans-serif;
+    transition: all 0.3s;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    border: 1px solid var(--color-black);
+    background-color: var(--color-white);
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.caja-link:hover{
+    font-weight: 800;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.caja-link span{
+    animation: parpadeos 5s ease-in-out infinite;
+
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1;
+    }
+    50% {
+
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.caja-link i{
+    background-color: var(--color-black);
+    position: absolute;
+    color: var(--color-black);
+    font-size: 20px;
+    transition: all 0.3s;
+    left: 0;
+    animation: simularClic 3s ease-in-out infinite;
+}
+
+@keyframes simularClic {
+    0% {
+        transform: translate(100px,0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

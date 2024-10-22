@@ -3,7 +3,7 @@
 	<div id="sliderAutomatic" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="resources/img/slider1.jpg" class="d-block w-100" alt="" />
+				<img src="resources/img/directiva.png" class="d-block w-100" alt="" />
 				<div class="carousel-caption">
 					<div class="context">
 						<h1>JUNTA DIRECTIVA PERDIODO 2022 – 2024 </h1>
@@ -45,6 +45,24 @@
 		</button>
 	</div>
 </div>
+<section class="section-birthday container-fluid">
+	<div class="birthday container">
+		<div class="row p-0 m-0 d-flex justify-content-between">
+			<div class="col-md-4 p-0 m-0">
+				<div class="box">
+					<h3>Cumpleañeros de hoy</h3>
+					<h1>23 de Octubre</h1>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<a href="" class="caja-link">
+					<span>FELICITARLOS</span>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="section-events container-fluid" id="events">
 	<div class="events container">
 		<div class="wrapper">
@@ -211,8 +229,8 @@
 							<span>15 Jun 2024</span>
 						</div>
 						<h3><a href="comun">Médicos Veterinarios de San Martín Brindan Atención a Animales Silvestres Afectados por Incendios </a></h3>
-						<p>El CMVDSM ha puesto a disposición un equipo de veterinarios voluntarios para brindar atención médica a los animales silvestres 
-							que han sido afectados por los recientes incendios en la región. Estos profesionales están ofreciendo sus servicios para ayudar a mitigar 
+						<p>El CMVDSM ha puesto a disposición un equipo de veterinarios voluntarios para brindar atención médica a los animales silvestres
+							que han sido afectados por los recientes incendios en la región. Estos profesionales están ofreciendo sus servicios para ayudar a mitigar
 							los efectos de esta emergencia ambiental.</p>
 						<span>
 							<a href="comun">
@@ -247,4 +265,12 @@
 		</div>
 	</div>
 </section>
+<div id="show-comunicate">
+	<div class="base">
+		<img src="resources/img/comunite.jpg" alt="" />
+		<div class="close">
+			<i class="fas fa-times"></i>
+		</div>
+	</div>
+</div>
 <?php include 'footer.php'; ?>
