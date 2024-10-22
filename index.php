@@ -183,7 +183,7 @@
 					<i class="fa-solid fa-magnifying-glass"></i>
 				</div>
 				<div class="text">
-					<a href="">Búsqueda Certificados</a>
+					<a href="">Certificados del CMVDSM</a>
 					<p>El sistema de Búsqueda de Certificados permite verificar la validez de los certificados emitidos por el Colegio, como los de “Salud de Menores”, etc.</p>
 				</div>
 			</div>
@@ -204,17 +204,16 @@
 			<div class="col-md-6">
 				<div class="box">
 					<div class="image">
-						<img src="resources/img/example.jpg" alt="">
+						<img src="resources/img/comunicado1.jpg" alt="">
 					</div>
 					<div class="context">
 						<div class="float-date">
 							<span>15 Jun 2024</span>
 						</div>
-						<h3><a href="comun">Comunicado del día de la semana hola hola hola hola hola vvvhola holahola </a></h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
-							eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
-							minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<h3><a href="comun">Médicos Veterinarios de San Martín Brindan Atención a Animales Silvestres Afectados por Incendios </a></h3>
+						<p>El CMVDSM ha puesto a disposición un equipo de veterinarios voluntarios para brindar atención médica a los animales silvestres 
+							que han sido afectados por los recientes incendios en la región. Estos profesionales están ofreciendo sus servicios para ayudar a mitigar 
+							los efectos de esta emergencia ambiental.</p>
 						<span>
 							<a href="comun">
 								<i class="fa fa-plus mr-2"></i>
@@ -228,17 +227,14 @@
 			<div class="col-md-6">
 				<div class="box">
 					<div class="image">
-						<img src="resources/img/example.jpg" alt="">
+						<img src="resources/img/pronunciamiento1.jpg" alt="">
 					</div>
 					<div class="context">
 						<div class="float-date">
-							<span>15 Jun 2024</span>
+							<span>25 Jun 2024</span>
 						</div>
-						<h3><a href="pronun">Pronunciamiento del día de hoy</a></h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
-							eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
-							minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<h3><a href="pronun">Pronunciamiento del Colegio Médico Veterinario del Perú sobre la Huelga Nacional Indefinida de Trabajadores del SENASA</a></h3>
+						<p>El Colegio Médico Veterinario del Perú, a través de su Decano Nacional, ha emitido un pronunciamiento dirigido a las autoridades del país, incluyendo a la Presidencia de la República, el Primer Ministro y el Ministro de Desarrollo Agrario y Riego. En este comunicado, se solicita la pronta atención a las demandas del Sindicato de Trabajadores del Servicio Nacional de Sanidad Agraria (SENASA).</p>
 						<span>
 							<a href="pronun">
 								<i class="fa fa-plus mr-2"></i>
