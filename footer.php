@@ -4,7 +4,7 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<img src="resources/img/logo_white.png" alt="" />
-							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de Lima con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
+							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San Martín con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
 							<p style="font-weight: 500;">
 								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda de Shilcayo, Provincia y Departamento de San Martín.</strong>
 							</p>

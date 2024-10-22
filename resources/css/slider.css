@@ -47,7 +47,7 @@
 }
 
 #sliderAutomatic .carousel-item .carousel-caption h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     font-weight: 900;
     /*Animacion al aparecer*/
@@ -69,8 +69,7 @@
 
 #sliderAutomatic .carousel-item .carousel-caption p {
     font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 300;
     /*Animacion al aparecer*/
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
@@ -92,6 +91,9 @@
     opacity: 0;
     animation: ShowItem 2s ease-in forwards;
     animation-delay: 0.5s;
+}
+#sliderAutomatic .carousel-item .carousel-caption .context {
+    padding: 0px 50px;
 }
 
 #sliderAutomatic .carousel-control-prev,

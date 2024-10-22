@@ -65,7 +65,7 @@
 		<div class="container first">
 			<div class="text-center my-5">
 				<h1 class="section-title text-brown">Representantes</h1>
-				<h6 class="section-subtitle">JUNTA DIRECTIVA</h6>
+				<h6 class="section-subtitle">JUNTA DIRECTIVA 2024-2026</h6>
 			</div>
 			<div class="group">
 				<div class="col-md-4">
@@ -131,7 +131,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano1.png') ;"></div>
 						<div class="text">
 							<span>1982-1984</span>
-							<h3>MV. Román Rivero Ruiz</h3>
+							<h3>Román Rivero Ruiz</h3>
 							<p class="m-0">CMVP: 1026</p>
 						</div>
 					</div>
@@ -141,7 +141,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano2.png') ;"></div>
 						<div class="text">
 							<span>1991 – 1994</span>
-							<h3>MV. Manuel Coronado Pacheco</h3>
+							<h3>Manuel Coronado Pacheco</h3>
 							<p class="m-0">CMVP: 653</p>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano3.png') ;"></div>
 						<div class="text">
 							<span>1999 – 2002</span>
-							<h3>M.V. Carlos Augusto Nolte Campos</h3>
+							<h3>Carlos Augusto Nolte Campos</h3>
 							<p class="m-0">CMVP: 849</p>
 						</div>
 					</div>
@@ -161,7 +161,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano4.jpg') ;"></div>
 						<div class="text">
 							<span>2003 – 2007</span>
-							<h3>M.V. Nicolás Vásquez Del Águila</h3>
+							<h3>Nicolás Vásquez Del Águila</h3>
 							<p class="m-0">CMVP: 2513</p>
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano5.png') ;"></div>
 						<div class="text">
 							<span>2007 – 2009</span>
-							<h3>M.V. Abertano Walter Rojas Sánchez</h3>
+							<h3>Abertano Walter Rojas Sánchez</h3>
 							<p class="m-0">CMVP: 1695</p>
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano6.png') ;"></div>
 						<div class="text">
 							<span>2009 – 2012</span>
-							<h3>M.V. José Manuel Nuñez Lucero</h3>
+							<h3>José Manuel Nuñez Lucero</h3>
 							<p class="m-0">CMVP: 4502</p>
 						</div>
 					</div>
@@ -191,7 +191,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano7.png') ;"></div>
 						<div class="text">
 							<span>2012 – 2013</span>
-							<h3>M.V. Wilder Castillo Celestino</h3>
+							<h3>Wilder Castillo Celestino</h3>
 							<p class="m-0">CMVP: 4889</p>
 						</div>
 					</div>
@@ -201,7 +201,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano8.png') ;"></div>
 						<div class="text">
 							<span>2014 – 2016</span>
-							<h3>M.V. Hugo Sánchez Cárdenas</h3>
+							<h3>Hugo Sánchez Cárdenas</h3>
 							<p class="m-0">CMVP: 3333</p>
 						</div>
 					</div>
@@ -211,7 +211,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano9.png') ;"></div>
 						<div class="text">
 							<span>2016 – 2018</span>
-							<h3>M.V. Abertano Walter Rojas Sánchez</h3>
+							<h3>Abertano Walter Rojas Sánchez</h3>
 							<p class="m-0">CMVP: 1695</p>
 						</div>
 					</div>
@@ -221,7 +221,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano10.png') ;"></div>
 						<div class="text">
 							<span>2018 – 2020</span>
-							<h3>M.V. Daniel Carlos Rosales Del Río</h3>
+							<h3>Daniel Carlos Rosales Del Río</h3>
 							<p class="m-0">CMVP: 632</p>
 						</div>
 					</div>
@@ -231,7 +231,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano11.png') ;"></div>
 						<div class="text">
 							<span>2020 – 2022</span>
-							<h3>M.V. José Manuel Nuñez Lucero</h3>
+							<h3>José Manuel Nuñez Lucero</h3>
 							<p class="m-0">CMVP: 4502</p>
 						</div>
 					</div>
@@ -241,7 +241,7 @@
 						<div class="img-person" style="background-image: url('resources/img/decano12.jfif') ;"></div>
 						<div class="text">
 							<span>2022 – 2024</span>
-							<h3>M.V. Lilian Chea Soto</h3>
+							<h3>Lilian Chea Soto</h3>
 							<p class="m-0">CMVP: 2576</p>
 						</div>
 					</div>

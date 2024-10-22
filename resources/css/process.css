@@ -57,7 +57,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 .featured-box .icon-featured {
@@ -115,7 +115,7 @@
     font-family: "Manrope", sans-serif !important;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start  ;
 }
 
 /* Trámite seleccinado */

@@ -83,8 +83,8 @@
 			<h6 class="section-subtitle">INFORMACIÓN DE REQUISITOS SOBRE LOS TRÁMITES</h6>
 		</div>
 		<div class="col">
-			<div class="all-process">
-				<div class="col-md-3">
+			<div class="popup-gallery-ajax">
+				<div class="owl-carousel owl-theme mb-0">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -99,8 +99,6 @@
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 mb-2">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -114,8 +112,6 @@
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 mb-2">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -129,23 +125,47 @@
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 mb-2">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
 								<i class="fa-solid fa-money-bill-transfer"></i>
 							</span>
 							<h4 class="pt-4 text-brown font-weight-light">
-								Traslado <br />	
+								Traslado <br />
 								<strong style="font-weight: 900">de Colegiado</strong>
 							</h4>
 							<p class="text-black font-weight-light">Cambio de inscripción entre sedes departamentales.</p>
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
+					<div class="featured-box featured-box-primary featured-box-effect-3">
+						<div class="box-content">
+							<span>
+								<i class="fa-solid fa-copy"></i>
+							</span>
+							<h4 class="pt-4 text-brown font-weight-light">
+								Duplicado <br />
+								<strong style="font-weight: 900">de Diploma</strong>
+							</h4>
+							<p class="text-black font-weight-light">Reemisión del diploma original por extravío o daño.</p>
+							<a href=""><i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="featured-box featured-box-primary featured-box-effect-3">
+						<div class="box-content">
+							<span>
+								<i class="fa-solid fa-scale-balanced"></i>
+							</span>
+							<h4 class="pt-4 text-brown font-weight-light">
+								Denuncias <br />
+								<strong style="font-weight: 900">Éticas</strong>
+							</h4>
+							<p class="text-black font-weight-light">Canal formal para reportar faltas éticas.</p>
+							<a href=""><i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<!-- Repite para cada elemento -->
 				</div>
-				<!-- Repite para cada elemento -->
 			</div>
 			<div class="more-divider">
 				<a href="<?= $url ?>services" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>

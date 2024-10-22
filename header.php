@@ -57,7 +57,6 @@ $url = "http://template_cmvp.test/";
 					</li>
 					<li class="nav-item menu-item">
 						<a class="nav-link" href="<?= $url; ?>services">Servicios</a>
-
 					</li>
 					<li class="nav-item menu-item">
 						<p class="nav-link m-0">
@@ -68,31 +67,12 @@ $url = "http://template_cmvp.test/";
 								<a class="nav-link" href="<?= $url; ?>about">Sobre nosotros</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>courses">Eventos y cursos</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>">Documentos normativos</a>
+								<a class="nav-link" href="<?= $url; ?>docs">Documentos normativos</a>
 							</li>
 						</ul>
 					</li>
 					<li class="nav-item menu-item">
-						<p class="nav-link m-0">
-							Noticias <i class="fa fa-caret-down ml-2"></i>
-						</p>
-						<ul class="submenu border">
-							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>news">Noticias destacadas</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>comunicates">Comunicados</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>pronnu">Pronunciamientos</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>birthdays">Cumpleaños colegiados</a>
-							</li>
-						</ul>
+						<a class="nav-link" href="<?= $url; ?>news">Noticias</a>
 					</li>
 					<li class="nav-item intranet">
 						<a class="nav-link" href="">Acceso Colegiado <i class="fa fa-user ml-2"></i></a>

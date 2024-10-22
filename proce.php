@@ -28,25 +28,6 @@
 			<div class="context">
 				<p>CUOTA DE INSCRIPCIÓN 25 % UIT MÁS S/. 100.00 CUOTA DE REGISTRO</p>
 			</div>
-			<h2 class="title">evaluación</h2>
-			<div class="context">
-				<p>7 – 30 días</p>
-			</div>
-			<h2 class="title">Dependencia del Procedimiento</h2>
-			<div class="context">
-				<ul>
-					<li>Mesa de partes del Colegio Médico veterinario Departamental (CMVD), según corresponda.</li>
-					<li>El Consejo del CMVD lo revisara y enviara al Colegio Médico Veterinario del Perú (CMVP).</li>
-				</ul>
-			</div>
-			<h2 class="title">Autoridad que aprueba el procedimiento </h2>
-			<div class="context">
-				<p>Consejo Nacional del CMVP</p>
-			</div>
-			<h2 class="title">Autoridad que resuelve el recurso de apelación<h2>
-					<div class="context">
-						<p>Decano del CMVP</p>
-					</div>
 		</div>
 	</div>
 </section>
