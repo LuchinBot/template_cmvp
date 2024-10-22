@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
-        items: 4, // Número de elementos visibles
-        margin: 35, // Espacio entre los elementos
-        loop: false, // No repetir los elementos
-        nav: true, // Mostrar navegación
+        items: 4,
+        margin: 35,
+        loop: false,
+        nav: true,
         navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-        dots: true, // Mostrar indicadores de página
+        dots: true,
         responsive: {
             0: {
                 items: 1
@@ -37,13 +37,26 @@ $(document).ready(function () {
             }, 300); // Ajusta el tiempo según sea necesario
         }
     );
-    
-    $('.img-course').click(function(){
+
+    $('.img-course').click(function () {
         image = $(this).attr('data-url');
         $('#show-image').toggle();
         $('#show-image img').attr('src', image);
     });
-    $('#show-image .close').click(function(){
+    $('#show-image .close').click(function () {
         $('#show-image').hide();
     })
+    $('.scroll-to-top').hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-to-top').fadeIn();
+        } else {
+            $('.scroll-to-top').fadeOut();
+        }
+    });
+
+    $('.scroll-to-top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 600);
+        return false;
+    });
 })

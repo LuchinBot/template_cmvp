@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Pallete of colors */
 :root {
     /*--color-brown: #891C2E;*/
@@ -11,42 +12,52 @@
     --color-white: #ffff;
 
 }
-.bg-brown{
+
+.bg-brown {
     background-color: var(--color-brown) !important;
 }
-.bg-gray{
+
+.bg-gray {
     background-color: var(--color-gray) !important;
 }
-.bg-opac{
+
+.bg-opac {
     background-color: var(--color-opac);
 }
-.bg-black{
+
+.bg-black {
     background-color: var(--color-black) !important;
 }
-.text-brown{
+
+.text-brown {
     color: var(--color-brown) !important;
 }
-.text-gray{
+
+.text-gray {
     color: var(--color-gray) !important;
 }
-.text-black{
+
+.text-black {
     color: var(--color-black) !important;
 }
-.text-opac{
+
+.text-opac {
     color: var(--color-opac);
 }
+
 /* Clases */
-section{
+section {
     font-family: "Manrope", sans-serif !important;
     padding: 50px 0;
 }
 
-.section-title{
+.section-title {
     font-family: "Manrope", sans-serif !important;
     font-weight: 800;
     position: relative !important;
 }
-.section-title::after{
+
+.section-title::after {
     content: '';
     position: absolute !important;
     top: 22px;
@@ -56,7 +67,8 @@ section{
     border-radius: 50px;
     background-color: var(--color-opac);
 }
-.section-subtitle{
+
+.section-subtitle {
     font-family: "Manrope", sans-serif !important;
     text-transform: uppercase;
     font-weight: 400;
@@ -64,7 +76,8 @@ section{
     margin-bottom: 30px;
     color: var(--color-gray);
 }
-.section-title::before{
+
+.section-title::before {
     content: '';
     position: absolute !important;
     top: 22px;
@@ -73,4 +86,8 @@ section{
     height: 5px;
     border-radius: 50px;
     background-color: var(--color-opac);
+}
+
+p {
+    font-size: 13px !important;
 }

@@ -26,10 +26,12 @@
       z-index: 7000;
       animation: showMe 0.2s ease-in-out forwards;
   }
+
   @keyframes showMe {
       0% {
           opacity: 0;
       }
+
       100% {
           opacity: 1;
       }
@@ -42,7 +44,7 @@
       align-items: center;
       width: 100%;
       height: 100vh;
-      padding: 10%;
+      padding: 15%;
   }
 
   #show-image .base img {
@@ -107,4 +109,51 @@
 
   .more-divider a:hover i {
       transform: translate(10px);
+  }
+
+  .section-info {
+
+      padding: 10px 20px;
+      background-color: var(--color-black);
+      border-radius: 8px;
+      color: var(--color-white);
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  }
+
+  .scroll-to-top.visible {
+      opacity: 0.75;
+  }
+
+  .scroll-to-top {
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+      background: var(--color-brown);
+      border-radius: 4px 4px 0 0;
+      bottom: 0;
+      color: #FFF;
+      display: block;
+      height: 9px;
+      opacity: 0;
+      padding: 10px 10px 35px;
+      position: fixed;
+      right: 10px;
+      text-align: center;
+      text-decoration: none;
+      min-width: 50px;
+      z-index: 1040;
+      font-size: 0.8em;
+  }
+
+  .scroll-to-top:hover {
+      text-decoration: none;
+      color: var(--color-white)
+  }
+
+  .scroll-to-top i {
+    transition: all 0.3s;
+      font-size: 20px;
+  }
+
+  .scroll-to-top:hover i {
+      transform: scale(1.2);
   }

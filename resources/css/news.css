@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: repeat;
     padding-bottom: 70px;
+    overflow: hidden;
 }
 .section-news::before {
     content: ' ';
@@ -43,7 +44,7 @@
     width: 100%;
     height: -webkit-fill-available;
     object-fit: cover;
-    transition: 0.2s all;
+    transition: 0.3s all;
 }
 #news .wrapper .box .image img:hover{
     transform: scale(1.2);
@@ -59,27 +60,36 @@
     color: var(--color-black);
  }
  #news .wrapper .box .context p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
     font-size: 14px;
     text-align: justify;
     font-weight: 300;
  }
  #news .wrapper .box .context span a{
     display: flex;
+    width: max-content;
     justify-content: center;
     align-items: center;
     color: var(--color-opac);
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 10px;
+    padding: 10px 20px;
     transition: 0.3s;
     text-decoration: none;
     position: relative;
-    background-color: var(--color-brown);
+    background-color: var(--color-black);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
  #news .wrapper .box .context span a:hover{
     color: var(--color-opac);
-    background-color: var(--color-black);
+    background-color: var(--color-brown);
  }
  #news .wrapper .box .context span a i{
     transition: 0.3s all;

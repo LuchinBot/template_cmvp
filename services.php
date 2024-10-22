@@ -10,9 +10,13 @@
 		</div>
 	</div>
 </section>
-<section class="section-services container-fluid" id="services">
-	<div class="services container">
-
+<section class="section-services pt-3 container-fluid" id="services">
+	<div class="container">
+		<div class="section-info">
+			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>En esta sección.....</p>
+		</div>
+	</div>
+	<div class="services mt-4 container">
 		<div class="wrapper">
 			<div class="stack">
 				<div class="icon">
@@ -28,7 +32,7 @@
 					<i class="fa-solid fa-magnifying-glass"></i>
 				</div>
 				<div class="text">
-					<a href="">Búsqueda colegiados  </a>
+					<a href="">Búsqueda colegiados </a>
 					<p>Este servicio permite a los usuarios consultar el registro oficial de los médicos veterinarios colegiados en nuestra institución.</p>
 				</div>
 			</div>

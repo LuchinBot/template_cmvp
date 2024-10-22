@@ -137,7 +137,7 @@
 								<i class="fa-solid fa-money-bill-transfer"></i>
 							</span>
 							<h4 class="pt-4 text-brown font-weight-light">
-								Traslado <br />	
+								Traslado <br />
 								<strong style="font-weight: 900">de Colegiado</strong>
 							</h4>
 							<p class="text-black font-weight-light">Cambio de inscripción entre sedes departamentales.</p>
@@ -190,6 +190,58 @@
 		</div>
 		<div class="more-divider">
 			<a href="<?= $url ?>services">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
+		</div>
+	</div>
+</section>
+<section class="section-news overlay container-fluid" id="news"
+	style="background-image: url('resources/img/news.jpg')">
+	<div class="news container">
+		<div class="text-center mb-5">
+			<h1 class="section-title text-white">Comunicados y Pronunciamientos</h1>
+			<h6 class="section-subtitle">Conoce los comunicados y pronunciamientos del CMVDSM</h6>
+		</div>
+		<div class="wrapper">
+			<div class="col-md-6">
+				<div class="box">
+					<div class="image">
+						<img src="resources/img/example.jpg" alt="">
+					</div>
+					<div class="context">
+						<h3><a href="comun">Comunicado del día de hoy</a></h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
+							eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
+							minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<span>
+							<a href="comun">
+								<i class="fa fa-plus mr-2"></i>
+								<small></small>
+								<small> Leer más</small>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="box">
+					<div class="image">
+						<img src="resources/img/example.jpg" alt="">
+					</div>
+					<div class="context">
+						<h3><a href="pronun">Pronunciamiento del día de hoy</a></h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
+							eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
+							minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<span>
+							<a href="pronun">
+								<i class="fa fa-plus mr-2"></i>
+								<small> Leer más</small>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

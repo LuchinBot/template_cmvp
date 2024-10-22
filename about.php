@@ -70,7 +70,7 @@
 			<div class="group">
 				<div class="col-md-4">
 					<div class="box">
-						<div class="img-person" style="background-image: url('resources/img/profile.jpg') ;"></div>
+						<div class="img-person" style="background-image: url('resources/img/luis.png') ;"></div>
 						<div class="text">
 							<h3>LUIS ÁNGEL QUINTANA MONTALVO</h3>
 							<p class="m-0">CMVP: 5724</p>
@@ -80,7 +80,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="box">
-						<div class="img-person" style="background-image: url('resources/img/profile.jpg') ;"></div>
+						<div class="img-person" style="background-image: url('resources/img/hugo.png') ;"></div>
 						<div class="text">
 							<h3>HUGO SÁNCHEZ CARDENAS</h3>
 							<p class="m-0">CMVP: 3333</p>
@@ -90,7 +90,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="box">
-						<div class="img-person" style="background-image: url('resources/img/profile.jpg') ;"></div>
+						<div class="img-person" style="background-image: url('resources/img/gretal.png') ;"></div>
 						<div class="text">
 							<h3>GRETELL MABEL LOPEZ DEL AGUILA</h3>
 							<p class="m-0">CMVP: 9900</p>
@@ -100,7 +100,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="box">
-						<div class="img-person" style="background-image: url('resources/img/profile.jpg') ;"></div>
+						<div class="img-person" style="background-image: url('resources/img/norvil.png') ;"></div>
 						<div class="text">
 							<h3>NORVIL LUIS ORTIZ BARBOZA</h3>
 							<p class="m-0">CMVP: 7705</p>
@@ -110,7 +110,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="box">
-						<div class="img-person" style="background-image: url('resources/img/profile.jpg') ;"></div>
+						<div class="img-person" style="background-image: url('resources/img/elena.png') ;"></div>
 						<div class="text">
 							<h3>ELENA CRUZ CAMPOS</h3>
 							<p class="m-0">CMVP: 3755</p>

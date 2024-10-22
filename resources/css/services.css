@@ -23,7 +23,7 @@
     margin-bottom: 10px;
 }
 .services .wrapper .stack i{
-    transition: all 0.2s;
+    transition: all 0.3s;
     font-size: 20px;
 }
 .services  .wrapper .stack:hover i{
