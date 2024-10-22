@@ -13,7 +13,7 @@
 <section class="section-services pt-3 container-fluid" id="services">
 	<div class="container">
 		<div class="section-info">
-			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>En esta sección encontrarás todos los servicios que ofrecemos, diseñados para facilitar los trámites y consultas de nuestros colegiados y ciudadanos.</p>
+			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>En esta sección encontrarás todos los servicios que ofrecemos, diseñados para facilitar los trámites y consultas de nuestros colegiados y ciudadanos. ara iniciar tu trámite,<strong> haz clic</strong> en cualquier servicio.</p>
 		</div>
 	</div>
 	<div class="services mt-4 container">
