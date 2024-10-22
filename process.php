@@ -101,7 +101,8 @@
 							<i class="fa-solid fa-scale-balanced"></i>
 						</span>
 						<h4 class="pt-4 text-brown font-weight-light">
-							<strong style="font-weight: 900">Denuncias</strong>
+							Denuncias <br />
+							<strong style="font-weight: 900">o Faltas Éticas</strong>
 						</h4>
 						<p class="text-black font-weight-light">Canal formal para reportar faltas éticas.</p>
 						<a href=""><i class="fa fa-eye"></i></a>
