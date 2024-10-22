@@ -13,6 +13,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .header .navbar{
+    font-family: "Manrope", sans-serif !important;
     box-sizing: border-box;
     max-width: 1350px;
     margin: auto;

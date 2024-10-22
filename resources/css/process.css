@@ -23,6 +23,7 @@
 }
 
 .process {
+    font-family: "Manrope", sans-serif !important;
     position: relative;
     z-index: 3;
     padding: 20px 0px;
@@ -111,6 +112,7 @@
 }
 
 .all-process{
+    font-family: "Manrope", sans-serif !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

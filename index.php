@@ -7,8 +7,6 @@
 				<div class="carousel-caption">
 					<h1>JUNTA DIRECTIVA PERDIODO 2022 – 2024 </h1>
 					<p>Ceremonia de Juramentación Virtual Periodo 2022 – 2024</p>
-					<a href="#institutional"><i class="fa fa-info-circle mt-1 mr-2"></i> Información
-						Institucional</a>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -16,8 +14,6 @@
 				<div class="carousel-caption">
 					<h1>JURAMENTACIÓN DE JUNTA DIRECTIVA</h1>
 					<p>Ceremonia de Juramentación de Junta Directiva 2022 -2024 del Consejo Departamental de San Martín</p>
-					<a href="#institutional"><i class="fa fa-info-circle mt-1 mr-2"></i> Información
-						Institucional</a>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -25,17 +21,19 @@
 				<div class="carousel-caption">
 					<h1>DESFILE CÍVICO POR DEL DÍA DEL MVP – 2024</h1>
 					<p>Ceremonia del Desfile Cívico en conmemoración del Día del Médico Veterinario del Perú - 2024</p>
-					<a href="#institutional"><i class="fa fa-info-circle mt-1 mr-2"></i> Información
-						Institucional</a>
 				</div>
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-target="#sliderAutomatic" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="base-icon">
+				<span class="carousel-control-prev-icon icon" aria-hidden="true"></span>
+			</span>
 			<span class="sr-only">Previous</span>
 		</button>
 		<button class="carousel-control-next" type="button" data-target="#sliderAutomatic" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="base-icon">
+				<span class="carousel-control-next-icon icon" aria-hidden="true"></span>
+			</span>
 			<span class="sr-only">Next</span>
 		</button>
 	</div>
@@ -152,7 +150,7 @@
 								<i class="fa-solid fa-scale-balanced"></i>
 							</span>
 							<h4 class="pt-4 text-brown font-weight-light">
-							Denuncias <br />
+								Denuncias <br />
 								<strong style="font-weight: 900">Éticas</strong>
 							</h4>
 							<p class="text-black font-weight-light">Canal formal para reportar faltas éticas.</p>

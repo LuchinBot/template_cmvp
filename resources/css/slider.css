@@ -15,8 +15,18 @@
     height: 100vh;
     width: 100%;
     object-fit: cover;
+    animation: transition 2.3s ease-in-out forwards;
 }
-
+@keyframes transition {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
 #sliderAutomatic .carousel-inner .carousel-item {
     position: relative;
 }
@@ -33,16 +43,17 @@
     align-items: center;
     color: #fff;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.829);
 }
 
 #sliderAutomatic .carousel-item .carousel-caption h1 {
     font-size: 60px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     /*Animacion al aparecer*/
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
+    text-shadow: 2px 2px 5px #000;
 }
 
 @keyframes fadeIn {
@@ -64,6 +75,7 @@
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
     animation-delay: 0.5s;
+    text-shadow: 2px 2px 20px #000;
 }
 
 #sliderAutomatic .carousel-item .carousel-caption a {
@@ -85,4 +97,15 @@
 #sliderAutomatic .carousel-control-prev,
 #sliderAutomatic .carousel-control-next {
     z-index: 4;
+}
+
+.base-icon{
+    background-color: var(--color-brown);
+    padding: 20px;
+}
+.base-icon .icon{
+    transition: all 0.1s;
+}
+.base-icon:hover .icon{
+    transform: scale(1.4);
 }
