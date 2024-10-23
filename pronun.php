@@ -2,7 +2,7 @@
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">
-			<h1>Pronunciamiento <small style="font-weight: 300;">#100</small></h1>
+			<h1>Pronunciamiento <small style="font-weight: 300;">Destacado</small></h1>
 			<span>
 				Volver <i class="fa fa-angle-right mx-1"></i>
 				<a href="<?= $url; ?>">Inicio</a>
@@ -16,16 +16,22 @@
 			<div class="col-md-9 d-flex">
 				<div class="box">
 					<div class="image">
-						<img src="resources/img/example.jpg" alt="">
+						<img src="resources/img/pronunciamiento2.jpg" alt="">
 					</div>
 					<div class="context">
-						<h3>Pronunciamiento del día de hoy</h3>
+						<h3>Defensa de la institucionalidad del Colegio Médico Veterinario del Perú frente a acciones consideradas ilegítimas y desestabilizadoras</h3>
 						<div class="border-top py-2">
-							<p class="mb-4"><strong>Fecha de publicación</strong>: 15 Jun 2024</p>
+							<p class="mb-4"><strong>Fecha de publicación</strong>: 28 agos 2024</p>
 							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
-									eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
-									minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<p>
+								El pronunciamiento del Colegio Médico Veterinario del Perú rechaza enérgicamente 
+								las acciones de un grupo de consejeros nacionales, liderados por el Vicedecano Fernando 
+								Adriano Chilquillo, por intentar desestabilizar la institución. Desconocen su 
+								autoproclamación como "Decano Interino" y reafirman el apoyo al decano legítimo, 
+								Dr. Henry Hernández Isla. También condenan las decisiones ilegales del Decano 
+								Departamental de Lima, Wilfredo Clímaco Pérez Zorazabal, y censuran al personal 
+								administrativo por actuar en contra de los intereses de los agremiados.
+								<br /><u>Ver comunicado</u>
 								</p>
 							</div>
 						</div>
@@ -41,16 +47,14 @@
 					<div class="box">
 						<div class="context">
 							<a href="comun">
-								<strong>12/10/2024 - </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora aperiam voluptatem quae minima. Maiores ipsum eius quibusdam rem consectetur perferendis natus qui deleniti culpa? Maiores quam culpa dolor amet.
-								Rerum qui tempore similique incidunt deleniti, dignissimos sequi illo, ratione fuga, tempora officiis! Ex soluta non id inventore perspiciatis! Asperiores impedit sunt eveniet pariatur dolore aut voluptatem quisquam distinctio natus.
-								Vitae alias harum nemo, animi, praesentium a placeat quisquam unde perspiciatis enim consequuntur exercitationem sunt accusamus ad eligendi minus repellat, sed deserunt id nobis nihil. Velit obcaecati voluptates similique. At?
+								<strong>25/06/2024 - </strong>
+								Solicita al gobierno atender las demandas 
+								laborales del sindicato del Servicio Nacional de Sanidad Agraria.
 							</a>
 						</div>
 						<div class="context">
 							<a href="comun">
-								<strong>12/10/2024 - </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora aperiam voluptatem quae minima. Maiores ipsum eius quibusdam rem consectetur perferendis natus qui deleniti culpa? Maiores quam culpa dolor amet.
-								Rerum qui tempore similique incidunt deleniti, dignissimos sequi illo, ratione fuga, tempora officiis! Ex soluta non id inventore perspiciatis! Asperiores impedit sunt eveniet pariatur dolore aut voluptatem quisquam distinctio natus.
-								Vitae alias harum nemo, animi, praesentium a placeat quisquam unde perspiciatis enim consequuntur exercitationem sunt accusamus ad eligendi minus repellat, sed deserunt id nobis nihil. Velit obcaecati voluptates similique. At?
+								<strong>10/02/2024 - </strong> El CMVDSM rechaza una campaña de desprestigio en contra del  Mv. Carlos Mendoza Gaviria.
 							</a>
 						</div>
 					</div>
