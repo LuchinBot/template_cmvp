@@ -157,4 +157,17 @@
 		</div>
 	</div>
 </section>
+<div id="show-image">
+	<div class="base">
+		<div class="image">
+			<img src="" alt="" />
+			<span>
+				Charla Virtual: Función de los Médicos Veterinarios en los Mataderos (2023)
+			</span>
+		</div>
+		<div class="close">
+			<i class="fas fa-times"></i>
+		</div>
+	</div>
+</div>
 <?php include 'footer.php'; ?>

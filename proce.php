@@ -11,22 +11,42 @@
 	</div>
 </section>
 <section class="section-process-select">
-	<div class="container">
-		<div class="wrapper">
-			<h2 class="title">REQUISITOS</h2>
-			<div class="context">
-				<ul>
-					<li>Ficha de Inscripción (Incluir en la ficha la Modalidad de Titulación, pedir al solicitante a voluntad el envío de una copia de la tesis en formato PDF para su almacenamiento y publicación en la página web del CMVP).</li>
-					<li>Carta Declaratoria del F.A.F.</li>
-					<li>Copia del Título Profesional autenticada por el CMVP.</li>
-					<li>Recibo de pago de la cuota de Inscripción.</li>
-					<li>Recibo de pago de la cuota de Registro.</li>
-					<li>Copia del Documento de identidad vigente</li>
-				</ul>
+	<div class="container p-0">
+		<div class="col p-0 d-flex">
+			<div class="col-md-9">
+				<h2 class="title">REQUISITOS</h2>
+				<div class="context">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Descripción</th>
+								<th class="text-center"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Acta de Nacimiento</td>
+								<td class="text-center">
+									<a href="resources/img/example.jpg" target="_blank">
+										<i class="fa fa-file-pdf"></i>
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Acta de Nacimiento</td>
+								<td class="text-center">
+									<i class="fa-solid fa-ban text-muted"></i>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<h2 class="title">DERECHOS DE PAGO</h2>
-			<div class="context">
-				<p>CUOTA DE INSCRIPCIÓN 25 % UIT MÁS S/. 100.00 CUOTA DE REGISTRO</p>
+			<div class="col-md-3">
+				<h2 class="title">COSTO</h2>
+				<div class="context">
+					<h6 class="font-weight-bold mb-0">5% de la UIT</h6>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -79,7 +79,7 @@
 
 .box-content span {
     transition: 0.3s;
-    background-color: var(--color-brown);
+    background-color: var(--color-brown-opac);
     width: 100px;
     height: 100px;
     display: flex;
@@ -132,6 +132,7 @@
 
 .section-process-select .wrapper {
     width: 100%;
+    display: flex;
 }
 
 .section-process-select .title {
@@ -147,6 +148,7 @@
 
 .section-process-select .context {
     margin-bottom: 20px;
+    border-radius: 8px;
     background-color: var(--color-white);
     word-wrap: break-word !important;
     font-size: 17px;
@@ -159,4 +161,7 @@
 .section-process-select .context p {
     margin: 0 !important;
     padding: 0 !important;
+}
+.section-process-select .context i {
+  color: var(--color-brown);
 }

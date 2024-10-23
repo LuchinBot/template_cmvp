@@ -1,0 +1,7 @@
+.section-mesa .section-info{
+    margin-right: 10px !important;
+}
+.active-info{
+    background-color: var(--color-brown);
+    color: var(--color-white) !important;
+}

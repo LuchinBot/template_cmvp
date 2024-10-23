@@ -25,7 +25,7 @@ include 'header.php'; ?>
 					<i class="fa-solid fa-book-open"></i>
 				</div>
 				<div class="text">
-					<a href="">Mesa de partes Virtual</a>
+					<a href="<?= $url; ?>mesa">Mesa de partes Virtual</a>
 					<p>Permite a los colegiados y ciudadanos en general realizar trámites administrativos de manera completamente en línea.</p>
 				</div>
 			</div>

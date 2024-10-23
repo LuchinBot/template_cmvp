@@ -278,7 +278,7 @@ include 'header.php'; ?>
 </section>
 <div id="show-comunicate">
 	<div class="base">
-		<img src="resources/img/comunite.jpg" alt="" />
+		<img src="resources/img/comunicado2.jpg" alt="" />
 		<div class="close">
 			<i class="fas fa-times"></i>
 		</div>

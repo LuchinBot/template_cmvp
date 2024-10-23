@@ -26,13 +26,13 @@ $active = "process";
 						<span>
 							<i class="fa-solid fa-id-badge"></i>
 						</span>
-						<h4 class="pt-4 text-brown font-weight-light">
+						<h4 class="pt-4 text-black font-weight-light">
 							Nueva <br />
 							<strong style="font-weight: 900">Colegiatura</strong>
 						</h4>
 						<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
 							Colegiatura.</p>
-						<a href=""><i class="fa fa-eye"></i></a>
+						<a href="<?= $url; ?>proce"><i class="fa fa-eye"></i></a>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@ $active = "process";
 						<span>
 							<i class="fa-solid fa-certificate"></i>
 						</span>
-						<h4 class="pt-4 text-brown font-weight-light">
+						<h4 class="pt-4 text-black font-weight-light">
 							Certificado <br />
 							<strong style="font-weight: 900">de Habilidad</strong>
 						</h4>
@@ -57,7 +57,7 @@ $active = "process";
 						<span>
 							<i class="fa-solid fa-id-card"></i>
 						</span>
-						<h4 class="pt-4 text-brown font-weight-light">
+						<h4 class="pt-4 text-black font-weight-light">
 							Duplicado <br />
 							<strong style="font-weight: 900">de Carnet</strong>
 						</h4>
@@ -72,7 +72,7 @@ $active = "process";
 						<span>
 							<i class="fa-solid fa-money-bill-transfer"></i>
 						</span>
-						<h4 class="pt-4 text-brown font-weight-light">
+						<h4 class="pt-4 text-black font-weight-light">
 							Traslado <br />
 							<strong style="font-weight: 900">de Colegiado</strong>
 						</h4>
@@ -87,7 +87,7 @@ $active = "process";
 						<span>
 							<i class="fa-solid fa-copy"></i>
 						</span>
-						<h4 class="pt-4 text-brown font-weight-light">
+						<h4 class="pt-4 text-black font-weight-light">
 							Duplicado <br />
 							<strong style="font-weight: 900">de Diploma</strong>
 						</h4>
@@ -102,7 +102,7 @@ $active = "process";
 						<span>
 							<i class="fa-solid fa-scale-balanced"></i>
 						</span>
-						<h4 class="pt-4 text-brown font-weight-light">
+						<h4 class="pt-4 text-black font-weight-light">
 							Denuncias <br />
 							<strong style="font-weight: 900">o Faltas Éticas</strong>
 						</h4>

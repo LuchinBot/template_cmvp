@@ -17,6 +17,7 @@
 				<div class="box">
 					<div class="image">
 						<img src="resources/img/comunicado2	.jpg" alt="">
+						<div class="float"></div>
 					</div>
 					<div class="context">
 						<h3>Médicos Veterinarios de San Martín Brindan Atención a Animales Silvestres Afectados por Incendios</h3>

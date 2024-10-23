@@ -27,7 +27,7 @@
 							Escríbenos
 						</li>
 						<li>
-							<a href="">
+							<a href="<?= $url; ?>contact">
 								<i class="fa-solid fa-share-from-square"></i>
 								Contáctenos
 							</a>
@@ -47,7 +47,7 @@
 			<div class="col-lg-4">
 				<div class="box">
 					<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
-					<iframe style="height: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcolegioveterinariosanmartin&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=5098249470225307" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+					<iframe style="height: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 				</div>
 			</div>
 		</div>
@@ -67,14 +67,6 @@
 		</div>
 	</div>
 </footer>
-</div>
-<div id="show-image">
-	<div class="base">
-		<img src="" alt="" />
-		<div class="close">
-			<i class="fas fa-times"></i>
-		</div>
-	</div>
 </div>
 <a class="scroll-to-top hidden-mobile visible" href="#"><i class="fas fa-chevron-up"></i></a>
 <script src="resources/plugins/jquery/jquery.js"></script>

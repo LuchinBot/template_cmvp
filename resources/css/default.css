@@ -16,7 +16,9 @@
 .bg-brown {
     background-color: var(--color-brown) !important;
 }
-
+.bg-brown-opac {
+    background-color: var(--color-brown-opac) !important;
+}
 .bg-gray {
     background-color: var(--color-gray) !important;
 }

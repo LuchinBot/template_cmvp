@@ -23,6 +23,7 @@ $url = "http://template_cmvp.test/";
 	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/about.css" />
 	<link rel="stylesheet" href="resources/css/courses.css" />
+	<link rel="stylesheet" href="resources/css/mesa.css" />
 
 	<!--Plugins-->
 	<link rel="stylesheet" href="resources/plugins/bootstrap/css/bootstrap.min.css" />

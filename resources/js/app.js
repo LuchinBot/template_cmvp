@@ -62,4 +62,16 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, 600);
         return false;
     });
+    $('.section-info').click(function () {
+        var id = $(this).attr('id');
+        
+        // Cambiar clase active-info
+        $('.section-info').removeClass('active-info');
+        $(this).addClass('active-info');
+        
+        // Manejo del colapso
+        $('.mesa-wrapper .collapse').removeClass('show');
+        $('.mesa-wrapper .collapse[data-parent="' + id + '"]').addClass('show');
+    });
+    
 })
