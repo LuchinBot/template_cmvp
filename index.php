@@ -6,8 +6,8 @@
 				<img src="resources/img/directiva.png" class="d-block w-100" alt="" />
 				<div class="carousel-caption">
 					<div class="context">
-						<h1>JUNTA DIRECTIVA PERDIODO 2022 – 2024 </h1>
-						<p>Ceremonia de Juramentación Virtual Periodo 2022 – 2024</p>
+						<h1>JUNTA DIRECTIVA PERDIODO 2025 – 2026 </h1>
+						<p>Ceremonia de Juramentación Virtual Periodo 2025 – 2026</p>
 					</div>
 				</div>
 			</div>
@@ -16,7 +16,7 @@
 				<div class="carousel-caption">
 					<div class="context">
 						<h1>Juramentación de Junta Directiva</h1>
-						<p>Ceremonia de Juramentación de Junta Directiva 2022 -2024 del Consejo Departamental de San Martín</p>
+						<p>Ceremonia de Juramentación de Junta Directiva 2025 -2026 del Consejo Departamental de San Martín</p>
 
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 					<img src="resources/img/women.png" alt="" />
 					<div class="context">
 						<h1>Cursos</h1>
-						<p>Explora nuestra variada oferta de cursos diseñados para profesionales y estudiantes teresados en actualizar y profundizar sus conocimientos en diversas áreas.</p>
+						<p>Explora nuestra variada oferta de cursos diseñados para profesionales y estudiantes interesados en actualizar y profundizar sus conocimientos en diversas áreas.</p>
 						<a href="<?= $url ?>courses">
 							<i class="fa fa-arrow-right"></i>
 						</a>

@@ -16,16 +16,15 @@
 			<div class="col-md-9 d-flex">
 				<div class="box">
 					<div class="image">
-						<img src="resources/img/example.jpg" alt="">
+						<img src="resources/img/comunicado2	.jpg" alt="">
 					</div>
 					<div class="context">
-						<h3>Comunicado del día de la semana hola hola hola hola hola vvvhola holahola</h3>
+						<h3>Médicos Veterinarios de San Martín Brindan Atención a Animales Silvestres Afectados por Incendios</h3>
 						<div class="border-top py-2">
-							<p class="mb-4"><strong>Fecha de publicación</strong>: 15 Jun 2024</p>
+							<p class="mb-4"><strong>Fecha de publicación</strong>: 21 de Septiembre 2024</p>
 							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae modi,
-									eius illum aspernatur quo nemo alias dolore ducimus! Amet corporis itaque assumenda
-									minus reprehenderit sint fugiat error numquam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<p>El Colegio Médico Veterinario Departamental de San Martín anuncia que cuenta con profesionales voluntarios para atención médica a los animales silvestres afectados por los incendios que se vienen presentando en nuestra Región. En breve publicaremos la lista completa de Médicos Veterinarios voluntarios que atienden en varias provincias.
+									<br /><u>Ver comunicado</u>
 								</p>
 							</div>
 						</div>
@@ -41,17 +40,12 @@
 					<div class="box">
 						<div class="context">
 							<a href="comun">
-								<strong>12/10/2024 - </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora aperiam voluptatem quae minima. Maiores ipsum eius quibusdam rem consectetur perferendis natus qui deleniti culpa? Maiores quam culpa dolor amet.
-								Rerum qui tempore similique incidunt deleniti, dignissimos sequi illo, ratione fuga, tempora officiis! Ex soluta non id inventore perspiciatis! Asperiores impedit sunt eveniet pariatur dolore aut voluptatem quisquam distinctio natus.
-								Vitae alias harum nemo, animi, praesentium a placeat quisquam unde perspiciatis enim consequuntur exercitationem sunt accusamus ad eligendi minus repellat, sed deserunt id nobis nihil. Velit obcaecati voluptates similique. At?
+								<strong>19/09/2024 - </strong>Listas inscritas, que postulan al Consejo Departamental del CMVDSM para el Periodo 2024 - 2026.
 							</a>
 						</div>
 						<div class="context">
 							<a href="comun">
-								<strong>12/10/2024 - </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora aperiam voluptatem quae minima. Maiores ipsum eius quibusdam rem consectetur perferendis natus qui deleniti culpa? Maiores quam culpa dolor amet.
-								Rerum qui tempore similique incidunt deleniti, dignissimos sequi illo, ratione fuga, tempora officiis! Ex soluta non id inventore perspiciatis! Asperiores impedit sunt eveniet pariatur dolore aut voluptatem quisquam distinctio natus.
-								Vitae alias harum nemo, animi, praesentium a placeat quisquam unde perspiciatis enim consequuntur exercitationem sunt accusamus ad eligendi minus repellat, sed deserunt id nobis nihil. Velit obcaecati voluptates similique. At?
-							</a>
+								<strong>09/09/2024 - </strong>Designación de los miembros de Mesa de Sufragio (Principales y Suplentes).						</a>
 						</div>
 					</div>
 				</div>
