@@ -112,11 +112,10 @@
   }
 
   .section-info {
-
       padding: 10px 20px;
-      background-color: var(--color-black);
+      background-color: var(--color-white);
       border-radius: 8px;
-      color: var(--color-white);
+      color: var(--color-black);
       box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   }
 

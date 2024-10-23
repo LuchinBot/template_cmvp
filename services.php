@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php
+$active = "services";
+include 'header.php'; ?>
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">
@@ -13,7 +15,7 @@
 <section class="section-services pt-3 container-fluid" id="services">
 	<div class="container">
 		<div class="section-info">
-			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>Accede a nuestros servicios diseñados para facilitar trámites y consultas. Para comenzar, haz clic en el servicio deseado.</p>
+			<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>Accede a nuestros servicios diseñados para facilitar trámites y consultas. Para comenzar, <strong>haz clic</strong> en el servicio deseado.</p>
 		</div>
 	</div>
 	<div class="services mt-4 container">

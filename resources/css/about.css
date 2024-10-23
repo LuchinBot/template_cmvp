@@ -175,7 +175,7 @@
 }
 
 .persons .second .box .img-person {
-    border: 5px solid var(--color-opac);
+    border: 5px solid var(--color-black-opac);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;

@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php 
+$active = "home";
+include 'header.php'; ?>
 <div class="bs-slider">
 	<div id="sliderAutomatic" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
@@ -52,13 +54,20 @@
 				<div class="box">
 					<h3>Cumpleañeros de hoy</h3>
 					<h1>23 de Octubre</h1>
+					<a href="<?= $url ?>birthdays" class="caja-link">
+						<i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4" style="position: relative;">
+				<div class="msg-hb">
+					<p>Hoy es un día especial para brillar como la estrella que eres, ¡<strong style="font-weight: 900;">Feliz cumpleaños</strong>!</p>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<a href="" class="caja-link">
-					<span>FELICITARLOS</span>
-					<i class="fa fa-arrow-right"></i>
-				</a>
+				<div class="hb">
+					<img src="resources/img/hb.png" alt="">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -75,6 +84,7 @@
 						<a href="<?= $url ?>courses">
 							<i class="fa fa-arrow-right"></i>
 						</a>
+						<span class="float-number">0</span>
 					</div>
 				</div>
 			</div>
@@ -87,6 +97,7 @@
 						<a href="<?= $url ?>events">
 							<i class="fa fa-arrow-right"></i>
 						</a>
+						<span class="float-number">0</span>
 					</div>
 				</div>
 			</div>

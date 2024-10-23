@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php
+$active = "process";
+ include 'header.php'; ?>
 <section class="section-about container-fluid" style="background-image: url('resources/img/example.jpg');">
 	<div class="container">
 		<div class="wrapper">

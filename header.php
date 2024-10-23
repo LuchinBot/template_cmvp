@@ -50,18 +50,18 @@ $url = "http://template_cmvp.test/";
 					<img src="resources/img/logo_white.png" alt="" />
 				</a>
 				<ul class="navbar-nav">
-					<li class="nav-item">
+					<li class="nav-item <?=$active == "home" ? "nav-active" : ""; ?>">
 						<a class="nav-link" href="<?= $url; ?>">Inicio</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item <?=$active == "process" ? "nav-active" : ""; ?>">
 						<a class="nav-link" href="<?= $url; ?>process">Trámites</a>
 					</li>
-					<li class="nav-item menu-item">
+					<li class="nav-item menu-item <?=$active == "services" ? "nav-active" : ""; ?>">
 						<a class="nav-link" href="<?= $url; ?>services">Servicios</a>
 					</li>
 					<li class="nav-item menu-item">
 						<p class="nav-link m-0">
-							Institucional <i class="fa fa-caret-down ml-2"></i>
+							Institucional <i class="fa fa-angle-down ml-2"></i>
 						</p>
 						<ul class="submenu border">
 							<li class="nav-item">
@@ -72,7 +72,7 @@ $url = "http://template_cmvp.test/";
 							</li>
 						</ul>
 					</li>
-					<li class="nav-item menu-item">
+					<li class="nav-item menu-item <?=$active == "news" ? "nav-active" : ""; ?>">
 						<a class="nav-link" href="<?= $url; ?>news">Noticias</a>
 					</li>
 					<li class="nav-item intranet">

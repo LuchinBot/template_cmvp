@@ -6,13 +6,13 @@
 }
 #events .wrapper .box{
     padding: 10px;
-    position: relative;
     text-align: center;
 }
 #events .wrapper .box img{
     width: 60%;
 }
 #events .wrapper .box .context{
+    position: relative;
     text-align: justify;
     padding: 20px;
     width: 100%;
