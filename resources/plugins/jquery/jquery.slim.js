@@ -757,7 +757,7 @@ try {
 }
 
 function Sizzle( selector, context, results, seed ) {
-	var m, i, elem, nid, match, groups, newSelector,
+	var m, i, elem, nid, match, groups, news.htmlelector,
 		newContext = context && context.ownerDocument,
 
 		// nodeType defaults to 9, since context defaults to document
@@ -839,7 +839,7 @@ function Sizzle( selector, context, results, seed ) {
 				// Exclude object elements
 				( nodeType !== 1 || context.nodeName.toLowerCase() !== "object" ) ) {
 
-				newSelector = selector;
+				news.htmlelector = selector;
 				newContext = context;
 
 				// qSA considers elements outside a scoping root when evaluating child or
@@ -875,12 +875,12 @@ function Sizzle( selector, context, results, seed ) {
 						groups[ i ] = ( nid ? "#" + nid : ":scope" ) + " " +
 							toSelector( groups[ i ] );
 					}
-					newSelector = groups.join( "," );
+					news.htmlelector = groups.join( "," );
 				}
 
 				try {
 					push.apply( results,
-						newContext.querySelectorAll( newSelector )
+						newContext.querySelectorAll( news.htmlelector )
 					);
 					return results;
 				} catch ( qsaError ) {
@@ -1200,7 +1200,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	// Support: IE<10
 	// Check if getElementById returns elements by name
 	// The broken getElementById methods don't pick up programmatically-set names,
-	// so use a roundabout getElementsByName test
+	// so use a roundabout.html getElementsByName test
 	support.getById = assert( function( el ) {
 		docElem.appendChild( el ).id = expando;
 		return !document.getElementsByName || !document.getElementsByName( expando ).length;
@@ -1749,7 +1749,7 @@ getText = Sizzle.getText = function( elem ) {
 		return elem.nodeValue;
 	}
 
-	// Do not include comment or processing instruction nodes
+	// Do not include comment or process.htmling instruction nodes
 
 	return ret;
 };
@@ -2209,7 +2209,7 @@ Expr = Sizzle.selectors = {
 
 			// http://www.w3.org/TR/selectors/#empty-pseudo
 			// :empty is negated by element (1) or content nodes (text: 3; cdata: 4; entity ref: 5),
-			//   but not by others (comment: 8; processing instruction: 7; etc.)
+			//   but not by others (comment: 8; process.htmling instruction: 7; etc.)
 			// nodeType < 6 works because attributes (2) do not appear as children
 			for ( elem = elem.firstChild; elem; elem = elem.nextSibling ) {
 				if ( elem.nodeType < 6 ) {
@@ -2535,7 +2535,7 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 				// If we have a postFinder, or filtered seed, or non-seed postFilter or preexisting results,
 				postFinder || ( seed ? preFilter : preexisting || postFilter ) ?
 
-					// ...intermediate processing is necessary
+					// ...intermediate process.htmling is necessary
 					[] :
 
 					// ...otherwise use results directly
@@ -3787,7 +3787,7 @@ jQuery.extend( {
 									// Handle a returned thenable
 									if ( isFunction( then ) ) {
 
-										// Special processors (notify) just wait for resolution
+										// Special process.htmlors (notify) just wait for resolution
 										if ( special ) {
 											then.call(
 												returned,
@@ -3795,7 +3795,7 @@ jQuery.extend( {
 												resolve( maxDepth, deferred, Thrower, special )
 											);
 
-										// Normal processors (resolve) also hook into progress
+										// Normal process.htmlors (resolve) also hook into progress
 										} else {
 
 											// ...and disregard older resolution values
@@ -3820,14 +3820,14 @@ jQuery.extend( {
 											args = [ returned ];
 										}
 
-										// Process the value(s)
-										// Default process is resolve
+										// process.html the value(s)
+										// Default process.html is resolve
 										( special || deferred.resolveWith )( that, args );
 									}
 								},
 
-								// Only normal processors (resolve) catch and reject exceptions
-								process = special ?
+								// Only normal process.htmlors (resolve) catch and reject exceptions
+								process.html = special ?
 									mightThrow :
 									function() {
 										try {
@@ -3836,7 +3836,7 @@ jQuery.extend( {
 
 											if ( jQuery.Deferred.exceptionHook ) {
 												jQuery.Deferred.exceptionHook( e,
-													process.stackTrace );
+													process.html.stackTrace );
 											}
 
 											// Support: Promises/A+ section 2.3.3.3.4.1
@@ -3861,15 +3861,15 @@ jQuery.extend( {
 							// Re-resolve promises immediately to dodge false rejection from
 							// subsequent errors
 							if ( depth ) {
-								process();
+								process.html();
 							} else {
 
 								// Call an optional hook to record the stack, in case of exception
 								// since it's otherwise lost when execution goes async
 								if ( jQuery.Deferred.getStackHook ) {
-									process.stackTrace = jQuery.Deferred.getStackHook();
+									process.html.stackTrace = jQuery.Deferred.getStackHook();
 								}
-								window.setTimeout( process );
+								window.setTimeout( process.html );
 							}
 						};
 					}
@@ -3994,7 +3994,7 @@ jQuery.extend( {
 			// count of uncompleted subordinates
 			remaining = arguments.length,
 
-			// count of unprocessed arguments
+			// count of unprocess.htmled arguments
 			i = remaining,
 
 			// subordinate fulfillment data
@@ -4039,7 +4039,7 @@ jQuery.extend( {
 
 
 // These usually indicate a programmer mistake during development,
-// warn about them ASAP rather than swallowing them by default.
+// warn about.html them ASAP rather than swallowing them by default.
 var rerrorNames = /^(Eval|Internal|Range|Reference|Syntax|Type|URI)Error$/;
 
 jQuery.Deferred.exceptionHook = function( error, stack ) {
@@ -4848,7 +4848,7 @@ function showHide( elements, show ) {
 
 			// Since we force visibility upon cascade-hidden elements, an immediate (and slow)
 			// check is required in this first loop unless we have a nonempty display value (either
-			// inline or about-to-be-restored)
+			// inline or about.html-to-be-restored)
 			if ( display === "none" ) {
 				values[ index ] = dataPriv.get( elem, "display" ) || null;
 				if ( !values[ index ] ) {
@@ -5470,7 +5470,7 @@ jQuery.event = {
 			for ( ; cur !== this; cur = cur.parentNode || this ) {
 
 				// Don't check non-elements (#13208)
-				// Don't process clicks on disabled elements (#6911, #8165, #11382, #11764)
+				// Don't process.html clicks on disabled elements (#6911, #8165, #11382, #11764)
 				if ( cur.nodeType === 1 && !( event.type === "click" && cur.disabled === true ) ) {
 					matchedHandlers = [];
 					matchedSelectors = {};
@@ -5562,7 +5562,7 @@ jQuery.event = {
 					leverageNative( el, "click", returnTrue );
 				}
 
-				// Return false to allow normal processing in the caller
+				// Return false to allow normal process.htmling in the caller
 				return false;
 			},
 			trigger: function( data ) {
@@ -5630,7 +5630,7 @@ function leverageNative( el, type, expectSync ) {
 
 			if ( ( event.isTrigger & 1 ) && this[ type ] ) {
 
-				// Interrupt processing of the outer synthetic .trigger()ed event
+				// Interrupt process.htmling of the outer synthetic .trigger()ed event
 				// Saved data should be false in such cases, but might be a leftover capture object
 				// from an async native handler (gh-4350)
 				if ( !saved.length ) {
@@ -5842,7 +5842,7 @@ jQuery.each( { focus: "focusin", blur: "focusout" }, function( type, delegateTyp
 			// dataPriv.set( this, "blur", ... )
 			leverageNative( this, type, expectSync );
 
-			// Return false to allow normal processing in the caller
+			// Return false to allow normal process.htmling in the caller
 			return false;
 		},
 		trigger: function() {
@@ -6683,7 +6683,7 @@ var
 
 	// Swappable if display is none or starts with table
 	// except "table", "table-cell", or "table-caption"
-	// See here for display values: https://developer.mozilla.org/en-US/docs/CSS/display
+	// See here for display values: https://developer.mozilla.org/en-US/docs.html/CSS/display
 	rdisplayswap = /^(none|table(?!-c[ea]).+)/,
 	rcustomProp = /^--/,
 	cssShow = { position: "absolute", visibility: "hidden", display: "block" },

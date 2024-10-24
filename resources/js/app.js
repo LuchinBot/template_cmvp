@@ -26,15 +26,15 @@ $(document).ready(function () {
 
     $('.menu-item').hover(
         function () {
-            clearTimeout(hideTimeout); // Limpiar el temporizador para evitar que el menú se oculte
-            $('.submenu').hide(); // Ocultar todos los submenús
-            $(this).find('.submenu').show(); // Mostrar el submenú del elemento seleccionado
+            clearTimeout(hideTimeout);
+            $('.submenu').hide(); 
+            $(this).find('.submenu').show(); 
         },
         function () {
             const submenu = $(this).find('.submenu');
             hideTimeout = setTimeout(function () {
-                submenu.hide(); // Ocultar el submenú después de un pequeño retraso
-            }, 300); // Ajusta el tiempo según sea necesario
+                submenu.hide(); 
+            }, 300); 
         }
     );
 
@@ -62,16 +62,34 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, 600);
         return false;
     });
-    $('.section-info').click(function () {
+    $('.section-collapse').click(function () {
         var id = $(this).attr('id');
         
-        // Cambiar clase active-info
-        $('.section-info').removeClass('active-info');
-        $(this).addClass('active-info');
+        // Cambiar clase active-collapse
+        $('.section-collapse').removeClass('active-collapse');
+        $(this).addClass('active-collapse');
         
         // Manejo del colapso
         $('.mesa-wrapper .collapse').removeClass('show');
         $('.mesa-wrapper .collapse[data-parent="' + id + '"]').addClass('show');
     });
+
+    $('#consulTramite').click(function(){
+        setTimeout(()=>{
+            console.log('cargando');
+            $('#viewTramite .showTable').hide();
+
+            $('#viewTramite .showSpinner').show();
+
+        },500);
+
+        setTimeout(()=>{
+            console.log('CARGADO');
+            $('#viewTramite .showSpinner').hide();
+            $('#viewTramite .showTable').show();
+        },2000);
+    })
+
+    console.log(123)
     
-})
+});

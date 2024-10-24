@@ -1,10 +1,10 @@
 {
-	"docs":{
-		"src": 		"docs_src",
-		"dest":		"docs",
-		"templates":"<%= app.docs.src %>/templates",
-		"pages": 	"<%= app.docs.templates %>/pages",
-		"layouts":	"<%= app.docs.templates %>/layouts"
+	"docs.html":{
+		"src": 		"docs.html_src",
+		"dest":		"docs.html",
+		"templates":"<%= app.docs.html.src %>/templates",
+		"pages": 	"<%= app.docs.html.templates %>/pages",
+		"layouts":	"<%= app.docs.html.templates %>/layouts"
 	},
 
 	"src":{

@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	// pseudo active
-	if($('#docs').length){
+	if($('#docs.html').length){
 		var sidenav = $('ul.side-nav').find('a');
 		var url = window.location.pathname.split( '/' );
 		var url = url[url.length-1];

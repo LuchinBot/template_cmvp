@@ -1,6 +1,3 @@
-<?php
-$url = "http://template_cmvp.test/";
-?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -47,18 +44,18 @@ $url = "http://template_cmvp.test/";
 	<div class="main" id="home">
 		<div class="header">
 			<nav class="navbar">
-				<a class="navbar-brand" href="<?= $url; ?>">
+				<a class="navbar-brand" href="">
 					<img src="resources/img/logo_white.png" alt="" />
 				</a>
 				<ul class="navbar-nav">
-					<li class="nav-item <?=$active == "home" ? "nav-active" : ""; ?>">
-						<a class="nav-link" href="<?= $url; ?>">Inicio</a>
+					<li class="nav-item ">
+						<a class="nav-link" href="">Inicio</a>
 					</li>
-					<li class="nav-item <?=$active == "process" ? "nav-active" : ""; ?>">
-						<a class="nav-link" href="<?= $url; ?>process">Trámites</a>
+					<li class="nav-item ">
+						<a class="nav-link" href="process.html">Trámites</a>
 					</li>
-					<li class="nav-item menu-item <?=$active == "services" ? "nav-active" : ""; ?>">
-						<a class="nav-link" href="<?= $url; ?>services">Servicios</a>
+					<li class="nav-item menu-item ">
+						<a class="nav-link" href="services.html">Servicios</a>
 					</li>
 					<li class="nav-item menu-item">
 						<p class="nav-link m-0">
@@ -66,15 +63,15 @@ $url = "http://template_cmvp.test/";
 						</p>
 						<ul class="submenu border">
 							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>about">Sobre nosotros</a>
+								<a class="nav-link" href="about.html">Sobre nosotros</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="<?= $url; ?>docs">Documentos normativos</a>
+								<a class="nav-link" href="docs.html">Documentos normativos</a>
 							</li>
 						</ul>
 					</li>
-					<li class="nav-item menu-item <?=$active == "news" ? "nav-active" : ""; ?>">
-						<a class="nav-link" href="<?= $url; ?>news">Noticias</a>
+					<li class="nav-item menu-item ">
+						<a class="nav-link" href="news.html">Noticias</a>
 					</li>
 					<li class="nav-item intranet">
 						<a class="nav-link" href="">Acceso Colegiado <i class="fa fa-user ml-2"></i></a>

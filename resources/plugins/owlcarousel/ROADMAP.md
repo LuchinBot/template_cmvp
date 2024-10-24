@@ -18,11 +18,11 @@ You can discuss the roadmap here: [#1756](https://github.com/OwlCarousel2/OwlCar
  - [ ] [#1717](https://github.com/OwlCarousel2/OwlCarousel2/issues/1717) - keyboard control
  - [ ] update progress in [#1538](https://github.com/OwlCarousel2/OwlCarousel2/issues/1538)
 
-## 2.4 - finish up build pipeline, docs
+## 2.4 - finish up build pipeline, docs.html
 
  - [ ] move repo to company account (https://github.com/medienpark)
  - [ ] [#1330](https://github.com/OwlCarousel2/OwlCarousel2/issues/1330) - finish moving to gulp
- - [ ] ditto for moving to assemble for docs
+ - [ ] ditto for moving to assemble for docs.html
  - [ ] [#1666](https://github.com/OwlCarousel2/OwlCarousel2/issues/1666) - RTL center mode
  - [ ] [#1613](https://github.com/OwlCarousel2/OwlCarousel2/issues/1613) - generic plugin integration
  - [ ] [#1602](https://github.com/OwlCarousel2/OwlCarousel2/issues/1602) - CSS transitions fail except for default

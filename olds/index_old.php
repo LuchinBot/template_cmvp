@@ -1,15 +1,13 @@
-<?php 
-$active = "home";
-include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <div class="bs-slider">
 	<div id="sliderAutomatic" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="resources/img/directiva.png" class="d-block w-100" alt="" />
+				<img src="resources/img/slider1.jpg" class="d-block w-100" alt="" />
 				<div class="carousel-caption">
 					<div class="context">
-						<h1>JUNTA DIRECTIVA PERDIODO 2025 – 2026 </h1>
-						<p>Ceremonia de Juramentación Virtual Periodo 2025 – 2026</p>
+						<h1>JUNTA DIRECTIVA PERDIODO 2022 – 2024 </h1>
+						<p>Ceremonia de Juramentación Virtual Periodo 2022 – 2024</p>
 					</div>
 				</div>
 			</div>
@@ -18,7 +16,7 @@ include 'header.php'; ?>
 				<div class="carousel-caption">
 					<div class="context">
 						<h1>Juramentación de Junta Directiva</h1>
-						<p>Ceremonia de Juramentación de Junta Directiva 2025 -2026 del Consejo Departamental de San Martín</p>
+						<p>Ceremonia de Juramentación de Junta Directiva 2022 -2024 del Consejo Departamental de San Martín</p>
 
 					</div>
 				</div>
@@ -47,31 +45,6 @@ include 'header.php'; ?>
 		</button>
 	</div>
 </div>
-<section class="section-birthday container-fluid">
-	<div class="birthday container">
-		<div class="row p-0 m-0 d-flex justify-content-between">
-			<div class="col-md-4 p-0 m-0">
-				<div class="box">
-					<h3>Cumpleañeros de hoy</h3>
-					<h1>23 de Octubre</h1>
-					<a href="<?= $url ?>birthdays" class="caja-link">
-						<i class="fa fa-arrow-right"></i>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4" style="position: relative;">
-				<div class="msg-hb">
-					<p>Hoy es un día especial para brillar como la estrella que eres, ¡<strong style="font-weight: 900;">Feliz cumpleaños</strong>!</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="hb">
-					<img src="resources/img/hb.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <section class="section-events container-fluid" id="events">
 	<div class="events container">
 		<div class="wrapper">
@@ -80,11 +53,10 @@ include 'header.php'; ?>
 					<img src="resources/img/women.png" alt="" />
 					<div class="context">
 						<h1>Cursos</h1>
-						<p>Explora nuestra variada oferta de cursos diseñados para profesionales y estudiantes interesados en actualizar y profundizar sus conocimientos en diversas áreas.</p>
+						<p>Explora nuestra variada oferta de cursos diseñados para profesionales y estudiantes teresados en actualizar y profundizar sus conocimientos en diversas áreas.</p>
 						<a href="<?= $url ?>courses">
 							<i class="fa fa-arrow-right"></i>
 						</a>
-						<span class="float-number">0</span>
 					</div>
 				</div>
 			</div>
@@ -97,23 +69,22 @@ include 'header.php'; ?>
 						<a href="<?= $url ?>events">
 							<i class="fa fa-arrow-right"></i>
 						</a>
-						<span class="float-number">0</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="section-process container-fluid" id="process"
+<section class="section-process.html container-fluid" id="process.html"
 	style="background-image: url('resources/img/process.jpg')">
-	<div class="process container">
+	<div class="process.html container">
 		<div class="text-center mb-5">
 			<h1 class="section-title text-white">Trámites</h1>
 			<h6 class="section-subtitle">INFORMACIÓN DE REQUISITOS SOBRE LOS TRÁMITES</h6>
 		</div>
 		<div class="col">
-			<div class="all-process">
-				<div class="col-md-3">
+			<div class="popup-gallery-ajax">
+				<div class="owl-carousel owl-theme mb-0">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -128,8 +99,6 @@ include 'header.php'; ?>
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 mb-2">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -143,8 +112,6 @@ include 'header.php'; ?>
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 mb-2">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -158,8 +125,6 @@ include 'header.php'; ?>
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 mb-2">
 					<div class="featured-box featured-box-primary featured-box-effect-3">
 						<div class="box-content">
 							<span>
@@ -173,17 +138,43 @@ include 'header.php'; ?>
 							<a href=""><i class="fa fa-eye"></i></a>
 						</div>
 					</div>
+					<div class="featured-box featured-box-primary featured-box-effect-3">
+						<div class="box-content">
+							<span>
+								<i class="fa-solid fa-copy"></i>
+							</span>
+							<h4 class="pt-4 text-brown font-weight-light">
+								Duplicado <br />
+								<strong style="font-weight: 900">de Diploma</strong>
+							</h4>
+							<p class="text-black font-weight-light">Reemisión del diploma original por extravío o daño.</p>
+							<a href=""><i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="featured-box featured-box-primary featured-box-effect-3">
+						<div class="box-content">
+							<span>
+								<i class="fa-solid fa-scale-balanced"></i>
+							</span>
+							<h4 class="pt-4 text-brown font-weight-light">
+								Denuncias <br />
+								<strong style="font-weight: 900">Éticas</strong>
+							</h4>
+							<p class="text-black font-weight-light">Canal formal para reportar faltas éticas.</p>
+							<a href=""><i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<!-- Repite para cada elemento -->
 				</div>
-				<!-- Repite para cada elemento -->
 			</div>
 			<div class="more-divider">
-				<a href="<?= $url ?>process" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
+				<a href="<?= $url ?>services.html" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="section-services container-fluid" id="services">
-	<div class="services container">
+<section class="section-services.html container-fluid" id="services.html">
+	<div class="services.html container">
 		<div class="text-center mb-5">
 			<h1 class="section-title text-brown">Servicios</h1>
 			<h6 class="section-subtitle">NUESTROS SERVICIOS A SU DISPOSICIÓN</h6>
@@ -212,76 +203,14 @@ include 'header.php'; ?>
 					<i class="fa-solid fa-magnifying-glass"></i>
 				</div>
 				<div class="text">
-					<a href="">Certificados del CMVDSM</a>
+					<a href="">Búsqueda Certificados</a>
 					<p>El sistema de Búsqueda de Certificados permite verificar la validez de los certificados emitidos por el Colegio, como los de “Salud de Menores”, etc.</p>
 				</div>
 			</div>
 		</div>
 		<div class="more-divider">
-			<a href="<?= $url ?>services">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
+			<a href="<?= $url ?>services.html">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
 		</div>
 	</div>
 </section>
-<section class="section-news overlay container-fluid" id="news"
-	style="background-image: url('resources/img/news.jpg')">
-	<div class="news container">
-		<div class="text-center mb-5">
-			<h1 class="section-title text-white">Comunicados y Pronunciamientos</h1>
-			<h6 class="section-subtitle">Conoce los comunicados y pronunciamientos del CMVDSM</h6>
-		</div>
-		<div class="wrapper">
-			<div class="col-md-6">
-				<div class="box">
-					<div class="image">
-						<img src="resources/img/comunicado1.jpg" alt="">
-					</div>
-					<div class="context">
-						<div class="float-date">
-							<span>15 Jun 2024</span>
-						</div>
-						<h3><a href="comun">Médicos Veterinarios de San Martín Brindan Atención a Animales Silvestres Afectados por Incendios </a></h3>
-						<p>El CMVDSM ha puesto a disposición un equipo de veterinarios voluntarios para brindar atención médica a los animales silvestres
-							que han sido afectados por los recientes incendios en la región. Estos profesionales están ofreciendo sus servicios para ayudar a mitigar
-							los efectos de esta emergencia ambiental.</p>
-						<span>
-							<a href="comun">
-								<i class="fa fa-plus mr-2"></i>
-								<small></small>
-								<small> Leer más</small>
-							</a>
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="box">
-					<div class="image">
-						<img src="resources/img/pronunciamiento1.jpg" alt="">
-					</div>
-					<div class="context">
-						<div class="float-date">
-							<span>25 Jun 2024</span>
-						</div>
-						<h3><a href="pronun">Pronunciamiento del Colegio Médico Veterinario del Perú sobre la Huelga Nacional Indefinida de Trabajadores del SENASA</a></h3>
-						<p>El Colegio Médico Veterinario del Perú, a través de su Decano Nacional, ha emitido un pronunciamiento dirigido a las autoridades del país, incluyendo a la Presidencia de la República, el Primer Ministro y el Ministro de Desarrollo Agrario y Riego. En este comunicado, se solicita la pronta atención a las demandas del Sindicato de Trabajadores del Servicio Nacional de Sanidad Agraria (SENASA).</p>
-						<span>
-							<a href="pronun">
-								<i class="fa fa-plus mr-2"></i>
-								<small> Leer más</small>
-							</a>
-						</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<div id="show-comunicate">
-	<div class="base">
-		<img src="resources/img/comunicado2.jpg" alt="" />
-		<div class="close">
-			<i class="fas fa-times"></i>
-		</div>
-	</div>
-</div>
 <?php include 'footer.php'; ?>

@@ -118,13 +118,13 @@
 		this._widths = [];
 
 		/**
-		 * Invalidated parts within the update process.
+		 * Invalidated parts within the update process.html.
 		 * @protected
 		 */
 		this._invalidated = {};
 
 		/**
-		 * Ordered list of workers for the update process.
+		 * Ordered list of workers for the update process.html.
 		 * @protected
 		 */
 		this._pipe = [];
@@ -264,7 +264,7 @@
 	Owl.Plugins = {};
 
 	/**
-	 * List of workers involved in the update process.
+	 * List of workers involved in the update process.html.
 	 */
 	Owl.Workers = [ {
 		filter: [ 'width', 'settings' ],

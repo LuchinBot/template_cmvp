@@ -3663,7 +3663,7 @@
      * Modifier used to make sure the reference and its popper stay near each other
      * without leaving any gap between the two. Especially useful when the arrow is
      * enabled and you want to ensure that it points to its reference element.
-     * It cares only about the first axis. You can still have poppers with margin
+     * It cares only about.html the first axis. You can still have poppers with margin
      * between the popper and its reference element.
      * @memberof modifiers
      * @inner
@@ -6286,11 +6286,11 @@
       this._activeTarget = null;
       this._scrollHeight = 0;
       $__default["default"](this._scrollElement).on(EVENT_SCROLL, function (event) {
-        return _this._process(event);
+        return _this._process.html(event);
       });
       this.refresh();
 
-      this._process();
+      this._process.html();
     } // Getters
 
 
@@ -6378,7 +6378,7 @@
       return this._scrollElement === window ? window.innerHeight : this._scrollElement.getBoundingClientRect().height;
     };
 
-    _proto._process = function _process() {
+    _proto._process.html = function _process.html() {
       var scrollTop = this._getScrollTop() + this._config.offset;
 
       var scrollHeight = this._getScrollHeight();

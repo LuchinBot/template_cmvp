@@ -1799,7 +1799,7 @@ maps:
     - mountain-sun
     - mug-saucer
     - music
-    - newspaper
+    - news.htmlpaper
     - paw
     - person
     - person-walking-with-cane
@@ -3042,7 +3042,7 @@ writing:
     - folder
     - folder-open
     - keyboard
-    - newspaper
+    - news.htmlpaper
     - notdef
     - note-sticky
     - paper-plane

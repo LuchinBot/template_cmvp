@@ -24,20 +24,20 @@ module.exports = function(grunt) {
 					flatten: false,
 					expand: true,
 					production: false,
-					assets: '<%= app.docs.dest %>/assets',
-					postprocess: require('pretty'),
+					assets: '<%= app.docs.html.dest %>/assets',
+					postprocess.html: require('pretty'),
 
 					// metadata
 					pkg: '<%= pkg %>',
 					app: '<%= app %>',
-					data: [ '<%= app.docs.src %>/data/*.{json,yml}' ],
+					data: [ '<%= app.docs.html.src %>/data/*.{json,yml}' ],
 
 					// templates
-					partials: '<%= app.docs.templates %>/partials/*.hbs',
-					layoutdir: '<%= app.docs.layouts %>/',
+					partials: '<%= app.docs.html.templates %>/partials/*.hbs',
+					layoutdir: '<%= app.docs.html.layouts %>/',
 
 					// extensions
-					helpers: '<%= app.docs.src %>/helpers/*.js'
+					helpers: '<%= app.docs.html.src %>/helpers/*.js'
 				},
 				index: {
 					options: {
@@ -45,9 +45,9 @@ module.exports = function(grunt) {
 					},
 					files: [ {
 						expand: true,
-						cwd: '<%= app.docs.pages %>/',
+						cwd: '<%= app.docs.html.pages %>/',
 						src: '*.hbs',
-						dest: '<%= app.docs.dest %>/'
+						dest: '<%= app.docs.html.dest %>/'
 					} ]
 				},
 				demos: {
@@ -56,39 +56,39 @@ module.exports = function(grunt) {
 					},
 					files: [ {
 						expand: true,
-						cwd: '<%= app.docs.pages %>/demos/',
+						cwd: '<%= app.docs.html.pages %>/demos/',
 						src: '*.hbs',
-						dest: '<%= app.docs.dest %>/demos'
+						dest: '<%= app.docs.html.dest %>/demos'
 					} ]
 				},
-				docs: {
+				docs.html: {
 					options: {
-						layout: 'docs.hbs'
+						layout: 'docs.html.hbs'
 					},
 					files: [ {
 						expand: true,
-						cwd: '<%= app.docs.pages %>/docs/',
+						cwd: '<%= app.docs.html.pages %>/docs.html/',
 						src: '*.hbs',
-						dest: '<%= app.docs.dest %>/docs'
+						dest: '<%= app.docs.html.dest %>/docs.html'
 					} ]
 				}
 			},
 
 			// clean
 			clean: {
-				docs: [ '<%= app.docs.dest %>' ],
+				docs.html: [ '<%= app.docs.html.dest %>' ],
 				dist: [ 'dist' ]
 			},
 
 			// sass
 			sass: {
-				docs: {
+				docs.html: {
 					options: {
 						outputStyle: 'compressed',
-						includePaths: [ '<%= app.docs.src %>/assets/scss/', 'node_modules/foundation-sites/scss' ]
+						includePaths: [ '<%= app.docs.html.src %>/assets/scss/', 'node_modules/foundation-sites/scss' ]
 					},
 					files: {
-						'<%= app.docs.dest %>/assets/css/docs.theme.min.css': '<%= app.docs.src %>/assets/scss/docs.theme.scss'
+						'<%= app.docs.html.dest %>/assets/css/docs.html.theme.min.css': '<%= app.docs.html.src %>/assets/scss/docs.html.theme.scss'
 					}
 				},
 				dist: {
@@ -197,25 +197,25 @@ module.exports = function(grunt) {
 					dest: 'dist/assets'
 				},
 
-				distToDocs: {
+				distTodocs.html: {
 					expand: true,
 					cwd: 'dist/',
 					src: [ '**/*.*' ],
-					dest: '<%= app.docs.dest %>/assets/owlcarousel'
+					dest: '<%= app.docs.html.dest %>/assets/owlcarousel'
 				},
 
-				srcToDocs: {
+				srcTodocs.html: {
 					expand: true,
 					cwd: 'src/js',
 					src: [ '**/*.js' ],
-					dest: '<%= app.docs.dest %>/assets/owlcarousel/src'
+					dest: '<%= app.docs.html.dest %>/assets/owlcarousel/src'
 				},
 
-				docsAssets: {
+				docs.htmlAssets: {
 					expand: true,
-					cwd: '<%= app.docs.src %>/assets/',
+					cwd: '<%= app.docs.html.src %>/assets/',
 					src: [ 'css/*.css', 'vendors/*.js', 'vendors/*.map', 'img/*.*', 'js/*.*' ],
-					dest: '<%= app.docs.dest %>/assets/'
+					dest: '<%= app.docs.html.dest %>/assets/'
 				},
 
 				readme: {
@@ -234,9 +234,9 @@ module.exports = function(grunt) {
 					livereload: true,
 					hostname: 'localhost'
 				},
-				docs: {
+				docs.html: {
 					options: {
-						base: "<%= app.docs.dest %>"
+						base: "<%= app.docs.html.dest %>"
 					}
 				}
 			},
@@ -246,28 +246,28 @@ module.exports = function(grunt) {
 				options: {
 					livereload: true
 				},
-				templatesDocs: {
-					files: [ '<%= app.docs.templates %>/**/*.hbs' ],
+				templatesdocs.html: {
+					files: [ '<%= app.docs.html.templates %>/**/*.hbs' ],
 					tasks: [ 'assemble' ]
 				},
-				sassDocs: {
-					files: [ '<%= app.docs.src %>/assets/**/*.scss' ],
-					tasks: [ 'sass:docs' ]
+				sassdocs.html: {
+					files: [ '<%= app.docs.html.src %>/assets/**/*.scss' ],
+					tasks: [ 'sass:docs.html' ]
 				},
 				sass: {
 					files: [ 'src/**/*.scss' ],
-					tasks: [ 'sass:dist', 'cssmin:dist', 'usebanner:dist', 'copy:distToDocs' ]
+					tasks: [ 'sass:dist', 'cssmin:dist', 'usebanner:dist', 'copy:distTodocs.html' ]
 				},
-				jsDocs: {
-					files: [ '<%= app.docs.src %>/assets/**/*.js' ],
-					tasks: [ 'copy:docsAssets' ]
+				jsdocs.html: {
+					files: [ '<%= app.docs.html.src %>/assets/**/*.js' ],
+					tasks: [ 'copy:docs.htmlAssets' ]
 				},
 				js: {
 					files: [ 'src/**/*.js' ],
-					tasks: [ 'jscs:dist', 'jshint:dist', 'qunit:dist', 'concat:dist', 'uglify:dist', 'usebanner:dist', 'copy:distToDocs', 'copy:srcToDocs' ]
+					tasks: [ 'jscs:dist', 'jshint:dist', 'qunit:dist', 'concat:dist', 'uglify:dist', 'usebanner:dist', 'copy:distTodocs.html', 'copy:srcTodocs.html' ]
 				},
-				helpersDocs: {
-					files: [ '<%= app.docs.src %>/helpers/*.js' ],
+				helpersdocs.html: {
+					files: [ '<%= app.docs.html.src %>/helpers/*.js' ],
 					tasks: [ 'assemble' ]
 				},
 				test: {
@@ -280,7 +280,7 @@ module.exports = function(grunt) {
 			compress: {
 				zip: {
 					options: {
-						archive: 'docs/download/owl.carousel.<%= pkg.version %>.zip'
+						archive: 'docs.html/download/owl.carousel.<%= pkg.version %>.zip'
 					},
 					files: [ {
 						expand: true,
@@ -294,7 +294,7 @@ module.exports = function(grunt) {
 			// publish to github pages
 			'gh-pages': {
 				options: {
-					base: 'docs'
+					base: 'docs.html'
 				},
 				src: '**/*'
 			}
@@ -305,16 +305,16 @@ module.exports = function(grunt) {
 	// tasks
 	grunt.registerTask('dist', [ 'clean:dist', 'sass:dist', 'autoprefixer', 'concat:dist', 'cssmin:dist', 'copy:distImages', 'usebanner:dist', 'uglify:dist', 'copy:readme' ]);
 
-	grunt.registerTask('docs', [ 'dist', 'clean:docs', 'assemble', 'sass:docs', 'copy:docsAssets', 'copy:distToDocs', 'zip' ]);
+	grunt.registerTask('docs.html', [ 'dist', 'clean:docs.html', 'assemble', 'sass:docs.html', 'copy:docs.htmlAssets', 'copy:distTodocs.html', 'zip' ]);
 
 	grunt.registerTask('test', [ 'jshint:dist', 'qunit:dist', 'jscs:dist' ]);
 
-	grunt.registerTask('default', [ 'dist', 'docs', 'test' ]);
+	grunt.registerTask('default', [ 'dist', 'docs.html', 'test' ]);
 
-	grunt.registerTask('serve', [ 'connect:docs', 'watch' ]);
+	grunt.registerTask('serve', [ 'connect:docs.html', 'watch' ]);
 
 	grunt.registerTask('zip', [ 'compress' ]);
 
-	grunt.registerTask('deploy', [ 'docs', 'gh-pages' ]);
+	grunt.registerTask('deploy', [ 'docs.html', 'gh-pages' ]);
 
 };

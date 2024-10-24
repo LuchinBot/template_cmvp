@@ -36,7 +36,6 @@
 
 .navbar-nav .nav-item {
     border: 2px solid transparent;
-    padding: 5px 10px;
     position: relative !important;
     margin: 0 10px;
     transition: all 0.3s;
@@ -56,7 +55,7 @@
     text-transform: uppercase;
     color: var(--color-opac);
     font-weight: 700;
-    padding: 0;
+    padding: 5px 20px;
     font-size: 12px !important;
 }
 
@@ -133,9 +132,9 @@
     border-radius: 3px;
     transition: all 0.3s;
 }
-
-.navbar-nav .nav-item.intranet .nav-link {
+.intranet .nav-link {
     font-weight: 800;
+    padding: 10x 10px !important;
 }
 
 .nav-item.intranet:hover {

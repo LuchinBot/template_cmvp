@@ -1,6 +1,6 @@
-#docs{
+#docs.html{
 	padding-top: 2rem;
-	.docs-content{
+	.docs.html-content{
 		//padding-left: 2rem;
 		h2:first-child {
 			padding-top: 0;
@@ -13,7 +13,7 @@
 	}
 }
 
-#docs{
+#docs.html{
 	/* Side Nav */
 	ul.side-nav{
 		text-align: right;
@@ -44,7 +44,7 @@
 }
 
 @media #{$small-only} {
-	#docs{
+	#docs.html{
 		padding-top: 1rem;
 		ul.side-nav{
 			text-align: left;

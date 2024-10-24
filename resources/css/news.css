@@ -1,4 +1,4 @@
-.section-news{
+.section-news.html{
     position: relative;
     background-size: cover;
     background-position: center;
@@ -6,7 +6,7 @@
     padding-bottom: 70px;
     overflow: hidden;
 }
-.section-news::before {
+.section-news.html::before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -17,43 +17,43 @@
     background-color: var(--color-black-opac);
     opacity: 1;
 }
-.news {
+.news.html {
     padding: 20px 0px;
     position: relative;
     z-index: 3;
 }
 
-#news .wrapper{
+#news.html .wrapper{
     display: flex;
 }
-#news .wrapper .col-md-6{
+#news.html .wrapper .col-md-6{
     display: flex;
 }
-#news .wrapper .box{
+#news.html .wrapper .box{
     overflow: hidden;
     border-radius: 8px;
     text-align: left;
     background-color: var(--color-opac);
 }
-#news .wrapper .box .image{
+#news.html .wrapper .box .image{
     overflow: hidden;
     height: 250px;
 }
 
-#news .wrapper .box .image img{
+#news.html .wrapper .box .image img{
     width: 100%;
     height: -webkit-fill-available;
     object-fit: cover;
     transition: 0.3s all;
 }
-#news .wrapper .box .image img:hover{
+#news.html .wrapper .box .image img:hover{
     transform: scale(1.2);
 }
-#news .wrapper .box .context{
+#news.html .wrapper .box .context{
     position: relative;
    padding: 20px;
 }
-#news .wrapper .box .context .float-date{
+#news.html .wrapper .box .context .float-date{
     position: absolute;
     font-size: 12px;
     right: 20px;
@@ -63,14 +63,14 @@
     padding: 5px 20px;
     font-weight: 500;
 }
-#news .wrapper .box .context h3{
+#news.html .wrapper .box .context h3{
     font-size: 17px;
     font-weight: 700;
  }
- #news .wrapper .box .context h3 a{
+ #news.html .wrapper .box .context h3 a{
     color: var(--color-black);
  }
- #news .wrapper .box .context p{
+ #news.html .wrapper .box .context p{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -80,7 +80,7 @@
     text-align: justify;
     font-weight: 300;
  }
- #news .wrapper .box .context span a{
+ #news.html .wrapper .box .context span a{
     display: flex;
     width: max-content;
     justify-content: center;
@@ -98,14 +98,14 @@
     border-bottom-right-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  }
- #news .wrapper .box .context span a:hover{
+ #news.html .wrapper .box .context span a:hover{
     color: var(--color-opac);
     background-color: var(--color-brown);
  }
- #news .wrapper .box .context span a i{
+ #news.html .wrapper .box .context span a i{
     transition: 0.3s all;
   }
- #news .wrapper .box .context span a:hover > i{
+ #news.html .wrapper .box .context span a:hover > i{
    transform: rotate(45deg);
  }
 
@@ -192,3 +192,4 @@
     background-color: var(--color-opac);
     border-radius: 1px;
  }
+ 

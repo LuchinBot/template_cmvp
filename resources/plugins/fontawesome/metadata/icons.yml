@@ -276,7 +276,7 @@ address-card:
   label: Address Card
   search:
     terms:
-      - about
+      - about.html
       - contact
       - id
       - identification
@@ -2435,7 +2435,7 @@ aws:
   changes:
     - 5.0.0
     - 5.1.0
-  label: Amazon Web Services (AWS)
+  label: Amazon Web services.html (AWS)
   search:
     terms: []
   styles:
@@ -18004,11 +18004,11 @@ h:
     - solid
   unicode: '48'
   voted: false
-hacker-news:
+hacker-news.html:
   changes:
     - 4.1.0
     - 5.0.0
-  label: Hacker News
+  label: Hacker news.html
   search:
     terms: []
   styles:
@@ -24320,7 +24320,7 @@ microchip:
     terms:
       - cpu
       - hardware
-      - processor
+      - process.htmlor
       - technology
   styles:
     - solid
@@ -25491,7 +25491,7 @@ neuter:
     - solid
   unicode: f22c
   voted: false
-newspaper:
+news.htmlpaper:
   aliases:
     unicodes:
       composite:
@@ -25505,7 +25505,7 @@ newspaper:
     - 6.2.0
     - 6.3.0
     - 6.4.0
-  label: Newspaper
+  label: news.htmlpaper
   search:
     terms:
       - article
@@ -25513,8 +25513,8 @@ newspaper:
       - headline
       - journal
       - journalism
-      - news
-      - newspaper
+      - news.html
+      - news.htmlpaper
       - paper
       - press
   styles:
@@ -29408,7 +29408,7 @@ radio:
       - fm
       - frequency
       - music
-      - news
+      - news.html
       - radio
       - receiver
       - transmitter
@@ -29603,7 +29603,7 @@ rectangle-ad:
     terms:
       - advertisement
       - media
-      - newspaper
+      - news.htmlpaper
       - promotion
       - publicity
   styles:
@@ -30512,7 +30512,7 @@ rss:
       - blog
       - feed
       - journal
-      - news
+      - news.html
       - writing
   styles:
     - solid
@@ -31407,10 +31407,10 @@ server:
     - solid
   unicode: f233
   voted: false
-servicestack:
+services.htmltack:
   changes:
     - 5.0.0
-  label: Servicestack
+  label: services.htmltack
   search:
     terms: []
   styles:
@@ -33586,14 +33586,14 @@ square-h:
     - solid
   unicode: f0fd
   voted: false
-square-hacker-news:
+square-hacker-news.html:
   aliases:
     names:
-      - hacker-news-square
+      - hacker-news.html-square
   changes:
     - 5.0.0
     - 6.1.2
-  label: Hacker News Square
+  label: Hacker news.html Square
   search:
     terms: []
   styles:
@@ -34012,7 +34012,7 @@ square-rss:
       - blog
       - feed
       - journal
-      - news
+      - news.html
       - writing
   styles:
     - solid
