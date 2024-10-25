@@ -1,62 +1,95 @@
-.section-mesa .section-collapse{
-    margin-right: 10px !important;
+.section-mesa .section-collapse {
+   margin-right: 10px !important;
 }
-.active-collapse{
-    background-color: var(--color-brown) !important;
-    color: var(--color-white) !important;
+
+.active-collapse {
+   background-color: var(--color-brown) !important;
+   color: var(--color-white) !important;
 }
+
 .section-collapse {
-    cursor: pointer;
-    margin-right: 10px;
-    padding: 10px 20px;
-    background-color: var(--color-white);
-    border-radius: 5px;
-    color: var(--color-black);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
- }
- .collapse .form-contact.search input{
-    position: relative;
- }
- .search .caja-input{
-    padding: 2px 10px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    border: 1px solid var(--color-brown);
-    border-radius: 8px;
- }
- .search .caja-input span{
-    font-weight: 600;
-    width: 130px;
-    color: var(--color-gray);
- }
- .search .caja-input input{
-    padding-left: 0px;
-    border: none  !important;
- }
- .showSpinner{
-    width: 100%;
-    overflow: hidden;
-    transition: all 0.3s;
-    height: 0px;
-    animation: opacity 2s ease-in forwards;
- }
- .showSpinner img{
-    width: 5%;
- }
- .showTable{
-    overflow: hidden;
-    transition: all 0.3s;
-    height: 0px;
-    animation: opacity 0.3s ease-in forwards;
- }
- @keyframes opacity {
-    0%{
-        height: 0%;
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-        height: 100%;
-    }
- }
+   cursor: pointer;
+   margin-right: 10px;
+   padding: 10px 20px;
+   background-color: var(--color-white);
+   border-radius: 5px;
+   color: var(--color-black);
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.collapse .form-contact.search input {
+   position: relative;
+}
+
+.search .caja-input {
+   padding: 2px 10px;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   border: 1px solid var(--color-brown);
+   border-radius: 8px;
+}
+
+.search .caja-input span {
+   font-weight: 600;
+   width: 130px;
+   color: var(--color-gray);
+}
+
+.search .caja-input input {
+   padding-left: 0px;
+   border: none !important;
+}
+
+.showSpinner,
+.showTable {
+   overflow: hidden;
+   opacity: 0;
+   transition: opacity 0.5s ease, height 0.5s ease;
+   height: 0;
+}
+
+.showSpinner.show,
+.showTable.show {
+   opacity: 1;
+   height: auto;
+}
+
+.showSpinner img {
+   width: 5%;
+}
+.custom-file-upload {
+   position: relative;
+   display: inline-block;
+   padding: 10px 20px;
+   cursor: pointer;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #f8f8f8;
+   color: #333;
+   transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+   background-color: #e0e0e0;
+}
+
+.file-input {
+   display: none; /* Oculta el input original */
+}
+
+.status-message {
+   display: none;
+   border-radius: 5px;
+   top: 31px;
+   left: 170px;
+   position: absolute;
+   font-weight: bold;
+   padding: 9px;
+   color: #ffffff;
+   background-color: #0e9a097f;
+}
+
+.error-message {
+   color: red;
+}

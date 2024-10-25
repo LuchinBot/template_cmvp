@@ -49,7 +49,7 @@
 				</a>
 				<ul class="navbar-nav">
 					<li class="nav-item nav-active">
-						<a class="nav-link" href="">Inicio</a>
+						<a class="nav-link" href="index.html">Inicio</a>
 					</li>
 					<li class="nav-item ">
 						<a class="nav-link" href="process.html">Trámites</a>
@@ -93,78 +93,128 @@
 		<section class="section-mesa bg-opac pt-3 container-fluid">
 			<div class="container d-flex">
 				<div class="section-collapse active-collapse" id="si1">
-					<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>Información</p>
+					<p class="m-0"><i class="fa-solid fa-file-pdf mr-2"></i>Realizar trámite</p>
 				</div>
 				<div class="section-collapse" id="si2">
-					<p class="m-0"><i class="fa-solid fa- mr-2"></i>Realizar trámite</p>
-				</div>
-				<div class="section-collapse" id="si3">
 					<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>Consultar trámite</p>
 				</div>
 			</div>
 			<div class="container mesa-wrapper my-3">
 				<div class="collapse show" data-parent="si1">
-					<div class="bg-white rounded p-3">
-						<p>
-							Ponemos a disposición de nuestros colegiados, empresas y público en general, nuestra plataforma virtual, con la finalidad de facilitar la presentación y recepción de documentos de manera virtual.
-
-							La plataforma virtual implementa un formulario para el registro de información y carga de archivos digital de manera obligatoria como requisitos para poder admitir a trámite su registro. Tenga en cuenta que usted, será el responsable directo del contenido y registro de información, así mismo de los documentos que remita adjunto al presente formulario.
-
-							<br> <br> <strong>Consideraciones a tener en cuenta:
-
-							</strong>
-						<ul>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-							<li>La carga de archivos debe ser digital.</li>
-						</ul>
-						</p>
+					<div class="d-flex">
+						<div class="col-md-4 bg-white rounded p-3">
+							<p>
+								Ponemos a disposición de nuestros colegiados, empresas y público en general, nuestra
+								plataforma virtual, con la finalidad de facilitar la presentación y recepción de
+								documentos
+								de manera virtual.
+								La plataforma virtual implementa un formulario para el registro de información y carga
+								de
+								archivos digital de manera obligatoria como requisitos para poder admitir a trámite su
+								registro. Tenga en cuenta que usted, será el responsable directo del contenido y
+								registro de
+								información, así mismo de los documentos que remita adjunto al presente formulario.
+								<br> <br> <strong>Consideraciones a tener en cuenta:
+								</strong>
+							<ul>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+								<li>La carga de archivos debe ser digital.</li>
+							</ul>
+							</p>
+						</div>
+						<div class="col-md-8">
+							<form class="form-contact">
+								<div class="d-flex">
+									<div class="form-group col-6 pr-2 pl-0">
+										<label for="exampleFormControlSelect1">Documento</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>DNI</option>
+											<option>RUNC</option>
+										</select>
+									</div>
+									<div class="form-group col-6 px-0">
+										<label for="email">Número <small class="text-muted">(*)</small></label>
+										<input type="text" maxlength="12" class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
+									<input type="text" class="form-control"
+										placeholder="Ingrese Apellidos y Nombres / Razón Social" id="name">
+								</div>
+								<div class="d-flex">
+									<div class="form-group col-6 px-0 pr-2">
+										<label for="email">Teléfono <small class="text-muted">(*)</small></label>
+										<input type="text" maxlength="12" class="form-control"
+											placeholder="Ingrese número de teléfono">
+									</div>
+									<div class="form-group col-6 pl-0 pr-2">
+										<label for="email">Correo electrónico <small
+												class="text-muted">(*)</small></label>
+										<input type="email" class="form-control" placeholder="Ingrese email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="name">Dirección <small class="text-muted">(*)</small></label>
+									<input type="text" class="form-control" placeholder="Ingrese dirección" id="name">
+								</div>
+								<div class="d-flex">
+									<div class="form-group col-6 pr-2 pl-0">
+										<label for="FormControlSelect2">Tipo documento</label>
+										<select class="form-control" id="FormControlSelect2">
+											<option>DNI</option>
+											<option>RUNC</option>
+										</select>
+									</div>
+									<div class="form-group col-6 px-0">
+										<label for="FormControlSelect3">Trámite</label>
+										<select class="form-control">
+											<option>DNI</option>
+											<option>RUNC</option>
+										</select>
+									</div>
+								</div>
+								<div class="d-flex">
+									<div class="form-group col-6 px-0 pr-2">
+										<label for="email">Número de documento <small
+												class="text-muted">(*)</small></label>
+										<input type="text" maxlength="12" class="form-control"
+											placeholder="Ingrese número de documento">
+									</div>
+									<div class="form-group col-6 pl-0 pr-2">
+										<label for="text">Folio <small class="text-muted">(*)</small></label>
+										<input type="email" class="form-control" placeholder="Ingrese folios">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="subject">Asunto <small class="text-muted">(*)</small></label>
+									<input type="text" class="form-control" id="subject">
+								</div>
+								<div class="form-group" style="position: relative;">
+									<label for="fileUpload">Archivo digital en PDF (Tamaño máximo 20 MB)</label><br>
+									<label class="custom-file-upload" for="fileUpload">
+										Seleccionar archivo
+									</label>
+									<input type="file" class="file-input" id="fileUpload" accept=".pdf">
+									<div class="status-message" id="statusMessage">Archivo cargado									</div>
+									<div class="error-message" id="errorMessage"></div>
+								</div>
+								<div class="form-group d-flex justify-content-between align-items-center">
+									<button class="btn bg-brown-opac text-white px-5 font-weight-bold">Enviar</button>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
-				<div class="collapse" data-parent="si2">
-					<form action="" class="form-contact">
-						<div class="form-group">
-							<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
-							<input type="text" class="form-control" id="name">
-						</div>
-						<div class="d-flex">
-							<div class="form-group col-6 pl-0 pr-2">
-								<label for="email">Correo electrónico <small class="text-muted">(*)</small></label>
-								<input type="email" class="form-control" id="email">
-							</div>
-							<div class="form-group col-6 px-0">
-								<label for="email">Número de contacto <small class="text-muted">(*)</small></label>
-								<input type="text" maxlength="12" class="form-control" id="email">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="subject">Asunto <small class="text-muted">(*)</small></label>
-							<input type="text" class="form-control" id="subject">
-						</div>
-						<div class="form-group">
-							<label for="message">Mensaje <small class="text-muted">(*)</small></label>
-							<textarea class="form-control" id="message"></textarea>
-						</div>
-						<div class="form-group px-4">
-							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-							<label class="form-check-label" for="defaultCheck1">
-								Acepto la política de privacidad
-							</label>
-						</div>
-						<div class="form-group d-flex justify-content-between align-items-center">
-							<button class="btn bg-brown-opac text-white px-5 font-weight-bold">Enviar</button>
-							<small class="text-danger mb-0">(*) Todos los campos son obligatorios</small>
-						</div>
-					</form>
-				</div>
-				<div class="collapse w-100" data-parent="si3">
-					<div class="bg-white">
+				<div class="collapse w-100" data-parent="si2">
+					<div class="bg-white rounded">
 						<div class="form-contact search d-flex w-100">
 							<div class="form-group mb-0 d-flex col-9">
 								<div class="caja-input">
@@ -173,17 +223,18 @@
 								</div>
 							</div>
 							<div class="form-group mb-0 col-3 d-flex justify-content-between align-items-center">
-								<button class="btn w-100 h-100 bg-brown-opac text-white px-5 font-weight-bold" id="consulTramite">Consultar</button>
+								<button class="btn w-100 h-100 bg-brown-opac text-white px-5 font-weight-bold"
+									id="consulTramite">Consultar</button>
 							</div>
 						</div>
 					</div>
 					<div id="viewTramite">
-						<div class="showSpinner text-center p-3" style="display: none;">
+						<div class="showSpinner text-center p-3">
 							<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="">
 						</div>
-						<div class="showTable bg-white mt-2 p-3" style="display: none;">
+						<div class="showTable rounded bg-white mt-2 p-3">
 							<table class="table">
-								<thead>
+								<thead class="bg-black text-white">
 									<tr>
 										<th>Descripción</th>
 										<th class="text-center">Fecha</th>
@@ -192,21 +243,17 @@
 								<tbody>
 									<tr>
 										<td>
-											Solicitudad para Certificado <br>
-											<small>EN PROCESO</small>
+											Solicitud para Certificado <br>
+											<small class="text-success">EN PROCESO</small>
 										</td>
-										<td class="text-center">
-											12/10/2024
-										</td>
+										<td class="text-center">12/10/2024</td>
 									</tr>
 									<tr>
 										<td>
-											Solicitudad para Certificado <br>
-											<small>EN PROCESO</small>
+											Solicitud para Certificado <br>
+											<small class="text-success">EN PROCESO</small>
 										</td>
-										<td class="text-center">
-											12/10/2024
-										</td>
+										<td class="text-center">12/10/2024</td>
 									</tr>
 								</tbody>
 							</table>
@@ -214,77 +261,85 @@
 					</div>
 				</div>
 			</div>
-	</div>
-	</section>
-	<section class="section-contact container-fluid" id="contact">
-		<div class="container my3">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="box">
-						<img src="resources/img/logo_white.png" alt="" />
-						<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San Martín con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
-						<p style="font-weight: 500;">
-							<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda de Shilcayo, Provincia y Departamento de San Martín.</strong>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="box">
-						<h3><i class="fa fa-info-circle mr-2"></i> CONTÁCTENOS</h3>
-						<ul class="ul-contact">
-							<li class="title">
-								Información de Empresa
-							</li>
-							<li>
-								<a href="">
-									<i class="fa fa-hashtag"></i>
-									RUC: 20450284883
-								</a>
-							</li>
-							<li class="title">
-								Escríbenos
-							</li>
-							<li>
-								<a href="contact">
-									<i class="fa-solid fa-share-from-square"></i>
-									Contáctenos
-								</a>
-							</li>
-							<li class="title">
-								Horario de Atención
-							</li>
-							<li>
-								<a href="">
-									<i class="fa fa-clock"></i>
-									Lunes a Viernes de 9:00am - 12:30pm
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="box">
-						<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
-						<iframe style="height: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="container-fluid footer">
-			<div class="container py-3">
+		</section>
+		<section class="section-contact container-fluid" id="contact">
+			<div class="container my3">
 				<div class="row">
-					<div class="col d-flex justify-content-between">
-						<div class="col-md-6">CMVP CDSM Tarapoto © Copyright 2024</div>
-						<div class="col-md-6 text-right">Desarrollado <i class="fas fa-bolt"></i> por
-							<a target="_blank" href="" class="text-white">LuchinBot</a>
+					<div class="col-lg-4">
+						<div class="box">
+							<img src="resources/img/logo_white.png" alt="" />
+							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San
+								Martín
+								con la finalidad de ejercer representación oficial de la profesión ante los organismos
+								nacionales e internacionales.</p>
+							<p style="font-weight: 500;">
+								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda
+									de
+									Shilcayo, Provincia y Departamento de San Martín.</strong>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="box">
+							<h3><i class="fa fa-info-circle mr-2"></i> CONTÁCTENOS</h3>
+							<ul class="ul-contact">
+								<li class="title">
+									Información de Empresa
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-hashtag"></i>
+										RUC: 20450284883
+									</a>
+								</li>
+								<li class="title">
+									Escríbenos
+								</li>
+								<li>
+									<a href="contact">
+										<i class="fa-solid fa-share-from-square"></i>
+										Contáctenos
+									</a>
+								</li>
+								<li class="title">
+									Horario de Atención
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-clock"></i>
+										Lunes a Viernes de 9:00am - 12:30pm
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="box">
+							<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
+							<iframe style="height: 100%;"
+								src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307"
+								width="340" height="500" style="border:none;overflow:hidden" scrolling="no"
+								frameborder="0" allowfullscreen="true"
+								allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</section>
+		<footer>
+			<div class="container-fluid footer">
+				<div class="container py-3">
+					<div class="row">
+						<div class="col d-flex justify-content-between">
+							<div class="col-md-6">CMVP CDSM Tarapoto © Copyright 2024</div>
+							<div class="col-md-6 text-right">Desarrollado <i class="fas fa-bolt"></i> por
+								<a target="_blank" href="" class="text-white">LuchinBot</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</div>
 	<a class="scroll-to-top hidden-mobile visible" href="#"><i class="fas fa-chevron-up"></i></a>
 	<script src="resources/plugins/jquery/jquery-3.7.1.js"></script>
@@ -292,6 +347,31 @@
 	<!-- Owl Carousel JS -->
 	<script src="resources/plugins/owlcarousel/docs.html/assets/owlcarousel/owl.carousel.min.js"></script>
 	<script src="resources/js/app.js"></script>
+
+	<script>
+        const fileInput = document.getElementById('fileUpload');
+        const statusMessage = document.getElementById('statusMessage');
+        const errorMessage = document.getElementById('errorMessage');
+
+        fileInput.addEventListener('change', function() {
+            const file = fileInput.files[0];
+            if (file) {
+                if (file.size > 20 * 1024 * 1024) {
+					$('.status-message').css('display', 'block');
+                    errorMessage.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20 MB.";
+                    statusMessage.textContent = ""; 
+                    fileInput.value = "";
+                } else {
+					$('.status-message').css('display', 'block');
+                    errorMessage.textContent = "";
+                    statusMessage.textContent = "Archivo cargado";
+                }
+            } else {
+                statusMessage.textContent = "";
+                errorMessage.textContent = "";
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -51,22 +51,18 @@ $(document).ready(function () {
         $('.mesa-wrapper .collapse[data-parent="' + id + '"]').addClass('show');
     });
 
-    $('#consulTramite').click(function(){
-        setTimeout(()=>{
-            console.log('cargando');
-            $('#viewTramite .showTable').hide();
+    $('#consulTramite').click(function() {
+        // Ocultar la tabla y mostrar el spinner
+        $('#viewTramite .showTable').removeClass('show');
+        $('#viewTramite .showSpinner').addClass('show');
+        $('#viewTramite .showSpinner').css('display', 'block');
 
-            $('#viewTramite .showSpinner').show();
-
-        },500);
-
-        setTimeout(()=>{
+        setTimeout(() => {
             console.log('CARGADO');
-            $('#viewTramite .showSpinner').hide();
-            $('#viewTramite .showTable').show();
-        },2000);
-    })
-
-    console.log(123)
-    
+            // Ocultar el spinner y mostrar la tabla
+            $('#viewTramite .showSpinner').removeClass('show');
+            $('#viewTramite .showSpinner').css('display', 'none');
+            $('#viewTramite .showTable').addClass('show');
+        }, 2000);
+    });
 });
