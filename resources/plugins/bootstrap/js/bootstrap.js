@@ -3671,11 +3671,11 @@
       this._activeTarget = null;
       this._scrollHeight = 0;
       $__default["default"](this._scrollElement).on(EVENT_SCROLL, function (event) {
-        return _this._process.html(event);
+        return _this._process(event);
       });
       this.refresh();
 
-      this._process.html();
+      this._process();
     } // Getters
 
 
@@ -3763,7 +3763,7 @@
       return this._scrollElement === window ? window.innerHeight : this._scrollElement.getBoundingClientRect().height;
     };
 
-    _proto._process.html = function _process.html() {
+    _proto._process = function _process() {
       var scrollTop = this._getScrollTop() + this._config.offset;
 
       var scrollHeight = this._getScrollHeight();

@@ -1335,19 +1335,19 @@
     null
   ],
   [
-    "hacker-news.html",
+    "hacker-news",
     "fab",
     null
   ],
   [
     "y-combinator-square",
     "fab",
-    "hacker-news.html"
+    "hacker-news"
   ],
   [
     "yc-square",
     "fab",
-    "hacker-news.html"
+    "hacker-news"
   ],
   [
     "tencent-weibo",
@@ -1420,9 +1420,9 @@
     null
   ],
   [
-    "news.htmlpaper-o",
+    "newspaper-o",
     "far",
-    "news.htmlpaper"
+    "newspaper"
   ],
   [
     "paypal",
@@ -3277,7 +3277,7 @@
   [
     61908,
     "fab",
-    "hacker-news.html"
+    "hacker-news"
   ],
   [
     61909,
@@ -3332,7 +3332,7 @@
   [
     61930,
     "far",
-    "news.htmlpaper"
+    "newspaper"
   ],
   [
     61933,

@@ -2810,7 +2810,7 @@ readers do not read off random characters that represent icons */
 .fa-snowflake::before {
   content: "\f2dc"; }
 
-.fa-news.htmlpaper::before {
+.fa-newspaper::before {
   content: "\f1ea"; }
 
 .fa-rectangle-ad::before {

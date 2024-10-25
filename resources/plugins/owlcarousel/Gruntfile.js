@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 					expand: true,
 					production: false,
 					assets: '<%= app.docs.html.dest %>/assets',
-					postprocess.html: require('pretty'),
+					postprocess: require('pretty'),
 
 					// metadata
 					pkg: '<%= pkg %>',

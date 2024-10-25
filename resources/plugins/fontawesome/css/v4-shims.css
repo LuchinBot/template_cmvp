@@ -1280,7 +1280,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
-.fa.fa-hacker-news.html {
+.fa.fa-hacker-news {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
@@ -1370,11 +1370,11 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
-.fa.fa-news.htmlpaper-o {
+.fa.fa-newspaper-o {
   font-family: 'Font Awesome 6 Free';
   font-weight: 400; }
 
-.fa.fa-news.htmlpaper-o:before {
+.fa.fa-newspaper-o:before {
   content: "\f1ea"; }
 
 .fa.fa-paypal {

@@ -52,10 +52,10 @@
 						<a class="nav-link" href="">Inicio</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="process.html">Trámites</a>
+						<a class="nav-link" href="process">Trámites</a>
 					</li>
 					<li class="nav-item menu-item ">
-						<a class="nav-link" href="services.html">Servicios</a>
+						<a class="nav-link" href="services">Servicios</a>
 					</li>
 					<li class="nav-item menu-item">
 						<p class="nav-link m-0">
@@ -63,7 +63,7 @@
 						</p>
 						<ul class="submenu border">
 							<li class="nav-item">
-								<a class="nav-link" href="about.html">Sobre nosotros</a>
+								<a class="nav-link" href="about">Sobre nosotros</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="docs.html">Documentos normativos</a>
@@ -71,7 +71,7 @@
 						</ul>
 					</li>
 					<li class="nav-item menu-item ">
-						<a class="nav-link" href="news.html">Noticias</a>
+						<a class="nav-link" href="news">Noticias</a>
 					</li>
 					<li class="nav-item intranet">
 						<a class="nav-link" href="">Acceso Colegiado <i class="fa fa-user ml-2"></i></a>

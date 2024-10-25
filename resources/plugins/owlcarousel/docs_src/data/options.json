@@ -225,7 +225,7 @@
     "name":     "responsiveBaseElement",
     "type":     "DOM element",
     "Default":  "window",
-    "desc":     "Set on any DOM element. If you care about.html non responsive browser (like ie8) then use it on main wrapper. This will prevent from crazy resizing."
+    "desc":     "Set on any DOM element. If you care about non responsive browser (like ie8) then use it on main wrapper. This will prevent from crazy resizing."
   },
   {
     "name":     "video",

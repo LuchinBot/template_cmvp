@@ -1,19 +1,19 @@
-.section-services.html {
+.section-services {
     background-color: var(--color-opac);
 }
 
-.services.html {
+.services {
     padding: 20px 0px;
 }
 
-.services.html .wrapper {
+.services .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     grid-auto-rows: minmax(100px, auto);
 }
 
-.services.html .wrapper .stack {
+.services .wrapper .stack {
     border-top: 1px solid #fff;
     background-color: var(--color-white);
     border-radius: 8px;
@@ -24,12 +24,12 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
-.services.html .wrapper .stack i {
+.services .wrapper .stack i {
     transition: all 0.3s;
     font-size: 20px;
 }
 
-.services.html .wrapper .stack:hover i {
+.services .wrapper .stack:hover i {
     transform: rotate(10deg);
     transform: scale(1.1);
 }

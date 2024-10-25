@@ -75,9 +75,9 @@
 		</div>
 	</div>
 </section>
-<section class="section-process.html container-fluid" id="process.html"
+<section class="section-process container-fluid" id="process"
 	style="background-image: url('resources/img/process.jpg')">
-	<div class="process.html container">
+	<div class="process container">
 		<div class="text-center mb-5">
 			<h1 class="section-title text-white">Trámites</h1>
 			<h6 class="section-subtitle">INFORMACIÓN DE REQUISITOS SOBRE LOS TRÁMITES</h6>
@@ -168,13 +168,13 @@
 				</div>
 			</div>
 			<div class="more-divider">
-				<a href="<?= $url ?>services.html" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
+				<a href="<?= $url ?>services" class="bg-white text-brown">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="section-services.html container-fluid" id="services.html">
-	<div class="services.html container">
+<section class="section-services container-fluid" id="services">
+	<div class="services container">
 		<div class="text-center mb-5">
 			<h1 class="section-title text-brown">Servicios</h1>
 			<h6 class="section-subtitle">NUESTROS SERVICIOS A SU DISPOSICIÓN</h6>
@@ -209,7 +209,7 @@
 			</div>
 		</div>
 		<div class="more-divider">
-			<a href="<?= $url ?>services.html">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
+			<a href="<?= $url ?>services">Ver más <i class="fa fa-arrow-right ml-2"></i></a>
 		</div>
 	</div>
 </section>

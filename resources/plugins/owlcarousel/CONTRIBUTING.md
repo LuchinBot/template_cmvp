@@ -40,7 +40,7 @@ To get approval for your feature request, please create an issue on the issue tr
 
 Good pull requests are a fantastic help. They should remain focused in scope and avoid containing unrelated commits.
 
-Adhering to the following process.html is the best way to get your work included in the project:
+Adhering to the following process is the best way to get your work included in the project:
 
   1. [Fork](https://help.github.com/fork-a-repo/) the project, clone your fork, and configure the remotes:
 
@@ -69,7 +69,7 @@ Adhering to the following process.html is the best way to get your work included
     grunt dist
     ```
 
-  5. Commit your changes in logical chunks. Please adhere to these [guidelines](http://tbaggery.com/2008/04/19/a-note-about.html-git-commit-messages.html). Use Git's [interactive rebase](https://help.github.com/articles/interactive-rebase) feature to tidy up your commits before making them public.
+  5. Commit your changes in logical chunks. Please adhere to these [guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). Use Git's [interactive rebase](https://help.github.com/articles/interactive-rebase) feature to tidy up your commits before making them public.
 
   6. Locally merge (or rebase) the upstream development branch into your topic branch:
 

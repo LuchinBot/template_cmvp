@@ -1,4 +1,4 @@
-.section-process.html {
+.section-process {
     position: relative;
     background-size: cover;
     background-position: center;
@@ -6,7 +6,7 @@
     padding-bottom: 70px;
 }
 
-.section-process.html::before {
+.section-process::before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -18,7 +18,7 @@
     opacity: 1;
 }
 
-.process.html {
+.process {
     font-family: "Manrope", sans-serif !important;
     position: relative;
     z-index: 3;
@@ -112,7 +112,7 @@
     transition: 0.5s;
 }
 
-.all-process.html {
+.all-process {
     font-family: "Manrope", sans-serif !important;
     display: flex;
     flex-wrap: wrap;
@@ -121,21 +121,21 @@
     margin-right: -15px;
 }
 
-.all-process.html .col-md-3 {
+.all-process .col-md-3 {
     display: flex;
 }
 
 /* Trámite seleccinado */
-.section-process.html-select {
+.section-process-select {
     background-color: var(--color-opac);
 }
 
-.section-process.html-select .wrapper {
+.section-process-select .wrapper {
     width: 100%;
     display: flex;
 }
 
-.section-process.html-select .title {
+.section-process-select .title {
     border-top-right-radius: 20px;
     font-size: 17px;
     padding: 5px 20px;
@@ -146,7 +146,7 @@
     color: var(--color-white);
 }
 
-.section-process.html-select .context {
+.section-process-select .context {
     margin-bottom: 20px;
     border-radius: 8px;
     background-color: var(--color-white);
@@ -158,10 +158,10 @@
     color: var(--color-black);
 }
 
-.section-process.html-select .context p {
+.section-process-select .context p {
     margin: 0 !important;
     padding: 0 !important;
 }
-.section-process.html-select .context i {
+.section-process-select .context i {
   color: var(--color-brown);
 }

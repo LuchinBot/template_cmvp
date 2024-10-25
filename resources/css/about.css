@@ -1,4 +1,4 @@
-.section-about.html {
+.section-about {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,7 @@
     padding: 30px 0px !important;
 }
 
-.section-about.html::after {
+.section-about::after {
     content: "";
     position: absolute !important;
     width: 100%;
@@ -18,24 +18,24 @@
     background-color: var(--color-black-opac)
 }
 
-.section-about.html .wrapper {
+.section-about .wrapper {
     position: relative;
     z-index: 4;
 }
 
-.section-about.html .wrapper h1 {
+.section-about .wrapper h1 {
     font-size: 30px;
     color: var(--color-white);
     font-weight: 700;
 }
 
-.section-about.html .wrapper span {
+.section-about .wrapper span {
     font-size: 14px;
     color: var(--color-white);
     font-weight: 400;
 }
 
-.section-about.html .wrapper span a {
+.section-about .wrapper span a {
     color: var(--color-white);
     font-weight: 700;
 }

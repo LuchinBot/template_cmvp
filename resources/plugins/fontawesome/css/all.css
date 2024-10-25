@@ -2810,7 +2810,7 @@ readers do not read off random characters that represent icons */
 .fa-snowflake::before {
   content: "\f2dc"; }
 
-.fa-news.htmlpaper::before {
+.fa-newspaper::before {
   content: "\f1ea"; }
 
 .fa-rectangle-ad::before {
@@ -6541,10 +6541,10 @@ readers do not read off random characters that represent icons */
 .fa-the-red-yeti:before {
   content: "\f69d"; }
 
-.fa-square-hacker-news.html:before {
+.fa-square-hacker-news:before {
   content: "\f3af"; }
 
-.fa-hacker-news.html-square:before {
+.fa-hacker-news-square:before {
   content: "\f3af"; }
 
 .fa-edge:before {
@@ -6634,7 +6634,7 @@ readers do not read off random characters that represent icons */
 .fa-evernote:before {
   content: "\f839"; }
 
-.fa-hacker-news.html:before {
+.fa-hacker-news:before {
   content: "\f1d4"; }
 
 .fa-creative-commons-sampling:before {
@@ -7471,7 +7471,7 @@ readers do not read off random characters that represent icons */
 .fa-google-drive:before {
   content: "\f3aa"; }
 
-.fa-services.htmltack:before {
+.fa-servicestack:before {
   content: "\f3ec"; }
 
 .fa-simplybuilt:before {

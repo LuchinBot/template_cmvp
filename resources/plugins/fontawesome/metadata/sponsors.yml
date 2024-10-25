@@ -28,10 +28,10 @@ algolia:
     - algolia
   label: Algolia
   url: 'http://www.algolia.com'
-amazon-web-services.html:
+amazon-web-services:
   icons:
     - aws
-  label: Amazon Web services.html
+  label: Amazon Web services
   url: 'https://aws.amazon.com'
 amilia:
   icons:
@@ -872,9 +872,9 @@ search-eng-in:
   url: 'http://searcheng.in'
 service-stack:
   icons:
-    - services.htmltack
-  label: services.htmltack
-  url: 'https://services.htmltack.net'
+    - servicestack
+  label: servicestack
+  url: 'https://servicestack.net'
 shawn-storie:
   icons:
     - teeth

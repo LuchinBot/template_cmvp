@@ -871,7 +871,7 @@
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
      * of new styles we needed to differentiate between them. Prefix `fa` is now an alias
-     * for `fas` so we'll ease the upgrade process.html for our users by automatically defining
+     * for `fas` so we'll ease the upgrade process for our users by automatically defining
      * this as well.
      */
 
@@ -2587,12 +2587,12 @@
     var pendingAttribute = "".concat(DATA_FA_PSEUDO_ELEMENT_PENDING).concat(position.replace(':', '-'));
     return new Promise(function (resolve, reject) {
       if (node.getAttribute(pendingAttribute) !== null) {
-        // This node is already being process.htmled
+        // This node is already being processed
         return resolve();
       }
 
       var children = toArray(node.children);
-      var alreadyprocess.htmledPseudoElement = children.filter(function (c) {
+      var alreadyprocessedPseudoElement = children.filter(function (c) {
         return c.getAttribute(DATA_FA_PSEUDO_ELEMENT) === position;
       })[0];
       var styles = WINDOW.getComputedStyle(node, position);
@@ -2600,11 +2600,11 @@
       var fontWeight = styles.getPropertyValue('font-weight');
       var content = styles.getPropertyValue('content');
 
-      if (alreadyprocess.htmledPseudoElement && !fontFamily) {
-        // If we've already process.htmled it but the current computed style does not result in a font-family,
+      if (alreadyprocessedPseudoElement && !fontFamily) {
+        // If we've already processed it but the current computed style does not result in a font-family,
         // that probably means that a class name that was previously present to make the icon has been
         // removed. So we now should delete the icon.
-        node.removeChild(alreadyprocess.htmledPseudoElement);
+        node.removeChild(alreadyprocessedPseudoElement);
         return resolve();
       } else if (fontFamily && content !== 'none' && content !== '') {
         var _content = styles.getPropertyValue('content');
@@ -2631,12 +2631,12 @@
         // already done so with the same prefix and iconName
 
 
-        if (iconName && !isSecondary && (!alreadyprocess.htmledPseudoElement || alreadyprocess.htmledPseudoElement.getAttribute(DATA_PREFIX) !== prefix || alreadyprocess.htmledPseudoElement.getAttribute(DATA_ICON) !== iconIdentifier)) {
+        if (iconName && !isSecondary && (!alreadyprocessedPseudoElement || alreadyprocessedPseudoElement.getAttribute(DATA_PREFIX) !== prefix || alreadyprocessedPseudoElement.getAttribute(DATA_ICON) !== iconIdentifier)) {
           node.setAttribute(pendingAttribute, iconIdentifier);
 
-          if (alreadyprocess.htmledPseudoElement) {
+          if (alreadyprocessedPseudoElement) {
             // Delete the old one, since we're replacing it with a new one
-            node.removeChild(alreadyprocess.htmledPseudoElement);
+            node.removeChild(alreadyprocessedPseudoElement);
           }
 
           var meta = blankMeta();
@@ -2681,14 +2681,14 @@
     return Promise.all([replaceForPosition(node, '::before'), replaceForPosition(node, '::after')]);
   }
 
-  function process.htmlable(node) {
+  function processable(node) {
     return node.parentNode !== document.head && !~TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS.indexOf(node.tagName.toUpperCase()) && !node.getAttribute(DATA_FA_PSEUDO_ELEMENT) && (!node.parentNode || node.parentNode.tagName !== 'svg');
   }
 
   function searchPseudoElements(root) {
     if (!IS_DOM) return;
     return new Promise(function (resolve, reject) {
-      var operations = toArray(root.querySelectorAll('*')).filter(process.htmlable).map(replace);
+      var operations = toArray(root.querySelectorAll('*')).filter(processable).map(replace);
       var end = perf.begin('searchPseudoElements');
       disableObservation();
       Promise.all(operations).then(function () {

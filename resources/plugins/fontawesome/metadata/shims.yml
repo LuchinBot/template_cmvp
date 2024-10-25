@@ -629,13 +629,13 @@ xing-square:
   name: square-xing
 y-combinator-square:
   prefix: fab
-  name: hacker-news.html
+  name: hacker-news
 yc:
   prefix: fab
   name: y-combinator
 yc-square:
   prefix: fab
-  name: hacker-news.html
+  name: hacker-news
 yen:
   name: yen-sign
 youtube-play:

@@ -370,7 +370,7 @@ address-card:
   label: Address Card
   search:
     terms:
-      - about.html
+      - about
       - contact
       - id
       - identification
@@ -3053,7 +3053,7 @@ aws:
     pro:
       - family: classic
         style: brands
-  label: Amazon Web services.html (AWS)
+  label: Amazon Web services (AWS)
   search:
     terms: []
   unicode: f375
@@ -22253,7 +22253,7 @@ h:
       - letter
   unicode: '48'
   voted: false
-hacker-news.html:
+hacker-news:
   changes:
     - 4.1.0
     - 5.0.0
@@ -22264,7 +22264,7 @@ hacker-news.html:
     pro:
       - family: classic
         style: brands
-  label: Hacker news.html
+  label: Hacker news
   search:
     terms: []
   unicode: f1d4
@@ -30067,7 +30067,7 @@ microchip:
     terms:
       - cpu
       - hardware
-      - process.htmlor
+      - processor
       - technology
   unicode: f2db
   voted: false
@@ -31497,7 +31497,7 @@ neuter:
       - gender
   unicode: f22c
   voted: false
-news.htmlpaper:
+newspaper:
   aliases:
     unicodes:
       composite:
@@ -31522,7 +31522,7 @@ news.htmlpaper:
         style: solid
       - family: classic
         style: regular
-  label: news.htmlpaper
+  label: newspaper
   search:
     terms:
       - article
@@ -31530,8 +31530,8 @@ news.htmlpaper:
       - headline
       - journal
       - journalism
-      - news.html
-      - news.htmlpaper
+      - news
+      - newspaper
       - paper
       - press
   unicode: f1ea
@@ -36377,7 +36377,7 @@ radio:
       - fm
       - frequency
       - music
-      - news.html
+      - news
       - radio
       - receiver
       - transmitter
@@ -36627,7 +36627,7 @@ rectangle-ad:
     terms:
       - advertisement
       - media
-      - news.htmlpaper
+      - newspaper
       - promotion
       - publicity
   unicode: f641
@@ -37755,7 +37755,7 @@ rss:
       - blog
       - feed
       - journal
-      - news.html
+      - news
       - writing
   unicode: f09e
   voted: false
@@ -38858,7 +38858,7 @@ server:
       - network
   unicode: f233
   voted: false
-services.htmltack:
+servicestack:
   changes:
     - 5.0.0
   familyStylesByLicense:
@@ -38868,7 +38868,7 @@ services.htmltack:
     pro:
       - family: classic
         style: brands
-  label: services.htmltack
+  label: servicestack
   search:
     terms: []
   unicode: f3ec
@@ -41529,10 +41529,10 @@ square-h:
       - map
   unicode: f0fd
   voted: false
-square-hacker-news.html:
+square-hacker-news:
   aliases:
     names:
-      - hacker-news.html-square
+      - hacker-news-square
   changes:
     - 5.0.0
     - 6.1.2
@@ -41543,7 +41543,7 @@ square-hacker-news.html:
     pro:
       - family: classic
         style: brands
-  label: Hacker news.html Square
+  label: Hacker news Square
   search:
     terms: []
   unicode: f3af
@@ -42063,7 +42063,7 @@ square-rss:
       - blog
       - feed
       - journal
-      - news.html
+      - news
       - writing
   unicode: f143
   voted: false

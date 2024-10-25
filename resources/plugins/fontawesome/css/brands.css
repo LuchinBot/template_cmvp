@@ -174,10 +174,10 @@
 .fa-the-red-yeti:before {
   content: "\f69d"; }
 
-.fa-square-hacker-news.html:before {
+.fa-square-hacker-news:before {
   content: "\f3af"; }
 
-.fa-hacker-news.html-square:before {
+.fa-hacker-news-square:before {
   content: "\f3af"; }
 
 .fa-edge:before {
@@ -267,7 +267,7 @@
 .fa-evernote:before {
   content: "\f839"; }
 
-.fa-hacker-news.html:before {
+.fa-hacker-news:before {
   content: "\f1d4"; }
 
 .fa-creative-commons-sampling:before {
@@ -1104,7 +1104,7 @@
 .fa-google-drive:before {
   content: "\f3aa"; }
 
-.fa-services.htmltack:before {
+.fa-servicestack:before {
   content: "\f3ec"; }
 
 .fa-simplybuilt:before {

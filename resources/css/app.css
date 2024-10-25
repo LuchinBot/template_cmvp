@@ -81,7 +81,7 @@
       line-height: 1;
   }
 
-  .process.html .owl-nav {
+  .process .owl-nav {
       top: 40%;
       left: -50px;
       right: -300px;
@@ -93,11 +93,11 @@
 
   }
 
-  .process.html .owl-nav button {
+  .process .owl-nav button {
       padding: 10px !important;
   }
 
-  .process.html .owl-nav:hover i {
+  .process .owl-nav:hover i {
       transform: scale(2);
   }
 
