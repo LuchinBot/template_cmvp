@@ -87,7 +87,7 @@
 		<section class="section-title-page  container-fluid" style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
-					<h1>Mesa<small style="font-weight: 300;"> de Partes</small></h1>
+					<h1>Libro <small style="font-weight: 300;"> de Reclamaciones</small></h1>
 					<span>
 						Volver <i class="fa fa-angle-right mx-1"></i>
 						<a href="services.html">Servicios</a>
@@ -96,14 +96,6 @@
 			</div>
 		</section>
 		<section class="section-page container-fluid">
-			<div class="container d-flex">
-				<div class="section-collapse active-collapse" id="si1">
-					<p class="m-0"><i class="fa-solid fa-file-pdf mr-2"></i>Realizar trámite</p>
-				</div>
-				<div class="section-collapse" id="si2">
-					<p class="m-0"><i class="fa-solid fa-info-circle mr-2"></i>Consultar trámite</p>
-				</div>
-			</div>
 			<div class="container mesa-wrapper my-3">
 				<div class="collapse show" data-parent="si1">
 					<div class="d-flex">
@@ -121,95 +113,85 @@
 								información, así mismo de los documentos que remita adjunto al presente formulario.
 								<br> <br> <strong>Consideraciones a tener en cuenta:
 								</strong>
-							<ul>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-							</ul>
 							</p>
 						</div>
 						<div class="col-md-8">
 							<form class="form-contact">
+								<div class="border-bottom mb-3">
+									<h6 class="font-weight-bold">1. DATOS GENERALES</h6>
+								</div>
 								<div class="d-flex">
 									<div class="form-group col-6 pr-2 pl-0">
-										<label for="exampleFormControlSelect1">Documento</label>
+										<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
+										<input type="text" required class="form-control"
+											placeholder="Ingrese Apellidos y Nombres / Razón Social" id="name">
+									</div>
+									<div class="form-group col-3 pr-2 pl-0">
+										<label for="exampleFormControlSelect1">Tipo Doc.</label>
 										<select class="form-control" id="exampleFormControlSelect1">
 											<option>DNI</option>
 											<option>RUNC</option>
 										</select>
 									</div>
-									<div class="form-group col-6 px-0">
+									<div class="form-group col-3 px-0">
 										<label for="email">Número <small class="text-muted">(*)</small></label>
 										<input type="text" required maxlength="12" class="form-control">
 									</div>
 								</div>
-								<div class="form-group">
-									<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
-									<input type="text" required class="form-control"
-										placeholder="Ingrese Apellidos y Nombres / Razón Social" id="name">
-								</div>
 								<div class="d-flex">
-									<div class="form-group col-6 px-0 pr-2">
+									<div class="form-group col-4 pl-0 pr-2">
+										<label for="email">Correo electrónico <small
+												class="text-muted">(*)</small></label>
+										<input type="email" required class="form-control" placeholder="Ingrese email">
+									</div>
+									<div class="form-group col-4 px-0 pr-2">
 										<label for="email">Teléfono <small class="text-muted">(*)</small></label>
 										<input type="text" required maxlength="12" class="form-control"
 											placeholder="Ingrese número de teléfono">
 									</div>
-									<div class="form-group col-6 pl-0 pr-2">
-										<label for="email">Correo electrónico <small
-												class="text-muted">(*)</small></label>
-										<input type="email" required class="form-control" placeholder="Ingrese email">
+									<div class="form-group col-4 px-0">
+										<label for="email">Celular <small class="text-muted">(*)</small></label>
+										<input type="text" required maxlength="12" class="form-control"
+											placeholder="Ingrese número de teléfono">
+									</div>
+								</div>
+								<div class="d-flex">
+									<div class="form-group col-4 pr-2 pl-0">
+										<label for="exampleFormControlSelect1">Departamentos</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>DNI</option>
+											<option>RUNC</option>
+										</select>
+									</div>
+									<div class="form-group col-4 pr-2 pl-0">
+										<label for="exampleFormControlSelect1">Departamentos</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>DNI</option>
+											<option>RUNC</option>
+										</select>
+									</div>
+									<div class="form-group col-4 px-0">
+										<label for="exampleFormControlSelect1">Departamentos</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>DNI</option>
+											<option>RUNC</option>
+										</select>
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="name">Dirección <small class="text-muted">(*)</small></label>
 									<input type="text" required class="form-control" placeholder="Ingrese dirección" id="name">
 								</div>
-								<div class="d-flex">
-									<div class="form-group col-6 pr-2 pl-0">
-										<label for="FormControlSelect2">Tipo documento</label>
-										<select class="form-control" id="FormControlSelect2">
-											<option>DNI</option>
-											<option>RUNC</option>
-										</select>
-									</div>
-									<div class="form-group col-6 px-0">
-										<label for="FormControlSelect3">Trámite</label>
-										<select class="form-control">
-											<option>DNI</option>
-											<option>RUNC</option>
-										</select>
-									</div>
-								</div>
-								<div class="d-flex">
-									<div class="form-group col-6 px-0 pr-2">
-										<label for="email">Número de documento <small
-												class="text-muted">(*)</small></label>
-										<input type="text" required maxlength="12" class="form-control"
-											placeholder="Ingrese número de documento">
-									</div>
-									<div class="form-group col-6 pl-0 pr-2">
-										<label for="text">Folio <small class="text-muted">(*)</small></label>
-										<input type="text" required class="form-control" placeholder="Ingrese folios">
-									</div>
+								<div class="border-bottom mb-3">
+									<h6 class="font-weight-bold">2. DATOS DEL RECLAMO</h6>
 								</div>
 								<div class="form-group">
 									<label for="subject">Asunto <small class="text-muted">(*)</small></label>
 									<input type="text" required class="form-control" id="subject">
 								</div>
-								<div class="form-group" style="position: relative;">
-									<label for="fileUpload">Archivo digital en PDF (Tamaño máximo 20 MB)</label><br>
-									<label class="custom-file-upload" for="fileUpload">
-										Seleccionar archivo
-									</label>
-									<input type="file" required class="file-input" id="fileUpload" accept=".pdf">
-									<div class="status-message" id="statusMessage">Archivo cargado									</div>
-									<div class="error-message" id="errorMessage"></div>
+								<div class="form-group">
+									<label for="subject">Descripción de la incidencia <small class="text-muted">(*)</small></label>
+									<textarea class="form-control" id="message"></textarea>
 								</div>
 								<div class="form-group d-flex justify-content-between align-items-center">
 									<button class="btn bg-brown-opac text-white px-5 font-weight-bold">Enviar</button>

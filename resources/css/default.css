@@ -57,6 +57,7 @@ p {
 
 table td,
 table th {
+    vertical-align: middle !important;
     border-top: none !important;
     border-bottom: 1px solid var(--color-opac) !important;
 }
@@ -250,20 +251,22 @@ section {
     background-color: var(--color-opac);
 }
 
-.section-right{
+.section-right {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     background-color: var(--color-black);
     padding: 20px;
     border-radius: 8px;
     overflow: hidden;
 }
- .section-right .box{
+
+.section-right .box {
     width: 100%;
     display: flex;
     justify-content: start;
     flex-direction: column;
- }
- .section-right .box .context{
+}
+
+.section-right .box .context {
     box-shadow: none !important;
     color: var(--color-white);
     width: 100%;
@@ -277,13 +280,15 @@ section {
     margin-bottom: 10px;
     padding: 5px;
     background-color: var(--color-black);
- }
- .section-right .box .context a{
+}
+
+.section-right .box .context a {
     padding-left: 20px;
     color: #dfdcdc;
     position: relative;
- }
- .section-right .box .context a::before{
+}
+
+.section-right .box .context a::before {
     content: '';
     position: absolute;
     left: 0;
@@ -292,5 +297,29 @@ section {
     height: 10px;
     background-color: var(--color-opac);
     border-radius: 1px;
- }
- 
+}
+
+.section-info i {
+    transition: all 0.3s;
+    animation: turn 4s infinite;
+}
+
+@keyframes turn {
+    0% {
+        transform: scale(1) rotate(0deg);
+        color: var(--color-black);
+    }
+
+    50% {
+        transform: scale(0.7) rotate(180deg);
+        color: var(--color-brown);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+        color: var(--color-black);  
+    }
+}
+.form-control:focus{
+    box-shadow: none !important;
+}

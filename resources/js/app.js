@@ -65,6 +65,20 @@ $(document).ready(function () {
             $('#viewTramite .showTable').addClass('show');
         }, 2000);
     });
+    $('#consulCollegiate').click(function() {
+        // Ocultar la tabla y mostrar el spinner
+        $('#viewCollegiate .showTable').removeClass('show');
+        $('#viewCollegiate .showSpinner').addClass('show');
+        $('#viewCollegiate .showSpinner').css('display', 'block');
+
+        setTimeout(() => {
+            console.log('CARGADO');
+            // Ocultar el spinner y mostrar la tabla
+            $('#viewCollegiate .showSpinner').removeClass('show');
+            $('#viewCollegiate .showSpinner').css('display', 'none');
+            $('#viewCollegiate .showTable').addClass('show');
+        }, 2000);
+    });
     $('.context i').click(function () {
         $(this).toggleClass('fa-caret-down fa-caret-up');
         $(this).parent().parent().find('.collapse').slideToggle();

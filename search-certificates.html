@@ -84,13 +84,14 @@
 				</ul>
 			</nav>
 		</div>
-		<section class="section-title-page  container-fluid" style="background-image: url('resources/img/example.jpg');">
+		<section class="section-title-page  container-fluid"
+			style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
-					<h1>Servicios <small style="font-weight: 300;">a tu disposición</small></h1>
+					<h1>Buscar <small style="font-weight: 300;"> Cerificado</small></h1>
 					<span>
 						Volver <i class="fa fa-angle-right mx-1"></i>
-						<a href="">Inicio</a>
+						<a href="services.html">Servicios</a>
 					</span>
 				</div>
 			</div>
@@ -98,74 +99,46 @@
 		<section class="section-page container-fluid">
 			<div class="container">
 				<div class="section-info">
-					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Accede a nuestros servicios diseño para facilitar trámites y consultas. Para comenzar, <strong>haz clic</strong> en el servicio deseado.</p>
+					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Accede a nuestros servicios diseñados para
+						facilitar trámites y consultas. Para comenzar, <strong>haz clic</strong> en el servicio deseado.
+					</p>
 				</div>
 			</div>
-			<div class="services mt-4 container">
-				<div class="wrapper">
-					<a href="mesa.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-book-open"></i>
+			<div class="container service-selected-search">
+				<div class="col p-0">
+					<div class="form">
+						<select class="form-control">
+							<option selected>Filtro por certificado</option>
+							<option value="">Certificado completale tu ya mrda</option>
+						</select>
+						<input type="text" class="form-control" placeholder="CMVP">
+						<button id="consulCollegiate"><i class="fa fa-search"></i></button>
+					</div>
+					<div id="viewCollegiate">
+						<div class="showSpinner text-center p-3">
+							<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="">
 						</div>
-						<div class="text">
-							<h5>Mesa de partes Virtual</h5>
-							<p>Permite a los colegiados y ciudadanos en general realizar trámites administrativos de manera completamente en línea.</p>
+						<div class="showTable rounded bg-white mt-2 p-3">
+							<table class="table">
+								<thead class="bg-black text-white">
+									<tr>
+										<th>Colegiado</th>
+										<th class="text-center">Estado</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div>
+												<strong>Luis José Hidalgo Rodríguez</strong>
+											</div>
+										</td>
+										<td class="text-center">EN PROCESO</td>									
+									</tr>
+								</tbody>
+							</table>
 						</div>
-					</a>
-					<a href="search-collegiate.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</div>
-						<div class="text">
-							<h5>Búsqueda colegiados </h5>
-							<p>Este servicio permite a los usuarios consultar el registro oficial de los médicos veterinarios colegiados en nuestra institución.</p>
-						</div>
-					</a>
-					<a href="search-certificates.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</div>
-						<div class="text">
-							<h5 >Certificados del CMVDSM</h5>
-							<p>Este servicio permite verificar la validez de los certificados emitidos por el Colegio, como los de Salud de Menores, Salus de Mayores, Eutanacia, etc.</p>
-						</div>
-					</a>
-					<a href="statistics.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-chart-simple"></i>
-						</div>
-						<div class="text">
-							<h5>Estadística Colegiados</h5>
-							<p>Este servicio proporciona datos estadísticos sobre los colegiados inscritos en el Colegio de Médicos Veterinarios, tales como la cantidad de “Colegiados Activos”, etc.</p>
-						</div>
-					</a>
-					<a href="book-reclamations.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-book"></i>
-						</div>
-						<div class="text">
-							<h5>Libro Reclamaciones Virtual</h5>
-							<p>El Libro de Reclamaciones Virtual es un espacio donde los usuarios pueden registrar sus reclamos o sugerencias relacionadas con los servicios brindados por el Colegio.</p>
-						</div>
-					</a>
-					<a href="work-bag.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-bag-shopping"></i>
-						</div>
-						<div class="text">
-							<h5>Bolsa de Trabajo</h5>
-							<p>La Bolsa de Trabajo ofrece a los colegiados la oportunidad de acceder a convocatorias laborales en su campo profesional.</p>
-						</div>
-					</a>
-					<a href="formalization.html" class="stack">
-						<div class="icon">
-							<i class="fa-solid fa-graduation-cap"></i>
-						</div>
-						<div class="text">
-							<h5>Formalización Colegiado </h5>
-							<p>La Formalización de Colegiados está orientada a facilitar los trámites necesarios para que los profesionales veterinarios se regularicen en el colegio.</p>
-						</div>
-					</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -175,9 +148,14 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<img src="resources/img/logo_white.png" alt="" />
-							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San Martín con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
+							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San
+								Martín
+								con la finalidad de ejercer representación oficial de la profesión ante los organismos
+								nacionales e internacionales.</p>
 							<p style="font-weight: 500;">
-								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda de Shilcayo, Provincia y Departamento de San Martín.</strong>
+								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda
+									de
+									Shilcayo, Provincia y Departamento de San Martín.</strong>
 							</p>
 						</div>
 					</div>
@@ -218,7 +196,11 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
-							<iframe style="height: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+							<iframe style="height: 100%;"
+								src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307"
+								width="340" height="500" style="border:none;overflow:hidden" scrolling="no"
+								frameborder="0" allowfullscreen="true"
+								allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 						</div>
 					</div>
 				</div>
@@ -244,7 +226,32 @@
 	<script src="resources/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<!-- Owl Carousel JS -->
 	<script src="resources/plugins/owlcarousel/docs.html/assets/owlcarousel/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="resources/js/app.js"></script>
+	<script src="resources/js/app.js"></script>
+
+	<script>
+		const fileInput = document.getElementById('fileUpload');
+		const statusMessage = document.getElementById('statusMessage');
+		const errorMessage = document.getElementById('errorMessage');
+
+		fileInput.addEventListener('change', function () {
+			const file = fileInput.files[0];
+			if (file) {
+				if (file.size > 20 * 1024 * 1024) {
+					$('.status-message').css('display', 'block');
+					errorMessage.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20 MB.";
+					statusMessage.textContent = "";
+					fileInput.value = "";
+				} else {
+					$('.status-message').css('display', 'block');
+					errorMessage.textContent = "";
+					statusMessage.textContent = "Archivo cargado";
+				}
+			} else {
+				statusMessage.textContent = "";
+				errorMessage.textContent = "";
+			}
+		});
+	</script>
 </body>
 
 </html>

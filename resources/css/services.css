@@ -1,0 +1,60 @@
+/* MESA */
+
+/*SEARCH COLLEGIATE*/
+.service-selected-search {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.service-selected-search .col-md-8 {
+    padding: 0;
+    padding-right: 20px;
+}
+
+.service-selected-search .form {
+    border-radius: 8px;
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: var(--color-white);
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.service-selected-search .form select {
+    border: 1px solid var(--color-brown);
+    border-right: none;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+    height: 100%;
+}
+
+.service-selected-search .form input {
+    border: 1px solid var(--color-brown);
+    border-radius: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.service-selected-search .form button {
+    width: 10%;
+    height: 100%;
+    border: 1px solid var(--color-brown);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
+
+.photo-collegiate{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid var(--color-black);
+}

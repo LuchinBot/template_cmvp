@@ -459,6 +459,8 @@
 }
 
 .services .wrapper .stack {
+    transition: all 0.3s;
+    text-decoration: none;
     border-top: 1px solid #fff;
     background-color: var(--color-white);
     border-radius: 8px;
@@ -468,7 +470,9 @@
     margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
-
+.services .wrapper .stack:hover{
+    transform: scale(1.03);
+}
 .services .wrapper .stack i {
     transition: all 0.3s;
     font-size: 17px;
@@ -478,7 +482,9 @@
     transform: rotate(10deg);
     transform: scale(1.2);
 }
-
+.services .wrapper .stack:hover .text h5 {
+    color: var(--color-brown);
+}
 .stack .icon {
     position: absolute;
     top: -30px;
@@ -500,17 +506,15 @@
     color: var(--color-gray);
 }
 
-.stack .text a {
+.stack .text h5 {
     color: var(--color-black);
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
-.stack .text a:hover {
-    color: var(--color-brown-opac);
-}
 
 .stack .text p {
     font-size: 14px;
