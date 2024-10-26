@@ -6,9 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="resources/img/logo.png">
 	<title>CMVP Tarapoto</title>
+	<!-- Defaults -->
 	<link rel="stylesheet" href="resources/css/app.css" />
+	<link rel="stylesheet" href="resources/css/index.css" />
 	<link rel="stylesheet" href="resources/css/default.css" />
 	<link rel="stylesheet" href="resources/css/header.css" />
+	<link rel="stylesheet" href="resources/css/footer.css" />
+	<link rel="stylesheet" href="resources/css/floats.css" />
+	<link rel="stylesheet" href="resources/css/responsive.css" />
+	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/slider.css" />
 	<link rel="stylesheet" href="resources/css/services.css" />
 	<link rel="stylesheet" href="resources/css/institutional.css" />
@@ -17,7 +23,6 @@
 	<link rel="stylesheet" href="resources/css/news.css" />
 	<link rel="stylesheet" href="resources/css/contact.css" />
 	<link rel="stylesheet" href="resources/css/birthday.css" />
-	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/about.css" />
 	<link rel="stylesheet" href="resources/css/courses.css" />
 	<link rel="stylesheet" href="resources/css/mesa.css" />
@@ -79,7 +84,8 @@
 				</ul>
 			</nav>
 		</div>
-		<section class="section-about  container-fluid" style="background-image: url('resources/img/example.jpg');">
+		<section class="section-title-page  container-fluid"
+			style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
 					<h1>Sobre <small style="font-weight: 300;">Nosotros</small></h1>
@@ -90,7 +96,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-institutional container-fluid pb-0" id="institutional">
+		<section class="section-page container-fluid pb-0">
 			<div class="institutional container">
 				<div class="wrapper">
 					<div class="text">
@@ -98,7 +104,13 @@
 						<h3>San Martín - Tarapoto</h3>
 						<div class="description">
 							<p>
-								El Consejo Departamental del Colegio Médico Veterinario de San Martín tiene como propósito principal promover el desarrollo profesional de los médicos veterinarios de la región, velando por el bienestar animal y el cumplimiento de las normas éticas y deontológicas de la profesión. Además, realiza actividades como la organización de congresos, seminarios y talleres para la actualización profesional, la promoción de la investigación veterinaria, y la representación de los veterinarios ante las autoridades y la sociedad.
+								El Consejo Departamental del Colegio Médico Veterinario de San Martín tiene como
+								propósito principal promover el desarrollo profesional de los médicos veterinarios de la
+								región, velando por el bienestar animal y el cumplimiento de las normas éticas y
+								deontológicas de la profesión. Además, realiza actividades como la organización de
+								congresos, seminarios y talleres para la actualización profesional, la promoción de la
+								investigación veterinaria, y la representación de los veterinarios ante las autoridades
+								y la sociedad.
 							</p>
 						</div>
 					</div>
@@ -109,35 +121,56 @@
 			</div>
 			<div class="mision-vision container">
 				<div class="wrapper">
-					<div class="col-md-6">
+					<div class="col-md-3">
 						<div class="box">
 							<div class="context">
+								<i class="fa far fa-caret-down toggle-btn"></i>
 								<h1><i class="fa fa-bullseye mr-2"></i>Misión</h1>
-								<p>Somos una institución que representa, integra y fortalece el ejercicio ético y profesional de los médicos veterinarios, promoviendo la salud y el bienestar animal en nuestra comunidad.</p>
+								<p class="collapse">Somos una institución que representa, integra y fortalece el
+									ejercicio ético y profesional de los médicos veterinarios, promoviendo la salud y el
+									bienestar animal en nuestra comunidad.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-3">
 						<div class="box">
 							<div class="context">
+								<i class="fa far fa-caret-down toggle-btn"></i>
 								<h1><i class="fa fa-eye mr-2"></i>Visión</h1>
-								<p>Ser reconocida como una institución líder y referente en la promoción de la excelencia profesional y ética en el campo de la medicina veterinaria, en el departamento de San Martín, a través de un modelo de gestión moderno, participativo, y con un talento humano altamente calificado.</p>
+								<p class="collapse">Ser reconocida como una institución líder y referente en la
+									promoción de la excelencia profesional y ética en el campo de la medicina
+									veterinaria, en el departamento de San Martín, a través de un modelo de gestión
+									moderno, participativo, y con un talento humano altamente calificado.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="history p-2 my-3" style="background-image: url('resources/img/slider1.jpg');">
+			<div class="history p-2" style="background-image: url('resources/img/slider1.jpg');">
 				<div class="container">
 					<div class="banner-title">
-						<h1>Nuestra historia</h1>
+						<h1>Historia</h1>
 					</div>
 					<div class="context">
 						<p>
-							De acuerdo al Reglamento de la Ley 16200 que crea el Colegio Médico Veterinario del Perú, el 12 de noviembre de 1982 fue creado el Colegio Médico Veterinario Departamental de San Martin, con un total de 56 Médicos Veterinarios agremiados en la Región e inscritos en el CMVP. Siendo elegido como Primer Decano del Consejo Departamental del CMVDSM, el Médico Veterinario: Román Rivero Ruiz.
-							Con Acta de Constitución, de Asamblea General Departamental del C.M.V.D.S.M., de fecha 21 de noviembre de 2007, se constituye la Asociación denominada: Colegio Médico Veterinario Departamental de San Martín. La misma que se rige por las Normas Legales e Institucionales del Colegio Médico Veterinario del Perú; y agremia a Médicos Veterinarios en toda la Región de San Martín; con la finalidad de ejercer representación oficial de la profesión ante los organismos regionales, nacionales e internacionales.
-							El 12 de diciembre de 2007, se realizó la Inscripción de la Asociación del Colegio Médico Veterinario Departamental de San Martín, en los Registros Públicos en la partida N° 11037234, como Persona Jurídica creada por Ley.
-							Recordando que un Colegio Profesional es una Institución creada por Ley, que permite el Ejercicio Legal de los Profesionales que lo integran; el Consejo Departamental del Colegio Médico Veterinario Departamental de San Martín, agradece a todos por el respeto y la responsabilidad hacia nuestra Institución y nuestra profesión.</p>
+							De acuerdo al Reglamento de la Ley 16200 que crea el Colegio Médico Veterinario del Perú, el
+							12 de noviembre de 1982 fue creado el Colegio Médico Veterinario Departamental de San
+							Martin, con un total de 56 Médicos Veterinarios agremiados en la Región e inscritos en el
+							CMVP. Siendo elegido como Primer Decano del Consejo Departamental del CMVDSM, el Médico
+							Veterinario: Román Rivero Ruiz.
+							Con Acta de Constitución, de Asamblea General Departamental del C.M.V.D.S.M., de fecha 21 de
+							noviembre de 2007, se constituye la Asociación denominada: Colegio Médico Veterinario
+							Departamental de San Martín. La misma que se rige por las Normas Legales e Institucionales
+							del Colegio Médico Veterinario del Perú; y agremia a Médicos Veterinarios en toda la Región
+							de San Martín; con la finalidad de ejercer representación oficial de la profesión ante los
+							organismos regionales, nacionales e internacionales.
+							El 12 de diciembre de 2007, se realizó la Inscripción de la Asociación del Colegio Médico
+							Veterinario Departamental de San Martín, en los Registros Públicos en la partida N°
+							11037234, como Persona Jurídica creada por Ley.
+							Recordando que un Colegio Profesional es una Institución creada por Ley, que permite el
+							Ejercicio Legal de los Profesionales que lo integran; el Consejo Departamental del Colegio
+							Médico Veterinario Departamental de San Martín, agradece a todos por el respeto y la
+							responsabilidad hacia nuestra Institución y nuestra profesión.</p>
 					</div>
 				</div>
 			</div>
@@ -170,7 +203,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/gretal.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/gretal.png') ;">
+								</div>
 								<div class="text">
 									<h3>GRETELL MABEL LOPEZ DEL AGUILA</h3>
 									<p class="m-0">CMVP: 9900</p>
@@ -180,7 +214,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/norvil.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/norvil.png') ;">
+								</div>
 								<div class="text">
 									<h3>NORVIL LUIS ORTIZ BARBOZA</h3>
 									<p class="m-0">CMVP: 7705</p>
@@ -190,7 +225,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/elena.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/elena.png') ;">
+								</div>
 								<div class="text">
 									<h3>ELENA CRUZ CAMPOS</h3>
 									<p class="m-0">CMVP: 3755</p>
@@ -210,7 +246,8 @@
 					<div class="group">
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano1.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano1.png') ;">
+								</div>
 								<div class="text">
 									<span>1982-1984</span>
 									<h3>Román Rivero Ruiz</h3>
@@ -220,7 +257,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano2.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano2.png') ;">
+								</div>
 								<div class="text">
 									<span>1991 – 1994</span>
 									<h3>Manuel Coronado Pacheco</h3>
@@ -230,7 +268,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano3.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano3.png') ;">
+								</div>
 								<div class="text">
 									<span>1999 – 2002</span>
 									<h3>Carlos Augusto Nolte Campos</h3>
@@ -240,7 +279,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano4.jpg') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano4.jpg') ;">
+								</div>
 								<div class="text">
 									<span>2003 – 2007</span>
 									<h3>Nicolás Vásquez Del Águila</h3>
@@ -250,7 +290,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano5.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano5.png') ;">
+								</div>
 								<div class="text">
 									<span>2007 – 2009</span>
 									<h3>Abertano Walter Rojas Sánchez</h3>
@@ -260,7 +301,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano6.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano6.png') ;">
+								</div>
 								<div class="text">
 									<span>2009 – 2012</span>
 									<h3>José Manuel Nuñez Lucero</h3>
@@ -270,7 +312,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano7.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano7.png') ;">
+								</div>
 								<div class="text">
 									<span>2012 – 2013</span>
 									<h3>Wilder Castillo Celestino</h3>
@@ -280,7 +323,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano8.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano8.png') ;">
+								</div>
 								<div class="text">
 									<span>2014 – 2016</span>
 									<h3>Hugo Sánchez Cárdenas</h3>
@@ -290,7 +334,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano9.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano9.png') ;">
+								</div>
 								<div class="text">
 									<span>2016 – 2018</span>
 									<h3>Abertano Walter Rojas Sánchez</h3>
@@ -300,7 +345,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano10.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano10.png') ;">
+								</div>
 								<div class="text">
 									<span>2018 – 2020</span>
 									<h3>Daniel Carlos Rosales Del Río</h3>
@@ -310,7 +356,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano11.png') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano11.png') ;">
+								</div>
 								<div class="text">
 									<span>2020 – 2022</span>
 									<h3>José Manuel Nuñez Lucero</h3>
@@ -320,7 +367,8 @@
 						</div>
 						<div class="col-md-4">
 							<div class="box">
-								<div class="img-person" style="background-image: url('resources/img/decano12.jfif') ;"></div>
+								<div class="img-person" style="background-image: url('resources/img/decano12.jfif') ;">
+								</div>
 								<div class="text">
 									<span>2022 – 2024</span>
 									<h3>Lilian Chea Soto</h3>
@@ -338,9 +386,12 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<img src="resources/img/logo_white.png" alt="" />
-							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San Martín con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
+							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San
+								Martín con la finalidad de ejercer representación oficial de la profesión ante los
+								organismos nacionales e internacionales.</p>
 							<p style="font-weight: 500;">
-								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda de Shilcayo, Provincia y Departamento de San Martín.</strong>
+								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda
+									de Shilcayo, Provincia y Departamento de San Martín.</strong>
 							</p>
 						</div>
 					</div>
@@ -381,7 +432,11 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
-							<iframe style="height: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+							<iframe style="height: 100%;"
+								src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307"
+								width="340" height="500" style="border:none;overflow:hidden" scrolling="no"
+								frameborder="0" allowfullscreen="true"
+								allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 						</div>
 					</div>
 				</div>

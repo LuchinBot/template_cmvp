@@ -6,9 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="resources/img/logo.png">
 	<title>CMVP Tarapoto</title>
+	<!-- Defaults -->
 	<link rel="stylesheet" href="resources/css/app.css" />
+	<link rel="stylesheet" href="resources/css/index.css" />
 	<link rel="stylesheet" href="resources/css/default.css" />
 	<link rel="stylesheet" href="resources/css/header.css" />
+	<link rel="stylesheet" href="resources/css/footer.css" />
+	<link rel="stylesheet" href="resources/css/floats.css" />
+	<link rel="stylesheet" href="resources/css/responsive.css" />
+	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/slider.css" />
 	<link rel="stylesheet" href="resources/css/services.css" />
 	<link rel="stylesheet" href="resources/css/institutional.css" />
@@ -17,7 +23,6 @@
 	<link rel="stylesheet" href="resources/css/news.css" />
 	<link rel="stylesheet" href="resources/css/contact.css" />
 	<link rel="stylesheet" href="resources/css/birthday.css" />
-	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/about.css" />
 	<link rel="stylesheet" href="resources/css/courses.css" />
 	<link rel="stylesheet" href="resources/css/mesa.css" />
@@ -79,7 +84,7 @@
 				</ul>
 			</nav>
 		</div>
-		<section class="section-about  container-fluid" style="background-image: url('resources/img/example.jpg');">
+		<section class="section-title-page  container-fluid" style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
 					<h1>Mesa<small style="font-weight: 300;"> de Partes</small></h1>
@@ -141,29 +146,29 @@
 									</div>
 									<div class="form-group col-6 px-0">
 										<label for="email">Número <small class="text-muted">(*)</small></label>
-										<input type="text" maxlength="12" class="form-control">
+										<input type="text" required maxlength="12" class="form-control">
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
-									<input type="text" class="form-control"
+									<input type="text" required class="form-control"
 										placeholder="Ingrese Apellidos y Nombres / Razón Social" id="name">
 								</div>
 								<div class="d-flex">
 									<div class="form-group col-6 px-0 pr-2">
 										<label for="email">Teléfono <small class="text-muted">(*)</small></label>
-										<input type="text" maxlength="12" class="form-control"
+										<input type="text" required maxlength="12" class="form-control"
 											placeholder="Ingrese número de teléfono">
 									</div>
 									<div class="form-group col-6 pl-0 pr-2">
 										<label for="email">Correo electrónico <small
 												class="text-muted">(*)</small></label>
-										<input type="email" class="form-control" placeholder="Ingrese email">
+										<input type="email" required class="form-control" placeholder="Ingrese email">
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="name">Dirección <small class="text-muted">(*)</small></label>
-									<input type="text" class="form-control" placeholder="Ingrese dirección" id="name">
+									<input type="text" required class="form-control" placeholder="Ingrese dirección" id="name">
 								</div>
 								<div class="d-flex">
 									<div class="form-group col-6 pr-2 pl-0">
@@ -185,24 +190,24 @@
 									<div class="form-group col-6 px-0 pr-2">
 										<label for="email">Número de documento <small
 												class="text-muted">(*)</small></label>
-										<input type="text" maxlength="12" class="form-control"
+										<input type="text" required maxlength="12" class="form-control"
 											placeholder="Ingrese número de documento">
 									</div>
 									<div class="form-group col-6 pl-0 pr-2">
 										<label for="text">Folio <small class="text-muted">(*)</small></label>
-										<input type="email" class="form-control" placeholder="Ingrese folios">
+										<input type="text" required class="form-control" placeholder="Ingrese folios">
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="subject">Asunto <small class="text-muted">(*)</small></label>
-									<input type="text" class="form-control" id="subject">
+									<input type="text" required class="form-control" id="subject">
 								</div>
 								<div class="form-group" style="position: relative;">
 									<label for="fileUpload">Archivo digital en PDF (Tamaño máximo 20 MB)</label><br>
 									<label class="custom-file-upload" for="fileUpload">
 										Seleccionar archivo
 									</label>
-									<input type="file" class="file-input" id="fileUpload" accept=".pdf">
+									<input type="file" required class="file-input" id="fileUpload" accept=".pdf">
 									<div class="status-message" id="statusMessage">Archivo cargado									</div>
 									<div class="error-message" id="errorMessage"></div>
 								</div>
@@ -219,7 +224,7 @@
 							<div class="form-group mb-0 d-flex col-9">
 								<div class="caja-input">
 									<span>CVMP-CDSM-</span>
-									<input type="text" class="form-control">
+									<input type="text" required class="form-control">
 								</div>
 							</div>
 							<div class="form-group mb-0 col-3 d-flex justify-content-between align-items-center">

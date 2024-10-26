@@ -6,9 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="resources/img/logo.png">
 	<title>CMVP Tarapoto</title>
+	<!-- Defaults -->
 	<link rel="stylesheet" href="resources/css/app.css" />
+	<link rel="stylesheet" href="resources/css/index.css" />
 	<link rel="stylesheet" href="resources/css/default.css" />
 	<link rel="stylesheet" href="resources/css/header.css" />
+	<link rel="stylesheet" href="resources/css/footer.css" />
+	<link rel="stylesheet" href="resources/css/floats.css" />
+	<link rel="stylesheet" href="resources/css/responsive.css" />
+	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/slider.css" />
 	<link rel="stylesheet" href="resources/css/services.css" />
 	<link rel="stylesheet" href="resources/css/institutional.css" />
@@ -17,11 +23,9 @@
 	<link rel="stylesheet" href="resources/css/news.css" />
 	<link rel="stylesheet" href="resources/css/contact.css" />
 	<link rel="stylesheet" href="resources/css/birthday.css" />
-	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/about.css" />
 	<link rel="stylesheet" href="resources/css/courses.css" />
 	<link rel="stylesheet" href="resources/css/mesa.css" />
-
 	<!--Plugins-->
 	<link rel="stylesheet" href="resources/plugins/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="resources/plugins/fontawesome/css/fontawesome.min.css" />
@@ -79,7 +83,8 @@
 				</ul>
 			</nav>
 		</div>
-		<section class="section-about  container-fluid" style="background-image: url('resources/img/example.jpg');">
+		<section class="section-title-page  container-fluid"
+			style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
 					<h1>Noticias <small style="font-weight: 300;">a tu disposición</small></h1>
@@ -90,43 +95,43 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-new bg-opac pt-3 container-fluid">
-			<div class="new container">
+		<section class="section-page container-fluid">
+			<div class="news container">
 				<div class="row py-3">
-					<div class="col-md-9 d-flex flex-column">
-						<div class="w-100 box mb-3">
-							<div class="context">
-								<h3>Defensa de la institucionalidad del Colegio Médico Veterinario del Perú frente a acciones consideradas ilegítimas y desestabilizadoras</h3>
-								<div class="border-top py-2">
-									<p class="mb-4"><strong>Fecha de publicación</strong>: 28 agos 2024</p>
-								</div>
+					<div class="col-md-8">
+						<div class="new-selected">
+							<div class="image" style="background-image: url('resources/img/example.jpg');">
+								<div class="float-date">Fecha de publicación: 25/06/2024</div>
 							</div>
-						</div>
-						<div class="box w-100 mb-3">
-							<div class="context">
-								<h3>Defensa de la institucionalidad del Colegio Médico Veterinario del Perú frente a acciones consideradas ilegítimas y desestabilizadoras</h3>
-								<div class="border-top py-2">
-									<p class="mb-4"><strong>Fecha de publicación</strong>: 28 agos 2024</p>
+							<div class="description">
+								<h3>Comunicado de la administración Comunicado de la administración Comunicado de la
+									administración Comunicado de la administración</h3>
+								<div class="text">
+									<p>
+										Solicita al gobierno atender las demandas laborales del sindicato del Servicio
+										Nacional de Sanidad Agraria.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0">
-						<div class="section-left">
-							<div class="title-left">
-								<h3>Antiguas</h3>
+					<div class="col-md-4 p-0">
+						<div class="section-right">
+							<div class="title-right">
+								<h3>ANTERIORES</h3>
 							</div>
 							<div class="box">
 								<div class="context">
-									<a href="comun">
+									<a href="news.html">
 										<strong>25/06/2024 - </strong>
 										Solicita al gobierno atender las demandas
 										laborales del sindicato del Servicio Nacional de Sanidad Agraria.
 									</a>
 								</div>
 								<div class="context">
-									<a href="comun">
-										<strong>10/02/2024 - </strong> El CMVDSM rechaza una campaña de desprestigio en contra del Mv. Carlos Mendoza Gaviria.
+									<a href="news.html">
+										<strong>10/02/2024 - </strong> El CMVDSM rechaza una campaña de desprestigio en
+										contra del Mv. Carlos Mendoza Gaviria.
 									</a>
 								</div>
 							</div>
@@ -141,9 +146,12 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<img src="resources/img/logo_white.png" alt="" />
-							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San Martín con la finalidad de ejercer representación oficial de la profesión ante los organismos nacionales e internacionales.</p>
+							<p>Somos una institución que agremia a los Médicos Veterinarios del Departamento de San
+								Martín con la finalidad de ejercer representación oficial de la profesión ante los
+								organismos nacionales e internacionales.</p>
 							<p style="font-weight: 500;">
-								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda de Shilcayo, Provincia y Departamento de San Martín.</strong>
+								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda
+									de Shilcayo, Provincia y Departamento de San Martín.</strong>
 							</p>
 						</div>
 					</div>
@@ -184,7 +192,11 @@
 					<div class="col-lg-4">
 						<div class="box">
 							<h3><i class="fa fa-newspaper mr-3"></i> FANPAGE</h3>
-							<iframe style="height: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+							<iframe style="height: 100%;"
+								src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCMVDSM&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=5098249470225307"
+								width="340" height="500" style="border:none;overflow:hidden" scrolling="no"
+								frameborder="0" allowfullscreen="true"
+								allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 						</div>
 					</div>
 				</div>

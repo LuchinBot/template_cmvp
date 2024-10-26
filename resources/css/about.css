@@ -1,52 +1,143 @@
-.section-about {
+.institutional {
+    padding: 20px 0px;
+}
+
+.institutional .wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background: var(--color-white);
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.institutional .wrapper .text {
+    width: 50%;
+    text-align: justify;
+    padding: 40px 20px;
+    background: var(--color-white);
+    border-radius: 8px;
+}
+
+.institutional .wrapper .text h4 {
+    position: relative;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.institutional .wrapper .text h4::after {
+    content: '';
+    position: absolute;
+    margin-left: 8px;
+    top: 15px;
+    font-weight: 400;
+    width: 130px;
+    height: 1px;
+    background-color: var(--color-brown);
+}
+
+.institutional .wrapper .text h3 {
+    font-weight: 800;
+    font-size: 37px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    padding: 0;
+}
+
+.institutional .wrapper .text p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.institutional .wrapper .image {
+    position: relative;
+    padding: 0px 10px;
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+}
+
+.institutional .wrapper .image img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    border: 2px solid var(--color-opac);
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.mision-vision {
+    display: none;
+    padding: 0 !important;
+}
+
+.mision-vision .wrapper {
+    display: flex;
+    padding: 20px 10px;
+}
+.mision-vision .wrapper .col-md-3:nth-child(1) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.mision-vision .wrapper .col-md-3:nth-child(2) {
+    padding-right: 0 !important;
+}
+
+.mision-vision .wrapper .box {
+    padding: 20px;
+    border-radius: 8px;
+}
+.mision-vision .wrapper .box .context .fa-caret-down{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px;
+    color: var(--color-white);
+}
+.mision-vision .wrapper .box .context .fa-caret-up{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px;
+    color: var(--color-white);
+}
+
+.mision-vision .wrapper .box .context h1 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+    width: max-content;
+    padding: 5px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.mision-vision .wrapper .box .context p {
+    text-align: justify;
+    color: var(--color-black);
+    padding: 10px;
+    background-color: var(--color-white);
+}
+
+.history {
+   margin: 40px 0px;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    margin-top: 70px;
-    padding: 30px 0px !important;
 }
 
-.section-about::after {
-    content: "";
-    position: absolute !important;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: var(--color-black-opac)
-}
-
-.section-about .wrapper {
-    position: relative;
-    z-index: 4;
-}
-
-.section-about .wrapper h1 {
-    font-size: 30px;
-    color: var(--color-white);
-    font-weight: 700;
-}
-
-.section-about .wrapper span {
-    font-size: 14px;
-    color: var(--color-white);
-    font-weight: 400;
-}
-
-.section-about .wrapper span a {
-    color: var(--color-white);
-    font-weight: 700;
-}
-
-.history{
-    position: relative;
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.history::after{
+.history::after {
     content: "";
     position: absolute !important;
     width: 100%;
@@ -55,37 +146,43 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.808);
 }
-.history .container{
+
+.history .container {
     position: relative;
     z-index: 4;
 }
-.history .banner-title{
+
+.history .banner-title {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 8px;
     margin-top: -20px;
     width: max-content;
     padding: 5px 20px;
     background-color: var(--color-brown);
     color: var(--color-white);
 }
-.history .banner-title h1{
-    padding: 0;
-    font-size: 30px;
+
+.history .banner-title h1 {
+    padding: 8px 20px;
+    font-size: 17px;
     font-weight: 700;
     margin: 0;
+    text-transform: uppercase;
 }
-.history .context{
+
+.history .context {
     color: var(--color-white);
-   padding: 20px 0;
+    padding: 40px;
 }
-.history .context p{
+
+.history .context p {
     margin: 0;
     padding: 0;
     line-height: 1.8;
     text-align: justify;
     font-weight: 300;
 }
+
 .persons .first .group {
     display: flex;
     flex-wrap: wrap;
@@ -111,10 +208,12 @@
     background-color: var(--color-white);
     transition: all 0.5s;
 }
-.persons .first .box .img-person:hover{
+
+.persons .first .box .img-person:hover {
     background-size: 100%;
     border: 10px solid var(--color-brown-opac);
 }
+
 .persons .first .box .text {
     position: relative;
     display: flex;
@@ -123,31 +222,34 @@
     align-items: center;
     margin-top: -50px;
     padding: 20px 0px;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 100%;
     background-color: var(--color-white);
     border: 0px solid var(--color-brown-opac);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.persons .first .box .text h3{
+
+.persons .first .box .text h3 {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 900;
     margin-bottom: 2px;
-    color: var(--color-brown);
+    color: var(--color-black);
 }
-.persons .first .box .text p{
+
+.persons .first .box .text p {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 2px;
     color: var(--color-gray);
 }
-.persons .first .box .text span{
+
+.persons .first .box .text span {
     position: absolute;
     top: -30px;
     display: flex;
-    width: max-content ;
+    width: max-content;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
@@ -186,64 +288,40 @@
     background-color: var(--color-white);
     transition: all 0.5s;
 }
-.persons .second .box .img-person:hover{
+
+.persons .second .box .img-person:hover {
     border: 2px solid var(--color-opac);
 }
+
 .persons .second .box .text {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    border-radius: 10px;
+    border-radius: 8px;
     width: auto;
     border: 0px solid var(--color-brown-opac);
 }
-.persons .second .box .text span{
+
+.persons .second .box .text span {
     font-weight: 800;
     margin-bottom: 3px;
     color: var(--color-opac);
 }
-.persons .second .box .text h3{
+
+.persons .second .box .text h3 {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 2px;
     color: var(--color-white);
 }
-.persons .second .box .text p{
+
+.persons .second .box .text p {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 2px;
     color: var(--color-gray);
-}
-.mision-vision{
-    padding: 0 !important;
-}
-.mision-vision .wrapper{
-    display: flex;
-    padding: 50px 10px;
-    align-items: center;
-}
-.mision-vision .wrapper .box{
-    padding: 20px;
-    background-color: var(--color-white);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 10px;
-}
-.mision-vision .wrapper .box .context h1{
-    font-size: 27px;
-    font-weight: 800;
-    background-color: var(--color-black);
-    color: var(--color-white);
-    width: max-content;
-    padding: 5px 30px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.mision-vision .wrapper .box .context p{
-    text-align: justify;
 }

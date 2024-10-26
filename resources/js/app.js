@@ -65,4 +65,8 @@ $(document).ready(function () {
             $('#viewTramite .showTable').addClass('show');
         }, 2000);
     });
+    $('.context i').click(function () {
+        $(this).toggleClass('fa-caret-down fa-caret-up');
+        $(this).parent().parent().find('.collapse').slideToggle();
+    });
 });

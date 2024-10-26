@@ -6,9 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="resources/img/logo.png">
 	<title>CMVP Tarapoto</title>
+	<!-- Defaults -->
 	<link rel="stylesheet" href="resources/css/app.css" />
+	<link rel="stylesheet" href="resources/css/index.css" />
 	<link rel="stylesheet" href="resources/css/default.css" />
 	<link rel="stylesheet" href="resources/css/header.css" />
+	<link rel="stylesheet" href="resources/css/footer.css" />
+	<link rel="stylesheet" href="resources/css/floats.css" />
+	<link rel="stylesheet" href="resources/css/responsive.css" />
+	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/slider.css" />
 	<link rel="stylesheet" href="resources/css/services.css" />
 	<link rel="stylesheet" href="resources/css/institutional.css" />
@@ -17,7 +23,6 @@
 	<link rel="stylesheet" href="resources/css/news.css" />
 	<link rel="stylesheet" href="resources/css/contact.css" />
 	<link rel="stylesheet" href="resources/css/birthday.css" />
-	<!--Pages-->
 	<link rel="stylesheet" href="resources/css/about.css" />
 	<link rel="stylesheet" href="resources/css/courses.css" />
 	<link rel="stylesheet" href="resources/css/mesa.css" />
@@ -134,7 +139,7 @@
 						<div class="box">
 							<h3>Cumpleañeros de hoy</h3>
 							<h1>23 de Octubre</h1>
-							<a href="birthdays" class="caja-link">
+							<a href="birthdays.HTML" class="caja-link">
 								<i class="fa fa-arrow-right"></i>
 							</a>
 						</div>
@@ -153,8 +158,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-events container-fluid" id="events">
-			<div class="events container">
+		<section class="section-events-courses container-fluid">
+			<div class="events-courses container">
 				<div class="wrapper">
 					<div class="col-md-6">
 						<div class="box">
@@ -209,11 +214,11 @@
 									</h4>
 									<p class="text-black font-weight-light">Proceso y requerimeintos para trámite de
 										Colegiatura.</p>
-									<a href=""><i class="fa fa-eye"></i></a>
+									<a href="proce.html"><i class="fa fa-eye"></i></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 mb-2">
+						<div class="col-md-3">
 							<div class="featured-box featured-box-primary featured-box-effect-3">
 								<div class="box-content">
 									<span>
@@ -229,7 +234,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 mb-2">
+						<div class="col-md-3">
 							<div class="featured-box featured-box-primary featured-box-effect-3">
 								<div class="box-content">
 									<span>
@@ -245,7 +250,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 mb-2">
+						<div class="col-md-3">
 							<div class="featured-box featured-box-primary featured-box-effect-3">
 								<div class="box-content">
 									<span>
@@ -312,9 +317,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-news overlay container-fluid" id="news"
+		<section class="section-comun-pronun overlay container-fluid"
 			style="background-image: url('resources/img/news.jpg')">
-			<div class="news container">
+			<div class="comun-pronun container">
 				<div class="text-center mb-5">
 					<h1 class="section-title text-white">Comunicados y Pronunciamientos</h1>
 					<h6 class="section-subtitle">Conoce los comunicados y pronunciamientos del CMVDSM</h6>
@@ -329,8 +334,11 @@
 								<div class="float-date">
 									<span>15 Jun 2024</span>
 								</div>
-								<h3><a href="comun">Médicos Veterinarios de San Martín Brindan Atención a Animales
-										Silvestres Afectados por Incendios </a></h3>
+								<p class="text-muted font-weight-bold">ÚLTIMO COMUNICADO</p>
+								<h3>
+									<a href="comun">Médicos Veterinarios de San Martín Brindan Atención a Animales
+										Silvestres Afectados por Incendios </a>
+								</h3>
 								<p>El CMVDSM ha puesto a disposición un equipo de veterinarios voluntarios para brindar
 									atención médica a los animales silvestres
 									que han sido afectados por los recientes incendios en la región. Estos profesionales
@@ -355,6 +363,7 @@
 								<div class="float-date">
 									<span>25 Jun 2024</span>
 								</div>
+								<p class="text-muted font-weight-bold">ÚLTIMO PRONUNCIAMIENTO</p>
 								<h3><a href="pronun">Pronunciamiento del Colegio Médico Veterinario del Perú sobre la
 										Huelga Nacional Indefinida de Trabajadores del SENASA</a></h3>
 								<p>El Colegio Médico Veterinario del Perú, a través de su Decano Nacional, ha emitido un
@@ -374,14 +383,6 @@
 				</div>
 			</div>
 		</section>
-		<div id="show-comunicate">
-			<div class="base">
-				<img src="resources/img/comunicado2.jpg" alt="" />
-				<div class="close">
-					<i class="fas fa-times"></i>
-				</div>
-			</div>
-		</div>
 		<section class="section-contact container-fluid" id="contact">
 			<div class="container my3">
 				<div class="row">
@@ -458,6 +459,14 @@
 				</div>
 			</div>
 		</footer>
+	</div>
+	<div id="show-comunicate">
+		<div class="base">
+			<img src="resources/img/comunicado2.jpg" alt="" />
+			<div class="close">
+				<i class="fas fa-times"></i>
+			</div>
+		</div>
 	</div>
 	<a class="scroll-to-top hidden-mobile visible" href="#"><i class="fas fa-chevron-up"></i></a>
 	<script src="resources/plugins/jquery/jquery-3.7.1.js"></script>

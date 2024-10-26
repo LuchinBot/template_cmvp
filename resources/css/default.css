@@ -13,12 +13,15 @@
 
 }
 
+/* CLASS DEFINEDS */
 .bg-brown {
     background-color: var(--color-brown) !important;
 }
+
 .bg-brown-opac {
     background-color: var(--color-brown-opac) !important;
 }
+
 .bg-gray {
     background-color: var(--color-gray) !important;
 }
@@ -47,12 +50,24 @@
     color: var(--color-opac);
 }
 
-/* Clases */
+/* ETIQUETES */
+p {
+    font-size: 13px !important;
+}
+
+table td,
+table th {
+    border-top: none !important;
+    border-bottom: 1px solid var(--color-opac) !important;
+}
+
+/* CLASS DEFINEDS */
 section {
     font-family: "Manrope", sans-serif !important;
     padding: 50px 0;
 }
 
+/* CLASS DEFINEDS */
 .section-title {
     font-family: "Manrope", sans-serif !important;
     font-weight: 800;
@@ -90,20 +105,18 @@ section {
     background-color: var(--color-opac);
 }
 
-p {
-    font-size: 13px !important;
-}
-.title-left{
+.title-right {
     color: var(--color-white);
     border-bottom: 2px solid var(--color-opac);
     margin-bottom: 10px;
 }
-.title-left h3{
+
+.title-right h3 {
     font-weight: 800;
     font-size: 18px;
 }
 
-.float-number{
+.float-number {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -127,23 +140,157 @@ p {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: var(--color-white);
 }
-.form-contact label{
-   font-size: 13px;
-   font-weight: 400;
+
+.form-contact label {
+    font-size: 13px;
+    font-weight: 400;
 }
-.form-contact input{
+
+.form-contact input {
     font-size: 0.8rem !important;
 }
-.form-contact select{
+
+.form-contact select {
     font-size: 0.8rem !important;
 }
+
 .form-contact input:focus {
     outline: none !important;
     box-shadow: none !important;
     border: 1px solid var(--color-brown);
 }
+
 .form-contact select:focus {
     outline: none !important;
     box-shadow: none !important;
     border: 1px solid var(--color-brown);
 }
+
+/********* DIVIDIR SECCION MORE **********/
+.more-divider {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-divider a {
+    text-decoration: none !important;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 10px 30px;
+    border: 1px solid var(--color-brown);
+    transition: 0.3s;
+}
+
+.more-divider a:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    transform: scale(1.1);
+}
+
+.more-divider a i {
+    transition: 0.3s;
+}
+
+.more-divider a:hover i {
+    transform: translate(10px);
+}
+
+/********* TITLES PAGE *********/
+.section-title-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 70px;
+    padding: 30px 0px !important;
+}
+
+.section-title-page::after {
+    content: "";
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--color-black-opac)
+}
+
+.section-title-page .wrapper {
+    position: relative;
+    z-index: 4;
+}
+
+.section-title-page .wrapper h1 {
+    font-size: 30px;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.section-title-page .wrapper span {
+    font-size: 14px;
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.section-title-page .wrapper span a {
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+/**** SECTION PAGE ***/
+.section-page {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--color-opac);
+}
+
+.section-right{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: var(--color-black);
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+ .section-right .box{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+ }
+ .section-right .box .context{
+    box-shadow: none !important;
+    color: var(--color-white);
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: var(--color-black);
+ }
+ .section-right .box .context a{
+    padding-left: 20px;
+    color: #dfdcdc;
+    position: relative;
+ }
+ .section-right .box .context a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-opac);
+    border-radius: 1px;
+ }
+ 
