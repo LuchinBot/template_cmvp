@@ -6,6 +6,32 @@
     border-radius: 8px;
     overflow: hidden;
 }
+.new-selected .title{
+    padding: 20px;
+}
+.new-selected .title h3{
+    position: relative;
+    font-weight:700 ;
+    margin-bottom: 20px;
+    text-align: justify;
+ }
+ .new-selected .title h3::before{
+     content: "";
+     position: absolute;
+     bottom: -10px;
+     width: 15%;
+     height: 2px;
+     background-color: var(--color-brown);
+ }
+ .new-selected .title h3::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 80%;
+    height: 1px;
+    left: 19%;
+    background-color: var(--color-gray);
+ }
 .new-selected .image{
     width: 100%;
     background-position: center;
@@ -28,7 +54,7 @@
     position: absolute;
     font-size: 14px;
     left: 20px;
-    bottom: 20px;
+    top: 20px;
     background-color: var(--color-brown);
     color: var(--color-white);
     padding: 5px 20px;
@@ -37,28 +63,7 @@
 .new-selected .description{
    padding: 20px ;
 }
-.new-selected .description h3{
-   position: relative;
-   font-weight:700 ;
-   margin-bottom: 20px
-}
-.new-selected .description h3::before{
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    width: 15%;
-    height: 2px;
-    background-color: var(--color-brown);
-}
-.new-selected .description h3::after{
-   content: "";
-   position: absolute;
-   bottom: -10px;
-   width: 80%;
-   height: 1px;
-   left: 19%;
-   background-color: var(--color-gray);
-}
+
 .new-selected .description .text{
    padding: 20px 0;
    width: 100%;
