@@ -11,13 +11,18 @@
     right: 0;
     width: 100%;
     z-index: 3000;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .header .navbar {
+    width: 100%;
     font-family: "Manrope", sans-serif !important;
     box-sizing: border-box;
-    max-width: 1350px;
+    max-width: 1250px;
     margin: auto;
     display: flex;
     justify-content: space-between !important;
@@ -25,7 +30,7 @@
 }
 
 .header .navbar .navbar-brand img {
-    width: 350px;
+    height: 40px;
 }
 
 .header .navbar .navbar-nav {
@@ -35,9 +40,9 @@
 }
 
 .navbar-nav .nav-item {
+    margin: 0px 2px;
     border: 2px solid transparent;
     position: relative !important;
-    margin: 0 10px;
     transition: all 0.3s;
     border-radius: 2px;
 }
@@ -139,4 +144,9 @@
 
 .nav-item.intranet:hover {
     background-color: var(--color-brown) !important;
+}
+/* FOR RESPONSIVE*/
+.menubar{
+    cursor: pointer;
+    color: var(--color-white);
 }

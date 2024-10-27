@@ -125,4 +125,9 @@ $(document).ready(function () {
         }, 1000)
     });
 
+    /*RESPONSIVE */
+    $('.menubar').click(function(){
+        $('.header .navbar .navbar-nav').slideToggle();
+    })
+
 });

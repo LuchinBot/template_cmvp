@@ -44,7 +44,7 @@
 	<div class="main" id="home">
 		<div class="header">
 			<nav class="navbar">
-				<a class="navbar-brand" href="">
+				<a class="navbar-brand" href="index.html">
 					<img src="resources/img/logo_white.png" alt="" />
 				</a>
 				<ul class="navbar-nav">

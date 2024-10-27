@@ -49,11 +49,11 @@
 	<div class="main" id="home">
 		<div class="header">
 			<nav class="navbar">
-				<a class="navbar-brand" href="">
+				<a class="navbar-brand" href="index.html">
 					<img src="resources/img/logo_white.png" alt="" />
 				</a>
 				<ul class="navbar-nav">
-					<li class="nav-item nav-active">
+					<li class="nav-item">
 						<a class="nav-link" href="index.html">Inicio</a>
 					</li>
 					<li class="nav-item ">
@@ -105,8 +105,8 @@
 				</div>
 			</div>
 			<div class="container service-selected-search">
-				<div class="col p-0">
-				
+				<div class="col p-0 text-center">
+					<img src="resources/img/formalizacion.png" class="w-100" alt="">
 				</div>
 			</div>
 		</section>
@@ -120,7 +120,7 @@
 								Martín
 								con la finalidad de ejercer representación oficial de la profesión ante los organismos
 								nacionales e internacionales.</p>
-							<p style="font-weight: 500;">
+							<p styles="font-weight: 500">
 								<strong> <i class="fas fa-map-marked-alt"></i> Av. Fernando Belaunde Terry N° 548, Banda
 									de
 									Shilcayo, Provincia y Departamento de San Martín.</strong>
@@ -195,31 +195,6 @@
 	<!-- Owl Carousel JS -->
 	<script src="resources/plugins/owlcarousel/docs.html/assets/owlcarousel/owl.carousel.min.js"></script>
 	<script src="resources/js/app.js"></script>
-
-	<script>
-		const fileInput = document.getElementById('fileUpload');
-		const statusMessage = document.getElementById('statusMessage');
-		const errorMessage = document.getElementById('errorMessage');
-
-		fileInput.addEventListener('change', function () {
-			const file = fileInput.files[0];
-			if (file) {
-				if (file.size > 20 * 1024 * 1024) {
-					$('.status-message').css('display', 'block');
-					errorMessage.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20 MB.";
-					statusMessage.textContent = "";
-					fileInput.value = "";
-				} else {
-					$('.status-message').css('display', 'block');
-					errorMessage.textContent = "";
-					statusMessage.textContent = "Archivo cargado";
-				}
-			} else {
-				statusMessage.textContent = "";
-				errorMessage.textContent = "";
-			}
-		});
-	</script>
 </body>
 
 </html>

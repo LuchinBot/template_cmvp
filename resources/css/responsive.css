@@ -1,0 +1,143 @@
+/* Media Queries para Responsividad */
+@media (max-width: 1024px) {
+    .main {
+        overflow: hidden;
+        box-sizing: border-box;
+        min-width: fit-content;
+    }
+
+    /*HEADER*/
+    .header .navbar {
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 50px !important;
+    }
+
+    .header .navbar .navbar-nav {
+        top: 60px;
+        left: 0;
+        position: absolute;
+        background-color: var(--color-brown);
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        justify-content: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+        /* Reduce el margen entre elementos */
+    }
+
+    .header .navbar .navbar-brand img {
+        height: 40px;
+    }
+
+    .menubar {
+        display: block !important;
+    }
+
+    .submenu {
+        width: 100% !important;
+        top: 0;
+        position: relative;
+        width: max-content;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /*FOOTER*/
+    .section-contact .box {
+        margin-bottom: 10px;
+        padding: 10px 20px !important;
+    }
+
+    .section-contact iframe {
+        width: 100%;
+    }
+
+    .footer .col {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*SLIDER*/
+    #sliderAutomatic .carousel-item .carousel-caption h1 {
+        font-size: 20px !important;
+    }
+    #sliderAutomatic .carousel-item .carousel-caption p {
+        font-size: 10px !important;
+    }
+    .base-icon {
+        transform: scale(0.5);
+    }
+    /*BIRTHDAY*/
+    .birthday .col-md-4 {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .birthday .col-md-4 .box {
+        width: 100% !important;
+    }
+
+    .birthday .col-md-4:nth-child(2) {
+        display: none;
+    }
+
+    .birthday .hb {
+        position: relative;
+        margin-bottom: -10px;
+    }
+
+    .birthday .hb img {
+        margin-top: 0px;
+        width: 260px;
+        margin-bottom: -50px;
+    }
+
+    /*COURSES AND EVENT*/
+    .events-courses .wrapper {
+        flex-wrap: wrap;
+    }
+    /*PROCESS*/
+    .featured-box {
+        width: 100%;
+    }
+    .box-content span {
+        width: 120px;
+        height: 120px;
+    }
+    .box-content i {
+        background-color: transparent;
+        color: var(--color-white) !important;
+        font-size: 20px;
+    }
+    .box-content h4 {
+        font-size: 20px;
+        margin-bottom: 15px !important;
+    }
+    .box-content p {
+        color: var(--color-gray) !important;
+        font-size: 15px !important;
+    }
+    /*SERVICES*/
+    .services .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .comun-pronun .wrapper {
+        flex-wrap: wrap ;
+    }
+    .comun-pronun .wrapper .col-md-6 {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}
