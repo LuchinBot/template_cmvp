@@ -4,14 +4,14 @@ $(document).ready(function () {
     $('.menu-item').hover(
         function () {
             clearTimeout(hideTimeout);
-            $('.submenu').hide(); 
-            $(this).find('.submenu').show(); 
+            $('.submenu').hide();
+            $(this).find('.submenu').show();
         },
         function () {
             const submenu = $(this).find('.submenu');
             hideTimeout = setTimeout(function () {
-                submenu.hide(); 
-            }, 300); 
+                submenu.hide();
+            }, 300);
         }
     );
 
@@ -41,17 +41,17 @@ $(document).ready(function () {
     });
     $('.section-collapse').click(function () {
         var id = $(this).attr('id');
-        
+
         // Cambiar clase active-collapse
         $('.section-collapse').removeClass('active-collapse');
         $(this).addClass('active-collapse');
-        
+
         // Manejo del colapso
         $('.mesa-wrapper .collapse').removeClass('show');
         $('.mesa-wrapper .collapse[data-parent="' + id + '"]').addClass('show');
     });
 
-    $('#consulTramite').click(function() {
+    $('#consulTramite').click(function () {
         // Ocultar la tabla y mostrar el spinner
         $('#viewTramite .showTable').removeClass('show');
         $('#viewTramite .showSpinner').addClass('show');
@@ -65,7 +65,7 @@ $(document).ready(function () {
             $('#viewTramite .showTable').addClass('show');
         }, 2000);
     });
-    $('#consulCollegiate').click(function() {
+    $('#consulCollegiate').click(function () {
         // Ocultar la tabla y mostrar el spinner
         $('#viewCollegiate .showTable').removeClass('show');
         $('#viewCollegiate .showSpinner').addClass('show');
@@ -83,4 +83,46 @@ $(document).ready(function () {
         $(this).toggleClass('fa-caret-down fa-caret-up');
         $(this).parent().parent().find('.collapse').slideToggle();
     });
+
+    /* Chart click*/
+
+    $('#collegeActive').click(function () {
+        $('#inactiveChart').hide();
+        $('.view p').remove();
+        $('.showSpinner').addClass('show');
+        $('.showSpinner').css('display', 'block');
+        // Cambiar el color
+        $(this).css({
+            'background-color': 'var(--color-brown)',
+            'color': 'var(--color-white)'
+        });
+        $('#collegeInactive').css({
+            'background-color': 'var(--color-white)',
+            'color': 'var(--color-brown)'
+        });
+        setTimeout(() => {
+            $('.showSpinner').removeClass('show');
+            $('.showSpinner').css('display', 'none');
+            $('#activeChart').show();
+        }, 1000)
+    });
+    $('#collegeInactive').click(function () {
+        $('#activeChart').hide();
+        $('.view p').remove();
+        $('.showSpinner').addClass('show');
+        $('.showSpinner').css('display', 'block');
+        // Cambiar el color
+        $(this).css({
+            'background-color': 'var(--color-brown)',
+            'color': 'var(--color-white)'
+        });
+        $('#collegeActive').css({
+            'background-color': 'var(--color-white)',
+            'color': 'var(--color-brown)'
+        });
+        setTimeout(() => {
+            $('#inactiveChart').show();
+        }, 1000)
+    });
+
 });

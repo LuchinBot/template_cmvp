@@ -88,7 +88,7 @@
 			style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
-					<h1>Bolsa <small style="font-weight: 300;"> de Trabajo</small></h1>
+					<h1>Estadísticas <small style="font-weight: 300;"> Colegiado</small></h1>
 					<span>
 						Volver <i class="fa fa-angle-right mx-1"></i>
 						<a href="services.html">Servicios</a>
@@ -97,56 +97,43 @@
 			</div>
 		</section>
 		<section class="section-page container-fluid">
-			<div class="container">
-				<div class="section-info">
-					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Accede a nuestros servicios diseñados para
-						facilitar trámites y consultas. Para comenzar, <strong>haz clic</strong> en el servicio deseado.
-					</p>
-				</div>
-			</div>
-			<div class="container service-selected-search">
-				<div class="col p-0">
-					<table class="table bg-white">
-						<thead class="bg-black text-white">
-							<tr>
-								<th>N°</th>
-								<th>Cargo</th>
-								<th class="text-center">Fecha Inicio</th>
-								<th class="text-center">Fecha Fin</th>
-								<th class="text-center">Lugar</th>
-								<th class="text-center">Institución/Empresa</th>
-								<th class="text-center">Web</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>1</td>
-								<td>Cargo</td>
-								<td class="text-center">12/10/2024</td>
-								<td class="text-center">12/10/2024</td>
-								<td class="text-center">Lugar</td>
-								<td class="text-center">En proceso</td>
-								<td class="text-center">
-									<a href="">
-										<i class="fas fa-link"></i>
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Cargo</td>
-								<td class="text-center">12/10/2024</td>
-								<td class="text-center">12/10/2024</td>
-								<td class="text-center">Lugar</td>
-								<td class="text-center">Institución/Empresa</td>
-								<td class="text-center">
-									<a href="">
-										<i class="fas fa-link"></i>
-									</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+			<div class="container service-selected">
+				<div class="col statistics">
+					<div class="description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam quod veritatis quo?
+							Ipsam dolor deserunt, provident repellendus sunt et repellat vero minus. Quasi voluptatum
+							unde tenetur quod dignissimos. Vel!
+							Laudantium repellendus vitae obcaecati, placeat libero autem quia illum, eaque, aut est
+							dignissimos quas tempore ullam eveniet sunt accusamus excepturi officia! Doloremque, porro.
+							Ducimus labore nisi neque, tempora praesentium quisquam!
+							Reiciendis illo dolore earum error quod. Corrupti, rerum aut sunt sed error explicabo porro
+							amet tenetur assumenda minima consectetur repellat temporibus. Quia veritatis fugiat, velit
+							ea quidem ipsa deleniti odio?</p>
+					</div>
+					<div class="power-bi">
+						<div class="col-md-3">
+							<div class="option" id="collegeActive">
+								<h5 class="text-center">Colegiado <br>
+									<strong>Activos</strong>
+								</h5>
+							</div>
+							<div class="option" id="collegeInactive">
+								<h5 class="text-center">Colegiado <br>
+									<strong>Inactivos</strong>
+								</h5>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="view">
+								<p>¡Selecciones una opción!</p>
+								<div class="showSpinner text-center p-3" style="display: none;">
+									<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="">
+								</div>
+								<canvas id="activeChart" style="display: none;"></canvas>
+								<canvas id="inactiveChart" style="display: none;"></canvas>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -230,33 +217,53 @@
 		</footer>
 	</div>
 	<a class="scroll-to-top hidden-mobile visible" href="#"><i class="fas fa-chevron-up"></i></a>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script src="resources/plugins/jquery/jquery-3.7.1.js"></script>
 	<script src="resources/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<!-- Owl Carousel JS -->
 	<script src="resources/plugins/owlcarousel/docs.html/assets/owlcarousel/owl.carousel.min.js"></script>
 	<script src="resources/js/app.js"></script>
 
-	<script>
-		const fileInput = document.getElementById('fileUpload');
-		const statusMessage = document.getElementById('statusMessage');
-		const errorMessage = document.getElementById('errorMessage');
 
-		fileInput.addEventListener('change', function () {
-			const file = fileInput.files[0];
-			if (file) {
-				if (file.size > 20 * 1024 * 1024) {
-					$('.status-message').css('display', 'block');
-					errorMessage.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20 MB.";
-					statusMessage.textContent = "";
-					fileInput.value = "";
-				} else {
-					$('.status-message').css('display', 'block');
-					errorMessage.textContent = "";
-					statusMessage.textContent = "Archivo cargado";
+	<script>
+
+		const ctx1 = document.getElementById('activeChart');
+		const ctx2 = document.getElementById('inactiveChart');
+
+		new Chart(ctx1, {
+			type: 'bar',
+			data: {
+				labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+				datasets: [{
+					label: '# 1',
+					data: [12, 19, 3, 5, 2, 3],
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					y: {
+						beginAtZero: true
+					}
 				}
-			} else {
-				statusMessage.textContent = "";
-				errorMessage.textContent = "";
+			}
+		});
+		new Chart(ctx2, {
+			type: 'bar',
+			data: {
+				labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+				datasets: [{
+					label: '# 2',
+					data: [12, 19, 3, 5, 2, 3],
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					y: {
+						beginAtZero: true
+					}
+				}
 			}
 		});
 	</script>
