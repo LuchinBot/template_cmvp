@@ -4,6 +4,8 @@
     background-color: var(--color-white);
     border-radius: 8px;
     overflow: hidden;
+    border: 1px solid var(--color-gray-opac);
+
 }
 
 .new-selected .title {
@@ -14,7 +16,7 @@
     position: relative;
     font-weight: 700;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .new-selected .title h3::before {
@@ -44,19 +46,7 @@
     height: 400px;
     overflow: hidden;
     position: relative;
-    animation: zoomImage 10s ease-in forwards;
 }
-
-@keyframes zoomImage {
-    0% {
-        background-size: 100%;
-    }
-
-    100% {
-        background-size: 120%;
-    }
-}
-
 .new-selected .image .float-date {
     position: absolute;
     font-size: 14px;
@@ -89,6 +79,7 @@
     padding: 0px 5px;
 }
 .section-pdf .box{
+    width: 100%;
     margin: 10px 5px;
     border-radius: 8px;
     text-decoration: none;
@@ -118,4 +109,11 @@
    text-align: center;
    font-weight: 800;
    line-height: 1.1;
+   color: var(--color-black-opac);
+}
+
+/*PRONUN AND COMUN*/
+.new .col-md-8 .box{
+    border-radius: 8px;
+    border: 1px solid var(--color-gray-opac);
 }

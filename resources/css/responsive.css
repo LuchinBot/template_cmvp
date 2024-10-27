@@ -17,12 +17,13 @@
         top: 60px;
         left: 0;
         position: absolute;
-        background-color: var(--color-brown);
+        background-color: var(--color-black);
         display: none;
         flex-direction: column;
         width: 100%;
         padding: 10px 0;
         justify-content: center;
+        height: 100vh;
     }
 
     .navbar-nav .nav-item {
@@ -58,20 +59,31 @@
     }
 
     .footer .col {
+        font-size: 12px;
         justify-content: space-between;
         align-items: center;
     }
+    .section-contact .row .col-lg-4:nth-child(1) .box::after {
+        display: none !important;
+    }
+    .section-contact .row .col-lg-4:nth-child(2) .box::after {
+        display: none !important;
+    }
+    
 
     /*SLIDER*/
     #sliderAutomatic .carousel-item .carousel-caption h1 {
         font-size: 20px !important;
     }
+
     #sliderAutomatic .carousel-item .carousel-caption p {
         font-size: 10px !important;
     }
+
     .base-icon {
         transform: scale(0.5);
     }
+
     /*BIRTHDAY*/
     .birthday .col-md-4 {
         display: flex;
@@ -102,38 +114,143 @@
     .events-courses .wrapper {
         flex-wrap: wrap;
     }
+
     /*PROCESS*/
     .featured-box {
         width: 100%;
     }
+
     .box-content span {
         width: 120px;
         height: 120px;
     }
+
     .box-content i {
         background-color: transparent;
         color: var(--color-white) !important;
         font-size: 20px;
     }
+
     .box-content h4 {
         font-size: 20px;
         margin-bottom: 15px !important;
     }
+
     .box-content p {
         color: var(--color-gray) !important;
         font-size: 15px !important;
     }
+
     /*SERVICES*/
     .services .wrapper {
         display: flex;
         flex-wrap: wrap;
     }
+
     .comun-pronun .wrapper {
-        flex-wrap: wrap ;
+        flex-wrap: wrap;
     }
+
     .comun-pronun .wrapper .col-md-6 {
         padding: 0;
         margin-bottom: 20px;
+    }
+
+    /* ABOUT */
+    .institutional .wrapper {
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+    }
+
+    .institutional .wrapper .text {
+        width: 100% !important;
+    }
+
+    .institutional .wrapper .text h4::after {
+        width: 90px !important;
+    }
+
+    .institutional .wrapper .text h3 {
+        font-size: 34px !important;
+    }
+
+    .institutional .wrapper .text .description {
+        padding-right: 10px !important;
+    }
+
+    .institutional .wrapper .image {
+        width: 100% !important;
+    }
+
+    .persons .first .box .text {
+        width: 90% !important;
+    }
+
+    .news .col-md-8 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    /*FLOATS*/
+    #show-image .base img {
+        width: 100% !important;
+    }
+
+    #show-image .image span {
+        font-size: 13px !important;
+    }
+
+    #show-image .close {
+        font-size: 20px !important;
+        top: 100px !important;
+    }
+
+    /*BIRTHDAY*/
+    .all-birthdays .box {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* PROCE */
+    .process-selected .col {
+        flex-wrap: wrap;
+    }
+
+    /*MESA*/
+    .mesa-wrapper .collapse .d-flex {
+        min-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .mesa-wrapper .collapse .d-flex .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .mesa-wrapper .collapse .d-flex .col-md-8 {
+        padding: 0px !important;
+    }
+
+    .form-contact {
+        gap: 10px;
+    }
+
+    .search .caja-input span {
+        width: 150px !important;
+    }
+
+    /*POWER BI*/
+    .power-bi {
+        flex-wrap: wrap;
+    }
+
+    .power-bi .col-md-3 {
+        flex-direction: row !important;
+        margin-bottom: 20px;
+    }
+
+    .power-bi .option h5 {
+        font-size: 17px;
     }
 
 }
