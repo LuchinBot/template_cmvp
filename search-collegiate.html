@@ -99,18 +99,19 @@
 		<section class="section-page container-fluid">
 			<div class="container">
 				<div class="section-info">
-					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Accede a nuestros servicios diseñados para
-						facilitar trámites y consultas. Para comenzar, <strong>haz clic</strong> en el servicio deseado.
+					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Verifica información de miembros registrados y realiza consultas rápidas y seguras..
 					</p>
 				</div>
 			</div>
 			<div class="container service-selected-search">
 				<div class="col p-0">
 					<div class="form">
-						<select class="form-control">
-							<option value="">Todos</option>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>Nombres y Apellidos</option>
+							<option>N° Identidad</option>
+							<option>N° CMVP</option>
 						</select>
-						<input type="text" class="form-control" placeholder="Buscar">
+						<input type="text" class="form-control" placeholder="Ingresar datos ">
 						<button id="consulCollegiate"><i class="fa fa-search"></i></button>
 					</div>
 					<div id="viewCollegiate">
@@ -132,7 +133,8 @@
 								<tbody>
 									<tr>
 										<td>
-											<div class="photo-collegiate" style="background-image: url('resources/img/hugo.png')	;">
+											<div class="photo-collegiate"
+												style="background-image: url('resources/img/hugo.png')	;">
 											</div>
 										</td>
 										<td>
@@ -147,11 +149,12 @@
 											<a href="#" class="text-black">
 												<i class="fa fa-file-pdf"></i>
 											</a>
-										</td>										
+										</td>
 									</tr>
 									<tr>
 										<td>
-											<div class="photo-collegiate" style="background-image: url('resources/img/hugo.png')	;">
+											<div class="photo-collegiate"
+												style="background-image: url('resources/img/hugo.png')	;">
 											</div>
 										</td>
 										<td>
@@ -166,7 +169,7 @@
 											<a href="#" class="text-black">
 												<i class="fa fa-file-pdf"></i>
 											</a>
-										</td>										
+										</td>
 									</tr>
 								</tbody>
 							</table>

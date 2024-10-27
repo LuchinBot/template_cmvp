@@ -84,7 +84,8 @@
 				</ul>
 			</nav>
 		</div>
-		<section class="section-title-page  container-fluid" style="background-image: url('resources/img/example.jpg');">
+		<section class="section-title-page  container-fluid"
+			style="background-image: url('resources/img/example.jpg');">
 			<div class="container">
 				<div class="wrapper">
 					<h1>Mesa<small style="font-weight: 300;"> de Partes</small></h1>
@@ -110,27 +111,22 @@
 						<div class="col-md-4 bg-white rounded p-3" style="text-align: justify;">
 							<p>
 								Ponemos a disposición de nuestros colegiados, empresas y público en general, nuestra
-								plataforma virtual, con la finalidad de facilitar la presentación y recepción de
+								plataforma "Mesa virtual", con la finalidad de facilitar la presentación y recepción de
 								documentos
 								de manera virtual.
-								La plataforma virtual implementa un formulario para el registro de información y carga
-								de
-								archivos digital de manera obligatoria como requisitos para poder admitir a trámite su
-								registro. Tenga en cuenta que usted, será el responsable directo del contenido y
+								Tenga en cuenta que usted, será el responsable directo del contenido y
 								registro de
 								información, así mismo de los documentos que remita adjunto al presente formulario.
 								<br> <br> <strong>Consideraciones a tener en cuenta:
 								</strong>
 							<ul>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
-								<li>La carga de archivos debe ser digital.</li>
+								<li>Horario disponible: Lunes a Viernes de 9:00 a.m a 12:30 p.m</li>
+								<li>La plataforma no estará disponible en días feriados.</li>
+								<li>Una vez registrado su trámite, se le notificará el código asignado a su correo, el
+									mismo que le permitirá hacer el seguimiento a su solicitud.</li>
+								<li>Para poder hacer el seguimiento a su trámite, deberá ingresar a la opción “Consultar
+									Trámite”.</li>
+								<li>Adjuntar documentos (PDF) de 20 MB máximos.</li>
 							</ul>
 							</p>
 						</div>
@@ -141,7 +137,7 @@
 										<label for="exampleFormControlSelect1">Documento</label>
 										<select class="form-control" id="exampleFormControlSelect1">
 											<option>DNI</option>
-											<option>RUNC</option>
+											<option>RUC</option>
 										</select>
 									</div>
 									<div class="form-group col-6 px-0">
@@ -152,23 +148,24 @@
 								<div class="form-group">
 									<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
 									<input type="text" required class="form-control"
-										placeholder="Ingrese Apellidos y Nombres / Razón Social" id="name">
+										placeholder="Ingresar Apellidos y Nombres / Razón Social" id="name">
 								</div>
 								<div class="d-flex">
 									<div class="form-group col-6 px-0 pr-2">
 										<label for="email">Teléfono <small class="text-muted">(*)</small></label>
 										<input type="text" required maxlength="12" class="form-control"
-											placeholder="Ingrese número de teléfono">
+											placeholder="Ingresar número de teléfono">
 									</div>
 									<div class="form-group col-6 pl-0 pr-2">
 										<label for="email">Correo electrónico <small
 												class="text-muted">(*)</small></label>
-										<input type="email" required class="form-control" placeholder="Ingrese email">
+										<input type="email" required class="form-control" placeholder="Ingresar email">
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="name">Dirección <small class="text-muted">(*)</small></label>
-									<input type="text" required class="form-control" placeholder="Ingrese dirección" id="name">
+									<input type="text" required class="form-control" placeholder="Ingresar dirección"
+										id="name">
 								</div>
 								<div class="d-flex">
 									<div class="form-group col-6 pr-2 pl-0">
@@ -191,11 +188,11 @@
 										<label for="email">Número de documento <small
 												class="text-muted">(*)</small></label>
 										<input type="text" required maxlength="12" class="form-control"
-											placeholder="Ingrese número de documento">
+											placeholder="Ingresar número de documento">
 									</div>
 									<div class="form-group col-6 pl-0 pr-2">
 										<label for="text">Folio <small class="text-muted">(*)</small></label>
-										<input type="text" required class="form-control" placeholder="Ingrese folios">
+										<input type="text" required class="form-control" placeholder="Ingresar folios">
 									</div>
 								</div>
 								<div class="form-group">
@@ -208,7 +205,7 @@
 										Seleccionar archivo
 									</label>
 									<input type="file" required class="file-input" id="fileUpload" accept=".pdf">
-									<div class="status-message" id="statusMessage">Archivo cargado									</div>
+									<div class="status-message" id="statusMessage">Archivo cargado </div>
 									<div class="error-message" id="errorMessage"></div>
 								</div>
 								<div class="form-group d-flex justify-content-between align-items-center">
@@ -223,7 +220,7 @@
 						<div class="form-contact search d-flex w-100">
 							<div class="form-group mb-0 d-flex col-9">
 								<div class="caja-input">
-									<span>CVMP-CDSM-</span>
+									<span>N° de Trámite:</span>
 									<input type="text" required class="form-control">
 								</div>
 							</div>
@@ -354,29 +351,29 @@
 	<script src="resources/js/app.js"></script>
 
 	<script>
-        const fileInput = document.getElementById('fileUpload');
-        const statusMessage = document.getElementById('statusMessage');
-        const errorMessage = document.getElementById('errorMessage');
+		const fileInput = document.getElementById('fileUpload');
+		const statusMessage = document.getElementById('statusMessage');
+		const errorMessage = document.getElementById('errorMessage');
 
-        fileInput.addEventListener('change', function() {
-            const file = fileInput.files[0];
-            if (file) {
-                if (file.size > 20 * 1024 * 1024) {
+		fileInput.addEventListener('change', function () {
+			const file = fileInput.files[0];
+			if (file) {
+				if (file.size > 20 * 1024 * 1024) {
 					$('.status-message').css('display', 'block');
-                    errorMessage.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20 MB.";
-                    statusMessage.textContent = ""; 
-                    fileInput.value = "";
-                } else {
+					errorMessage.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20 MB.";
+					statusMessage.textContent = "";
+					fileInput.value = "";
+				} else {
 					$('.status-message').css('display', 'block');
-                    errorMessage.textContent = "";
-                    statusMessage.textContent = "Archivo cargado";
-                }
-            } else {
-                statusMessage.textContent = "";
-                errorMessage.textContent = "";
-            }
-        });
-    </script>
+					errorMessage.textContent = "";
+					statusMessage.textContent = "Archivo cargado";
+				}
+			} else {
+				statusMessage.textContent = "";
+				errorMessage.textContent = "";
+			}
+		});
+	</script>
 </body>
 
 </html>
