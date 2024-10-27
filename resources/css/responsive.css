@@ -63,7 +63,7 @@
     }
 
     .footer .col {
-        font-size: 12px;
+        font-size: 12px !important;
         justify-content: space-between;
         align-items: center;
     }
@@ -102,8 +102,11 @@
     .birthday .col-md-4:nth-child(2) {
         display: none;
     }
+    .birthday .box h3{
+        font-size: 13px !important;
+    }
     .birthday .box h1 {
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
 
     .birthday .hb {
@@ -112,6 +115,7 @@
     }
 
     .birthday .hb img {
+        margin-left: -30px;
         margin-top: 0px;
         width: 260px;
         margin-bottom: -50px;
