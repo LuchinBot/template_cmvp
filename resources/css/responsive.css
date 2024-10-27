@@ -3,7 +3,6 @@
     .main {
         overflow: hidden;
         box-sizing: border-box;
-        min-width: fit-content;
     }
 
     /*HEADER*/
@@ -14,7 +13,7 @@
     }
 
     .header .navbar .navbar-nav {
-        top: 60px;
+        top: 55px;
         left: 0;
         position: absolute;
         background-color: var(--color-black);
