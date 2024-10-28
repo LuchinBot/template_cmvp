@@ -383,8 +383,8 @@
 	<script src="resources/plugins/jquery/jquery-3.7.1.js"></script>
 	<script src="resources/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="resources/js/app.js"></script>
-	<script src="resources/plugins/pdfjs/build/pdf.mjs"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js"></script>
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
 			document.querySelectorAll('.box').forEach(box => {
@@ -395,7 +395,7 @@
 				const pdfUrl = box.getAttribute('href');
 	
 				// Cargar el documento PDF
-				pdfjsLib.GlobalWorkerOptions.workerSrc = 'resources/plugins/pdfjs/build/pdf.worker.mjs';
+				pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
 	
 				pdfjsLib.getDocument(pdfUrl).promise.then((pdf) => {
 					pdf.getPage(1).then((page) => {
