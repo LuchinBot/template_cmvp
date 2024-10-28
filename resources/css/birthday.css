@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: var(--color-white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -64,6 +64,6 @@
 
 .all-birthdays .box .text h3 {
     font-weight: 900;
-    font-size: 17px;
+    font-size: 1.4rem;
     margin-bottom: 2px;
 }

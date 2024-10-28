@@ -102,40 +102,40 @@
 		<section class="section-page container-fluid">
 			<div class="container">
 				<div class="section-info">
-					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Este apartado permite consultar estadísticas sobre colegiados activos e inactivos del <strong>CMVDSM</strong>
+					<p class="m-0"><i class="fa-solid fa-circle mr-2"></i>Este apartado permite consultar estadísticas
+						sobre colegiados activos e inactivos del <strong>CMVDSM</strong>
 					</p>
 				</div>
 			</div>
 			<div class="container service-selected">
 				<div class="col statistics">
 					<div class="description">
-						<p>El servicio de "Estadísticas Colegiado" 
-							ofrece información específica sobre los colegiados, clasificándolos en 
-							activos e inactivos. Este servicio es clave para la transparencia y administración eficiente, ya que 
-							proporciona una visión general del estado de los profesionales registrados, 
-							optimizando el acceso a dicha información para toma de decisiones a futuro.</p>
-					</div>
-					<div class="power-bi">
-						<div class="col-md-3">
-							<div class="option" id="collegeActive">
-								<h5 class="text-center">Colegiado <br>
-									<strong>Activos</strong>
-								</h5>
-							</div>
-							<div class="option" id="collegeInactive">
-								<h5 class="text-center">Colegiado <br>
-									<strong>Inactivos</strong>
-								</h5>
+						<div class="select">
+							<h6 class="mb-2">Seleccione un Género</h6>
+							<div>
+								<button id="colleMas" class="btn border">Varones</button>
+								<button id="colleFem" class="btn border">Mujeres</button>
 							</div>
 						</div>
-						<div class="col-md-9">
+						<div class="text">
+							<p class="m-0">El servicio de "Estadísticas Colegiado"
+								ofrece información específica sobre los colegiados, clasificándolos en
+								activos e inactivos. Este servicio es clave para la transparencia y administración
+								eficiente, ya que
+								proporciona una visión general del estado de los profesionales registrados,
+								optimizando el acceso a dicha información para toma de decisiones a futuro.</p>
+						</div>
+					</div>
+					<div class="power-bi">
+						<div class="col-md-12 p-0">
 							<div class="view">
 								<p>¡Selecciones una opción!</p>
 								<div class="showSpinner text-center p-3" style="display: none;">
-									<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="">
+									<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif"
+										alt="">
 								</div>
-								<canvas id="activeChart" style="display: none;"></canvas>
-								<canvas id="inactiveChart" style="display: none;"></canvas>
+								<canvas id="masChart" style="display: none;"></canvas>
+								<canvas id="femChart" style="display: none;"></canvas>
 							</div>
 						</div>
 					</div>
@@ -232,15 +232,15 @@
 
 	<script>
 
-		const ctx1 = document.getElementById('activeChart');
-		const ctx2 = document.getElementById('inactiveChart');
+		const ctx1 = document.getElementById('masChart');
+		const ctx2 = document.getElementById('femChart');
 
 		new Chart(ctx1, {
 			type: 'bar',
 			data: {
-				labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+				labels: ['2024', '2023', '2022', '2021', '2020', '2019'],
 				datasets: [{
-					label: '# 1',
+					label: 'CANTIDAD DE VARONES COLEGIADOS',
 					data: [12, 19, 3, 5, 2, 3],
 					borderWidth: 1
 				}]
@@ -256,9 +256,9 @@
 		new Chart(ctx2, {
 			type: 'bar',
 			data: {
-				labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+				labels: ['2024', '2023', '2022', '2021', '2020', '2019'],
 				datasets: [{
-					label: '# 2',
+					label: 'CANTIDAD DE MUJERES COLEGIADAS',
 					data: [12, 19, 3, 5, 2, 3],
 					borderWidth: 1
 				}]

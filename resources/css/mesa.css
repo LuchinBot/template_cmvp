@@ -18,7 +18,10 @@
 }
 
 .collapse .form-contact.search input {
+   text-transform: uppercase;
+   font-size: 1.4rem;
    position: relative;
+   font-weight: 600;
 }
 
 .search .caja-input {
@@ -27,12 +30,12 @@
    align-items: center;
    width: 100%;
    border: 1px solid var(--color-brown);
-   border-radius: 8px;
+   border-radius: 5px;
 }
 
 .search .caja-input span {
    font-weight: 600;
-   width: 130px;
+   width: 75px;
    color: var(--color-gray);
 }
 
@@ -40,19 +43,37 @@
    padding-left: 0px;
    border: none !important;
 }
-
+#viewTramite{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#viewTramite .description{
+   width: 50%;
+   padding: 20px;
+   margin-top: 10px;
+   background-color: var(--color-white);
+   border-radius: 5px;
+   text-align: center;
+}
+#viewTramite .not-found{
+   display: none;
+   width: 50%;
+   padding: 20px;
+   margin-top: 10px;
+   background-color: var(--color-gray);
+   color: var(--color-white);
+   border-radius: 5px;
+   text-align: center;
+}
 .showSpinner,
 .showTable {
+   font-size: 13px !important;
+   width: 100%;
+   display: none;
    overflow: hidden;
-   opacity: 0;
    transition: opacity 0.5s ease, height 0.5s ease;
-   height: 0;
-}
-
-.showSpinner.show,
-.showTable.show {
-   opacity: 1;
-   height: auto;
 }
 
 .showSpinner img {

@@ -135,23 +135,20 @@
 						</div>
 						<div class="col-md-8">
 							<form class="form-contact">
+								<div class="d-flex mb-3 border-bottom">
+									<p class="text-danger">(*) Todos lo campos son obligatorias</p>
+								</div>
 								<div class="d-flex">
-									<div class="form-group col-6 pr-2 pl-0">
-										<label for="exampleFormControlSelect1">Documento</label>
-										<select class="form-control" id="exampleFormControlSelect1">
-											<option>DNI</option>
-											<option>RUC</option>
-										</select>
+									<div class="form-group col-8 px-0 pr-2">
+										<label for="name">Nombre y apellidos <small
+												class="text-muted">(*)</small></label>
+										<input type="text" required class="form-control"
+											placeholder="Ingresar Apellidos y Nombres / Razón Social" id="name">
 									</div>
-									<div class="form-group col-6 px-0">
-										<label for="email">Número <small class="text-muted">(*)</small></label>
+									<div class="form-group col-4 px-0">
+										<label for="email">DNI <small class="text-muted">(*)</small></label>
 										<input type="text" required maxlength="12" class="form-control">
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="name">Nombre y apellidos <small class="text-muted">(*)</small></label>
-									<input type="text" required class="form-control"
-										placeholder="Ingresar Apellidos y Nombres / Razón Social" id="name">
 								</div>
 								<div class="d-flex">
 									<div class="form-group col-6 px-0 pr-2">
@@ -159,44 +156,18 @@
 										<input type="text" required maxlength="12" class="form-control"
 											placeholder="Ingresar número de teléfono">
 									</div>
-									<div class="form-group col-6 pl-0 pr-2">
+									<div class="form-group col-6 px-0">
 										<label for="email">Correo electrónico <small
 												class="text-muted">(*)</small></label>
 										<input type="email" required class="form-control" placeholder="Ingresar email">
 									</div>
 								</div>
-								<div class="form-group">
-									<label for="name">Dirección <small class="text-muted">(*)</small></label>
-									<input type="text" required class="form-control" placeholder="Ingresar dirección"
-										id="name">
-								</div>
-								<div class="d-flex">
-									<div class="form-group col-6 pr-2 pl-0">
-										<label for="FormControlSelect2">Tipo documento</label>
-										<select class="form-control" id="FormControlSelect2">
-											<option>DNI</option>
-											<option>RUNC</option>
-										</select>
-									</div>
-									<div class="form-group col-6 px-0">
-										<label for="FormControlSelect3">Trámite</label>
-										<select class="form-control">
-											<option>DNI</option>
-											<option>RUNC</option>
-										</select>
-									</div>
-								</div>
-								<div class="d-flex">
-									<div class="form-group col-6 px-0 pr-2">
-										<label for="email">N° de documento <small
-												class="text-muted">(*)</small></label>
-										<input type="text" required maxlength="12" class="form-control"
-											placeholder="Ingresar número de documento">
-									</div>
-									<div class="form-group cosl-6 pl-0 pr-2">
-										<label for="text">Folio<small class="text-muted">(*)</small></label>
-										<input type="text" required class="form-control" placeholder="Ingresar folios">
-									</div>
+								<div class="form-group px-0">
+									<label for="FormControlSelect3">Trámite</label>
+									<select class="form-control">
+										<option>DNI</option>
+										<option>RUNC</option>
+									</select>
 								</div>
 								<div class="form-group">
 									<label for="subject">Asunto <small class="text-muted">(*)</small></label>
@@ -220,8 +191,8 @@
 				</div>
 				<div class="collapse w-100" data-parent="si2">
 					<div class="bg-white rounded">
-						<div class="form-contact search d-flex w-100">
-							<div class="form-group mb-0 d-flex col-9">
+						<div class="form-contact search d-flex w-100 justify-content-center">
+							<div class="form-group mb-0 d-flex col-6">
 								<div class="caja-input">
 									<span>CMVSM-</span>
 									<input type="text" autofocus required class="form-control">
@@ -234,29 +205,33 @@
 						</div>
 					</div>
 					<div id="viewTramite">
+						<div class="description">
+							<p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor voluptatibus inventore adipisci voluptatem sit repellat repudiandae voluptate eos quis ea quo, ratione sunt hic expedita perferendis quia modi eligendi.</p>
+						</div>
+						<div class="not-found">
+							<p class="m-0">No se encontraron resultados <i class="fa far fa-sad-cry"></i></p>
+						</div>
 						<div class="showSpinner text-center p-3">
 							<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="">
 						</div>
-						<div class="showTable rounded bg-white mt-2 p-3">
+						<div class="showTable rounded bg-white mt-2 p-3 w-100">
 							<table class="table">
 								<thead class="bg-black text-white">
 									<tr>
-										<th>Descripción</th>
+										<th class="text-center">Descripción</th>
 										<th class="text-center">Fecha</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>
-											Solicitud para Certificado <br>
-											<small class="text-success">EN PROCESO</small>
+										<td class="text-center">
+											RECEPCIONADO
 										</td>
 										<td class="text-center">12/10/2024</td>
 									</tr>
 									<tr>
-										<td>
-											Solicitud para Certificado <br>
-											<small class="text-success">EN PROCESO</small>
+										<td class="text-center">
+											ENVIADO
 										</td>
 										<td class="text-center">12/10/2024</td>
 									</tr>

@@ -2,10 +2,9 @@
 
 .new-selected {
     background-color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 5px;
     overflow: hidden;
     border: 1px solid var(--color-gray-opac);
-
 }
 
 .new-selected .title {
@@ -69,51 +68,79 @@
     text-align: justify;
 }
 
-/*COMUN*/
-.section-pdf{
-    display: flex;
-    flex-wrap: wrap;
-}
-.section-pdf .col-md-3{
-    display: flex;
-    padding: 0px 5px;
-}
-.section-pdf .box{
-    width: 100%;
-    margin: 10px 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.3s;
-    color: var(--color-black);
-    border: 1px solid var(--color-brown);
-    background-color: var(--color-white);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px
-}
-.section-pdf .box:hover{
-    transform: scale(1.05);
-}
-.section-pdf .pdf{
-    color: var(--color-brown);
-    font-size: 30px;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section-pdf .title{
-    padding: 10px;
-   font-size: 17px;
-   text-align: center;
-   font-weight: 800;
-   line-height: 1.1;
-   color: var(--color-black-opac);
-}
 
 /*PRONUN AND COMUN*/
+.comun-pronun-selected{
+    background-color: var(--color-white);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid var(--color-gray-opac);
+}
+.comun-pronun-selected .title{
+    padding: 20px;
+}
+.comun-pronun-selected .title h3 {
+    font-size: 1.4rem;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.comun-pronun-selected .title h3::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 15%;
+    height: 2px;
+    background-color: var(--color-brown);
+}
+
+.comun-pronun-selected .title h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 81%;
+    height: 1px;
+    left: 19%;
+    background-color: var(--color-gray);
+}
+.comun-pronun-selected .description{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.comun-pronun-selected .description .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 250px;
+
+}
+.comun-pronun-selected .description .text{
+    padding-left: 20px;
+    width: calc(100%-400px);
+}
+.comun-pronun-selected .description .text .date{
+    font-size: 13px !important;
+    margin-bottom: 10px !important;
+}
+.comun-pronun-selected .description .text .info{
+    font-size: 13px !important;
+    text-align: justify;
+}
+
+.comun-pronun-selected .image-main{
+    padding: 20px;
+}
+
+.comun-pronun-selected .image-main img{
+    width: 100%;
+}
+
+
+
 .new .col-md-8 .box{
-    border-radius: 8px;
+    border-radius: 5px;
     border: 1px solid var(--color-gray-opac);
 }

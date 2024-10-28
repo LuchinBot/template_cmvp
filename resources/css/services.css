@@ -12,7 +12,7 @@
 }
 
 .service-selected-search .form {
-    border-radius: 8px;
+    border-radius: 5px;
     height: 70px;
     box-sizing: border-box;
     display: flex;
@@ -25,16 +25,16 @@
 .service-selected-search .form select {
     border: 1px solid var(--color-brown);
     border-right: none;
-    border-radius: 0;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-radius: 0 !important;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
     padding: 10px;
     height: 100%;
 }
 
 .service-selected-search .form input {
     border: 1px solid var(--color-brown);
-    border-radius: 0;
+    border-radius: 0 !important;
     padding: 10px;
     height: 100%;
 }
@@ -59,19 +59,70 @@
     border: 1px solid var(--color-black);
 }
 
+#viewCollegiate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ #viewCollegiate .description{
+    width: 50%;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    text-align: center;
+ }
+ #viewCollegiate .not-found{
+    display: none;
+    width: 50%;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: var(--color-gray);
+    color: var(--color-white);
+    border-radius: 5px;
+    text-align: center;
+ }
 /* STATISTICS*/
 .service-selected .statistics {
-    padding: 20px 0px;
-    ;
+    padding: 10px 0px;
 }
 
 .service-selected .statistics .description {
-    padding: 10px 20px;
+    padding: 20px;
     text-align: justify;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: var(--color-white);
-
+    display: flex;
+    align-items: center;
 }
+.service-selected .statistics .description .select{
+    width: 700px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-selected .statistics .description .select button{
+    color: var(--color-white);
+    transition: all 0.3s;
+    margin: 5px;
+    font-size: 1rem;
+}
+.service-selected .statistics .description .select button:hover{
+    transform: scale(1.03);
+}
+.service-selected .statistics .description .select button:focus{
+    border: 1px solid var(--color-white) !important;
+}
+.service-selected .statistics .description .text{
+    padding-left: 20px;
+}
+
 
 .service-selected .statistics .power-bi {
     margin-top: 10px;
@@ -79,8 +130,7 @@
     overflow: hidden;
     padding: 20px;
     display: flex;
-    border-radius: 8px;
-
+    border-radius: 5px;
 }
 
 .power-bi .col-md-3 {

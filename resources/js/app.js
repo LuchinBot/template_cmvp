@@ -53,30 +53,36 @@ $(document).ready(function () {
 
     $('#consulTramite').click(function () {
         // Ocultar la tabla y mostrar el spinner
-        $('#viewTramite .showTable').removeClass('show');
-        $('#viewTramite .showSpinner').addClass('show');
+        $('#viewTramite .showTable').css('display', 'none');
+        $('#viewTramite .showSpinner').css('display', 'block');
+        $('#viewTramite .description').css('display', 'none');
         $('#viewTramite .showSpinner').css('display', 'block');
 
         setTimeout(() => {
             console.log('CARGADO');
             // Ocultar el spinner y mostrar la tabla
-            $('#viewTramite .showSpinner').removeClass('show');
             $('#viewTramite .showSpinner').css('display', 'none');
-            $('#viewTramite .showTable').addClass('show');
+            $('#viewTramite .showSpinner').css('display', 'none');
+            $('#viewTramite .showTable').css('display', 'block');
+            //$('#viewTramite .not-found').css('display', 'block');
+
         }, 2000);
     });
     $('#consulCollegiate').click(function () {
         // Ocultar la tabla y mostrar el spinner
-        $('#viewCollegiate .showTable').removeClass('show');
-        $('#viewCollegiate .showSpinner').addClass('show');
+        $('#viewCollegiate .showTable').css('display', 'none');
+        $('#viewCollegiate .showSpinner').css('display', 'block');
+        $('#viewCollegiate .description').css('display', 'none');
         $('#viewCollegiate .showSpinner').css('display', 'block');
 
         setTimeout(() => {
             console.log('CARGADO');
             // Ocultar el spinner y mostrar la tabla
-            $('#viewCollegiate .showSpinner').removeClass('show');
             $('#viewCollegiate .showSpinner').css('display', 'none');
-            $('#viewCollegiate .showTable').addClass('show');
+            $('#viewCollegiate .showSpinner').css('display', 'none');
+            $('#viewCollegiate .showTable').css('display', 'block');
+            //$('#viewCollegiate .not-found').css('display', 'block');
+
         }, 2000);
     });
     $('.context i').click(function () {
@@ -85,48 +91,44 @@ $(document).ready(function () {
     });
 
     /* Chart click*/
-
-    $('#collegeActive').click(function () {
-        $('#inactiveChart').hide();
+    $('#colleMas').click(function () {
+        $(this).css({
+            'background-color': 'var(--color-brown)',
+        });
+        $('#femChart').hide();
         $('.view p').remove();
         $('.showSpinner').addClass('show');
         $('.showSpinner').css('display', 'block');
-        // Cambiar el color
-        $(this).css({
-            'background-color': 'var(--color-brown)',
-            'color': 'var(--color-white)'
-        });
-        $('#collegeInactive').css({
-            'background-color': 'var(--color-white)',
-            'color': 'var(--color-brown)'
+        $('#colleFem').css({
+            'background-color': 'var(--color-black)',
+            'border': '1px solid var(--color-white)'
         });
         setTimeout(() => {
             $('.showSpinner').removeClass('show');
             $('.showSpinner').css('display', 'none');
-            $('#activeChart').show();
+            $('#masChart').show();
         }, 1000)
-    });
-    $('#collegeInactive').click(function () {
-        $('#activeChart').hide();
+    })
+    $('#colleFem').click(function () {
+        $(this).css({
+            'background-color': 'var(--color-brown)',
+        });
+        $('#masChart').hide();
         $('.view p').remove();
         $('.showSpinner').addClass('show');
         $('.showSpinner').css('display', 'block');
-        // Cambiar el color
-        $(this).css({
-            'background-color': 'var(--color-brown)',
-            'color': 'var(--color-white)'
-        });
-        $('#collegeActive').css({
-            'background-color': 'var(--color-white)',
-            'color': 'var(--color-brown)'
+        $('#colleMas').css({
+            'background-color': 'var(--color-black)'
         });
         setTimeout(() => {
-            $('#inactiveChart').show();
+            $('.showSpinner').removeClass('show');
+            $('.showSpinner').css('display', 'none');
+            $('#femChart').show();
         }, 1000)
-    });
+    })
 
     /*RESPONSIVE */
-    $('.menubar').click(function(){
+    $('.menubar').click(function () {
         $('.header .navbar .navbar-nav').slideToggle();
     })
 

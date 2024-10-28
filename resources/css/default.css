@@ -107,16 +107,6 @@ section {
     background-color: var(--color-opac);
 }
 
-.title-right {
-    color: var(--color-white);
-    border-bottom: 2px solid var(--color-opac);
-    margin-bottom: 10px;
-}
-
-.title-right h3 {
-    font-weight: 800;
-    font-size: 18px;
-}
 
 .float-number {
     position: absolute;
@@ -137,7 +127,7 @@ section {
 }
 
 .form-contact {
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: var(--color-white);
@@ -180,7 +170,7 @@ section {
     text-decoration: none !important;
     background-color: var(--color-brown);
     color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 10px 30px;
     border: 1px solid var(--color-brown);
     transition: 0.3s;
@@ -227,7 +217,7 @@ section {
 }
 
 .section-title-page .wrapper h1 {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: var(--color-white);
     font-weight: 700;
 }
@@ -252,12 +242,51 @@ section {
     background-color: var(--color-opac);
 }
 
+/*SECTION RIGHT*/
 .section-right {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     background-color: var(--color-black);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
     overflow: hidden;
+}
+
+.title-right {
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.title-right h3 {
+    position: relative;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.title-right h3::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 15%;
+    height: 2px;
+    background-color: var(--color-white);
+}
+
+.title-right h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 81%;
+    height: 1px;
+    left: 19%;
+    background-color: var(--color-gray);
+}
+
+.section-right .search-right {
+    margin-bottom: 10px;
+}
+
+.section-right .search-right input {
+    font-size: 13px !important;
 }
 
 .section-right .box {
@@ -318,9 +347,24 @@ section {
 
     100% {
         transform: scale(1) rotate(360deg);
-        color: var(--color-black);  
+        color: var(--color-black);
     }
 }
-.form-control:focus{
+
+.form-control {
+  border-radius: 5px !important;
+}
+.form-control:focus {
     box-shadow: none !important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--color-brown) !important;
+}
+button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--color-brown) !important;   
 }
