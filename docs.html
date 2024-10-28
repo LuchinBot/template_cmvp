@@ -383,23 +383,24 @@
 	<script src="resources/plugins/jquery/jquery-3.7.1.js"></script>
 	<script src="resources/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="resources/js/app.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+	<script src="resources/plugins/pdfjs/build/pdf.mjs"></script>
+	<script src="resources/plugins/pdfjs/build/pdf.worker.mjs"></script>
 
 	<script>
-		document.addEventListener('DOMContentLoaded', function () {
+		document.addEventListener('DOMContentLoaded', function() {
 			document.querySelectorAll('.box').forEach(box => {
 				const canvas = box.querySelector('.pdf-preview');
-				if (!canvas) return;  // Si no hay un canvas, omitir este cuadro.
-
+				if (!canvas) return;  // Si no hay canvas, omitir
+	
 				const context = canvas.getContext('2d');
 				const pdfUrl = box.getAttribute('href');
-
+	
 				pdfjsLib.getDocument(pdfUrl).promise.then((pdf) => {
 					pdf.getPage(1).then((page) => {
 						const viewport = page.getViewport({ scale: 0.5 });
 						canvas.width = viewport.width;
 						canvas.height = viewport.height;
-
+	
 						const renderContext = {
 							canvasContext: context,
 							viewport: viewport
@@ -409,8 +410,8 @@
 				});
 			});
 		});
-
 	</script>
+	
 
 </body>
 
