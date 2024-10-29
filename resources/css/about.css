@@ -382,7 +382,7 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     padding: 10px;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 800;
     line-height: 1.1;
     color: var(--color-black-opac);

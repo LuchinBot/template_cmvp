@@ -53,9 +53,13 @@
 
 /* ETIQUETES */
 p {
-    font-size: 13px !important;
+    font-size: 0.8rem !important;
 }
-
+textarea{
+    field-sizing: content !important;
+    min-height: 4lh;
+    font-size: 0.8rem !important;
+}
 table td,
 table th {
     vertical-align: middle !important;
@@ -134,7 +138,7 @@ section {
 }
 
 .form-contact label {
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -286,7 +290,7 @@ section {
 }
 
 .section-right .search-right input {
-    font-size: 13px !important;
+    font-size: 0.8rem !important;
 }
 
 .section-right .box {

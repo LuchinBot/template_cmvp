@@ -69,7 +69,7 @@
 }
 .showSpinner,
 .showTable {
-   font-size: 13px !important;
+   font-size: 0.8rem !important;
    width: 100%;
    display: none;
    overflow: hidden;

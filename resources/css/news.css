@@ -122,11 +122,11 @@
     width: calc(100%-400px);
 }
 .comun-pronun-selected .description .text .date{
-    font-size: 13px !important;
+    font-size: 0.8rem !important;
     margin-bottom: 10px !important;
 }
 .comun-pronun-selected .description .text .info{
-    font-size: 13px !important;
+    font-size: 0.8rem !important;
     text-align: justify;
 }
 

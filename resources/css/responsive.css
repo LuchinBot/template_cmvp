@@ -103,7 +103,7 @@
         display: none;
     }
     .birthday .box h3{
-        font-size: 13px !important;
+        font-size: 0.8rem !important;
     }
     .birthday .box h1 {
         font-size: 22px !important;
@@ -209,7 +209,7 @@
     }
 
     #show-image .image span {
-        font-size: 13px !important;
+        font-size: 0.8rem !important;
     }
 
     #show-image .close {
