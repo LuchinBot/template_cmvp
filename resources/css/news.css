@@ -46,6 +46,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .new-selected .image .float-date {
     position: absolute;
     font-size: 14px;
@@ -59,26 +60,33 @@
 
 .new-selected .description {
     padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
-.new-selected .description .text {
-    padding: 20px 0;
-    width: 100%;
-    overflow: hidden;
+.new-selected .description .text .date {
+    font-size: 0.8rem !important;
+    margin-bottom: 10px !important;
+}
+
+.new-selected .description .text .info {
+    font-size: 0.8rem !important;
     text-align: justify;
 }
 
 
 /*PRONUN AND COMUN*/
-.comun-pronun-selected{
+.comun-pronun-selected {
     background-color: var(--color-white);
     border-radius: 5px;
     overflow: hidden;
     border: 1px solid var(--color-gray-opac);
 }
-.comun-pronun-selected .title{
+
+.comun-pronun-selected .title {
     padding: 20px;
 }
+
 .comun-pronun-selected .title h3 {
     font-size: 1.4rem;
     position: relative;
@@ -105,42 +113,47 @@
     left: 19%;
     background-color: var(--color-gray);
 }
-.comun-pronun-selected .description{
+
+.comun-pronun-selected .description {
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
 }
-.comun-pronun-selected .description .image{
+
+.comun-pronun-selected .description .image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 250px;
 
 }
-.comun-pronun-selected .description .text{
+
+.comun-pronun-selected .description .text {
     padding-left: 20px;
     width: calc(100%-400px);
 }
-.comun-pronun-selected .description .text .date{
+
+.comun-pronun-selected .description .text .date {
     font-size: 0.8rem !important;
     margin-bottom: 10px !important;
 }
-.comun-pronun-selected .description .text .info{
+
+.comun-pronun-selected .description .text .info {
     font-size: 0.8rem !important;
     text-align: justify;
 }
 
-.comun-pronun-selected .image-main{
+.comun-pronun-selected .image-main {
     padding: 20px;
 }
 
-.comun-pronun-selected .image-main img{
+.comun-pronun-selected .image-main img {
     width: 100%;
 }
 
 
 
-.new .col-md-8 .box{
+.new .col-md-8 .box {
     border-radius: 5px;
     border: 1px solid var(--color-gray-opac);
 }
