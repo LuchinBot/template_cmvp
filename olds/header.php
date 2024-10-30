@@ -45,8 +45,12 @@
 		<div class="header">
 			<nav class="navbar">
 				<a class="navbar-brand" href="index.html">
-					<img src="resources/img/logo_white.png" alt="" />
-				</a>
+								<img src="resources/img/logo.png" alt="" />
+								<div class="float-logo">
+									<span>COLEGIO DE MEDICOS VETERINARIOS DEL PERÚ</span><br>
+									<span>CONSEJO DEPARTAMENTAL DE SAN MARTÍN</span>
+								</div>
+							</a>
 				<ul class="navbar-nav">
 					<li class="nav-item ">
 						<a class="nav-link" href="">Inicio</a>

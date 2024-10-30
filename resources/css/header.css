@@ -28,10 +28,47 @@
     justify-content: space-between !important;
 
 }
-
-.header .navbar .navbar-brand img {
-    height: 40px;
+.navbar-brand{
+    position: relative;
+    display: flex !important;
 }
+.navbar-brand img {
+    height: 40px !important;
+}
+.navbar-brand .float-logo{
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 10px;
+    line-height: 0.6;
+}
+.navbar-brand .float-logo span{
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 200;
+}
+.navbar-brand .float-logo span:nth-child(1){
+    font-weight: 800 !important;
+}
+/*
+
+.header .navbar .navbar-brand::after{
+    content: 'COLEGIO DE MEDICOS VETERINARIOS DEL PERÚ';
+    position: absolute;
+    font-size: 10px;
+    font-weight: 800;
+    top: 10px;
+    left: 50px;
+    color: #fff;
+}
+.header .navbar .navbar-brand::before{
+    content: 'CONSEJO DEPARTAMENTAL DE SAN MARTÍN';
+    position: absolute;
+    font-size: 10px;
+    top: 22px;
+    left: 50px;
+    color: #fff;
+}
+*/
 
 .header .navbar .navbar-nav {
     display: flex;

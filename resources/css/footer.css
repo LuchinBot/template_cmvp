@@ -36,12 +36,11 @@
     text-align: justify;
 }
 
-.section-contact .row .col-lg-4:nth-child(1) .box img {
+ img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px
 }
-
 /* Box 2*/
 .section-contact .row .col-lg-4:nth-child(2) .box {
     padding: 10px;
