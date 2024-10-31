@@ -372,3 +372,28 @@ button:focus{
     box-shadow: none !important;
     border: 1px solid var(--color-brown) !important;   
 }
+
+.section-404{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    color: var(--color-gray) !important;
+}
+
+.section-404 i{
+    font-size: 200px
+}
+.section-404 p:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: 50px !important
+}
+.section-404 p:nth-child(3){
+    margin-top: 5pxpx;
+    font-size: 30px !important
+}
