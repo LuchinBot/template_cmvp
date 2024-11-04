@@ -265,6 +265,7 @@
 
 .events-courses .wrapper .box img {
     width: 60%;
+    margin-bottom: -10px;
 }
 
 .events-courses .wrapper .box .context {
