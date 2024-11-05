@@ -287,12 +287,29 @@ section {
 
 .section-right .search-right {
     margin-bottom: 10px;
+    display: flex;
 }
 
 .section-right .search-right input {
     font-size: 0.8rem !important;
+    border-radius: 0 !important;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
 }
-
+.section-right .search-right input:focus {
+    border: none !important;
+}
+.section-right .search-right button {
+    border: none !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section-right .search-right button:focus {
+    border: none !important;
+    outline: none !important;
+}
 .section-right .box {
     width: 100%;
     display: flex;
